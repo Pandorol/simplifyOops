@@ -1,0 +1,1530 @@
+2025-2-21 08:38:22-log: Cannot access game frame or container.
+2025-2-21 08:38:22-debug: asset-db:require-engine-code (1435ms)
+2025-2-21 08:38:22-log: meshopt wasm decoder initialized
+2025-2-21 08:38:23-log: [box2d]:box2d wasm lib loaded.
+2025-2-21 08:38:23-log: [bullet]:bullet wasm lib loaded.
+2025-2-21 08:38:25-debug: [Assets Memory track]: asset-db-plugin-register: builder start:79.76MB, end 174.57MB, increase: 94.81MB
+2025-2-21 08:38:23-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:24.10MB, end 85.23MB, increase: 61.13MB
+2025-2-21 08:38:25-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:174.77MB, end 177.56MB, increase: 2.79MB
+2025-2-21 08:38:25-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:85.24MB, end 177.65MB, increase: 92.41MB
+2025-2-21 08:38:25-debug: [Assets Memory track]: asset-db-plugin-register: project start:85.82MB, end 177.63MB, increase: 91.81MB
+2025-2-21 08:38:23-log: Cocos Creator v3.8.3
+2025-2-21 08:38:25-debug: asset-db:worker-init: initPlugin (2411ms)
+2025-2-21 08:38:25-debug: [Assets Memory track]: asset-db:worker-init start:24.09MB, end 177.71MB, increase: 153.62MB
+2025-2-21 08:38:25-debug: Run asset db hook programming:beforePreStart success!
+2025-2-21 08:38:25-debug: Run asset db hook programming:beforePreStart ...
+2025-2-21 08:38:25-debug: Run asset db hook engine-extends:beforePreStart success!
+2025-2-21 08:38:25-debug: Run asset db hook engine-extends:beforePreStart ...
+2025-2-21 08:38:25-debug: asset-db:worker-init (4260ms)
+2025-2-21 08:38:25-debug: asset-db-hook-programming-beforePreStart (92ms)
+2025-2-21 08:38:25-debug: asset-db-hook-engine-extends-beforePreStart (92ms)
+2025-2-21 08:38:25-debug: Preimport db internal success
+2025-2-21 08:38:25-debug: Preimport db assets success
+2025-2-21 08:38:25-debug: Run asset db hook programming:afterPreStart ...
+2025-2-21 08:38:25-debug: starting packer-driver...
+2025-2-21 08:38:26-debug: initialize scripting environment...
+2025-2-21 08:38:26-debug: Set detail map pack:///resolution-detail-map.json: {}
+2025-2-21 08:38:26-debug: Run asset db hook engine-extends:afterPreStart ...
+2025-2-21 08:38:26-debug: Run asset db hook engine-extends:afterPreStart success!
+2025-2-21 08:38:26-debug: [Assets Memory track]: asset-db:worker-init: preStart start:177.72MB, end 180.91MB, increase: 3.19MB
+2025-2-21 08:38:26-debug: Start up the 'internal' database...
+2025-2-21 08:38:26-debug: Run asset db hook programming:afterPreStart success!
+2025-2-21 08:38:27-debug: asset-db-hook-programming-afterPreStart (1479ms)
+2025-2-21 08:38:27-debug: asset-db:worker-effect-data-processing (348ms)
+2025-2-21 08:38:27-debug: asset-db-hook-engine-extends-afterPreStart (348ms)
+2025-2-21 08:38:27-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:177.77MB, end 189.34MB, increase: 11.58MB
+2025-2-21 08:38:27-debug: Start up the 'assets' database...
+2025-2-21 08:38:27-debug: asset-db:worker-startup-database[internal] (1739ms)
+2025-2-21 08:38:27-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:176.67MB, end 189.96MB, increase: 13.29MB
+2025-2-21 08:38:27-debug: lazy register asset handler directory
+2025-2-21 08:38:27-debug: lazy register asset handler text
+2025-2-21 08:38:27-debug: lazy register asset handler *
+2025-2-21 08:38:27-debug: lazy register asset handler json
+2025-2-21 08:38:27-debug: lazy register asset handler spine-data
+2025-2-21 08:38:27-debug: [Assets Memory track]: asset-db:worker-init: startup start:180.91MB, end 189.96MB, increase: 9.05MB
+2025-2-21 08:38:27-debug: lazy register asset handler dragonbones-atlas
+2025-2-21 08:38:27-debug: lazy register asset handler terrain
+2025-2-21 08:38:27-debug: lazy register asset handler javascript
+2025-2-21 08:38:27-debug: lazy register asset handler typescript
+2025-2-21 08:38:27-debug: lazy register asset handler scene
+2025-2-21 08:38:27-debug: lazy register asset handler dragonbones
+2025-2-21 08:38:27-debug: lazy register asset handler sprite-frame
+2025-2-21 08:38:27-debug: lazy register asset handler prefab
+2025-2-21 08:38:27-debug: lazy register asset handler tiled-map
+2025-2-21 08:38:27-debug: lazy register asset handler sign-image
+2025-2-21 08:38:27-debug: lazy register asset handler alpha-image
+2025-2-21 08:38:27-debug: lazy register asset handler buffer
+2025-2-21 08:38:27-debug: lazy register asset handler texture
+2025-2-21 08:38:27-debug: lazy register asset handler texture-cube
+2025-2-21 08:38:27-debug: lazy register asset handler erp-texture-cube
+2025-2-21 08:38:27-debug: lazy register asset handler texture-cube-face
+2025-2-21 08:38:27-debug: lazy register asset handler render-texture
+2025-2-21 08:38:27-debug: lazy register asset handler rt-sprite-frame
+2025-2-21 08:38:27-debug: lazy register asset handler gltf-mesh
+2025-2-21 08:38:27-debug: lazy register asset handler gltf
+2025-2-21 08:38:27-debug: lazy register asset handler image
+2025-2-21 08:38:27-debug: lazy register asset handler gltf-skeleton
+2025-2-21 08:38:27-debug: lazy register asset handler gltf-animation
+2025-2-21 08:38:27-debug: lazy register asset handler gltf-scene
+2025-2-21 08:38:27-debug: lazy register asset handler gltf-material
+2025-2-21 08:38:27-debug: lazy register asset handler gltf-embeded-image
+2025-2-21 08:38:27-debug: lazy register asset handler material
+2025-2-21 08:38:27-debug: lazy register asset handler fbx
+2025-2-21 08:38:27-debug: lazy register asset handler effect
+2025-2-21 08:38:27-debug: lazy register asset handler effect-header
+2025-2-21 08:38:27-debug: lazy register asset handler physics-material
+2025-2-21 08:38:27-debug: lazy register asset handler audio-clip
+2025-2-21 08:38:27-debug: lazy register asset handler animation-graph
+2025-2-21 08:38:27-debug: lazy register asset handler animation-graph-variant
+2025-2-21 08:38:27-debug: lazy register asset handler ttf-font
+2025-2-21 08:38:27-debug: lazy register asset handler animation-mask
+2025-2-21 08:38:27-debug: lazy register asset handler animation-clip
+2025-2-21 08:38:27-debug: lazy register asset handler sprite-atlas
+2025-2-21 08:38:27-debug: lazy register asset handler auto-atlas
+2025-2-21 08:38:27-debug: lazy register asset handler bitmap-font
+2025-2-21 08:38:27-debug: lazy register asset handler label-atlas
+2025-2-21 08:38:27-debug: lazy register asset handler render-pipeline
+2025-2-21 08:38:27-debug: lazy register asset handler render-stage
+2025-2-21 08:38:27-debug: lazy register asset handler render-flow
+2025-2-21 08:38:27-debug: lazy register asset handler instantiation-material
+2025-2-21 08:38:27-debug: lazy register asset handler instantiation-mesh
+2025-2-21 08:38:27-debug: lazy register asset handler instantiation-skeleton
+2025-2-21 08:38:27-debug: lazy register asset handler video-clip
+2025-2-21 08:38:27-debug: lazy register asset handler instantiation-animation
+2025-2-21 08:38:27-debug: lazy register asset handler particle
+2025-2-21 08:38:27-debug: asset-db:worker-startup-database[assets] (1654ms)
+2025-2-21 08:38:27-debug: asset-db:start-database (1790ms)
+2025-2-21 08:38:27-debug: asset-db:ready (9766ms)
+2025-2-21 08:38:27-debug: init worker message success
+2025-2-21 08:38:27-debug: programming:execute-script (4ms)
+2025-2-21 08:38:28-log: [oops-plugin-hot-update] 热更新插件加载
+2025-2-21 08:38:28-debug: [Build Memory track]: builder:worker-init start:187.90MB, end 203.74MB, increase: 15.85MB
+2025-2-21 08:38:28-debug: builder:worker-init (701ms)
+2025-2-21 08:49:35-debug: refresh db internal success
+2025-2-21 08:49:35-debug: refresh db assets success
+2025-2-21 08:49:35-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 08:49:36-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 08:49:36-debug: asset-db:refresh-all-database (108ms)
+2025-2-21 08:49:36-debug: asset-db:worker-effect-data-processing (-1ms)
+2025-2-21 08:49:36-debug: asset-db-hook-engine-extends-afterRefresh (-1ms)
+2025-2-21 08:50:04-debug: refresh db internal success
+2025-2-21 08:50:04-debug: refresh db assets success
+2025-2-21 08:50:04-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 08:50:04-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 08:50:04-debug: asset-db:refresh-all-database (104ms)
+2025-2-21 08:50:04-debug: asset-db:worker-effect-data-processing (-1ms)
+2025-2-21 08:50:04-debug: asset-db-hook-engine-extends-afterRefresh (-1ms)
+2025-2-21 08:50:07-debug: start refresh asset from E:\sxbs2\sxbs2\assets\resources\config...
+2025-2-21 08:50:07-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\configbackground: #aaff85; color: #000;color: #000;
+2025-2-21 08:50:07-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\config\game\NetCode.jsonbackground: #aaff85; color: #000;color: #000;
+2025-2-21 08:50:07-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\config\game\Language.jsonbackground: #aaff85; color: #000;color: #000;
+2025-2-21 08:50:07-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\config\game\PromptWindow.jsonbackground: #aaff85; color: #000;color: #000;
+2025-2-21 08:50:07-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\config\game\RoleJob.jsonbackground: #aaff85; color: #000;color: #000;
+2025-2-21 08:50:07-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\config\game\RoleLevelUp.jsonbackground: #aaff85; color: #000;color: #000;
+2025-2-21 08:50:07-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\config\gamebackground: #aaff85; color: #000;color: #000;
+2025-2-21 08:50:07-debug: refresh asset E:\sxbs2\sxbs2\assets\resources success
+2025-2-21 08:50:07-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resourcesbackground: #aaff85; color: #000;color: #000;
+2025-2-21 08:50:21-debug: Cannot find the asset handler of operate open for importer json
+2025-2-21 08:52:48-debug: refresh db internal success
+2025-2-21 08:52:48-debug: refresh db assets success
+2025-2-21 08:52:48-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 08:52:48-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 08:52:48-debug: asset-db:refresh-all-database (103ms)
+2025-2-21 08:53:05-debug: start refresh asset from E:\sxbs2\sxbs2\assets\core\utils\JsonUtil.ts...
+2025-2-21 08:53:05-debug: %cImport%c: E:\sxbs2\sxbs2\assets\core\utils\JsonUtil.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 08:53:05-debug: refresh asset E:\sxbs2\sxbs2\assets\core\utils success
+2025-2-21 08:53:05-debug: start refresh asset from E:\sxbs2\sxbs2\assets\core\utils\ImageUtil.ts...
+2025-2-21 08:53:05-debug: %cImport%c: E:\sxbs2\sxbs2\assets\core\utils\ImageUtil.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 08:53:05-debug: refresh asset E:\sxbs2\sxbs2\assets\core\utils success
+2025-2-21 08:53:05-debug: %cImport%c: E:\sxbs2\sxbs2\assets\core\utilsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 08:53:05-debug: refresh db internal success
+2025-2-21 08:53:05-debug: refresh db assets success
+2025-2-21 08:53:05-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 08:53:05-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 08:53:05-debug: asset-db:refresh-all-database (122ms)
+2025-2-21 08:53:05-debug: asset-db:worker-effect-data-processing (-1ms)
+2025-2-21 08:55:25-debug: refresh db internal success
+2025-2-21 08:55:25-debug: %cImport%c: E:\sxbs2\sxbs2\assets\core\utils\ImageUtil.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 08:55:25-debug: %cImport%c: E:\sxbs2\sxbs2\assets\core\utils\JsonUtil.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 08:55:25-debug: refresh db assets success
+2025-2-21 08:55:25-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 08:55:25-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 08:55:25-debug: asset-db:refresh-all-database (100ms)
+2025-2-21 08:55:25-debug: asset-db:worker-effect-data-processing (-1ms)
+2025-2-21 08:55:25-debug: asset-db-hook-engine-extends-afterRefresh (-1ms)
+2025-2-21 08:56:48-debug: refresh db internal success
+2025-2-21 08:56:48-debug: refresh db assets success
+2025-2-21 08:56:48-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 08:56:48-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 08:56:48-debug: asset-db:refresh-all-database (89ms)
+2025-2-21 08:56:58-debug: refresh db internal success
+2025-2-21 08:56:58-debug: refresh db assets success
+2025-2-21 08:56:58-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 08:56:58-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 08:56:58-debug: asset-db:refresh-all-database (99ms)
+2025-2-21 08:56:58-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 08:57:27-debug: refresh db internal success
+2025-2-21 08:57:27-debug: refresh db assets success
+2025-2-21 08:57:27-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 08:57:27-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 08:57:27-debug: asset-db:refresh-all-database (93ms)
+2025-2-21 08:57:27-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 09:31:44-debug: refresh db internal success
+2025-2-21 09:31:44-debug: refresh db assets success
+2025-2-21 09:31:44-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 09:31:44-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 09:31:44-debug: asset-db:refresh-all-database (89ms)
+2025-2-21 09:36:43-debug: refresh db internal success
+2025-2-21 09:36:43-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\initialize\view\LoadingViewComp.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 09:36:43-debug: refresh db assets success
+2025-2-21 09:36:43-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 09:36:43-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 09:36:43-debug: asset-db:refresh-all-database (88ms)
+2025-2-21 09:36:43-debug: asset-db:worker-effect-data-processing (-1ms)
+2025-2-21 09:36:43-debug: asset-db-hook-engine-extends-afterRefresh (-1ms)
+2025-2-21 09:37:16-debug: start refresh asset from E:\sxbs2\sxbs2\assets\resources\ui...
+2025-2-21 09:37:16-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\uibackground: #aaff85; color: #000;color: #000;
+2025-2-21 09:37:16-debug: refresh asset E:\sxbs2\sxbs2\assets\resources success
+2025-2-21 09:37:16-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resourcesbackground: #aaff85; color: #000;color: #000;
+2025-2-21 09:47:46-debug: refresh db internal success
+2025-2-21 09:47:46-debug: refresh db assets success
+2025-2-21 09:47:46-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 09:47:46-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 09:47:46-debug: asset-db:refresh-all-database (107ms)
+2025-2-21 09:47:46-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 09:47:46-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-2-21 09:47:56-debug: start refresh asset from E:\sxbs2\sxbs2\assets\resources\ui\uilogin...
+2025-2-21 09:47:56-debug: refresh asset E:\sxbs2\sxbs2\assets\resources\ui success
+2025-2-21 09:47:56-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\ui\uiloginbackground: #aaff85; color: #000;color: #000;
+2025-2-21 09:47:57-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\uibackground: #aaff85; color: #000;color: #000;
+2025-2-21 09:48:20-debug: start refresh asset from E:\sxbs2\sxbs2\assets\resources\ui\uilogin\uiloginView.prefab...
+2025-2-21 09:48:20-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\ui\uilogin\uiloginView.prefabbackground: #aaff85; color: #000;color: #000;
+2025-2-21 09:48:20-debug: refresh asset E:\sxbs2\sxbs2\assets\resources\ui\uilogin success
+2025-2-21 09:48:20-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\ui\uiloginbackground: #aaff85; color: #000;color: #000;
+2025-2-21 09:48:42-debug: refresh db internal success
+2025-2-21 09:48:42-debug: refresh db assets success
+2025-2-21 09:48:42-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 09:48:42-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 09:48:42-debug: asset-db:refresh-all-database (96ms)
+2025-2-21 09:48:45-debug: refresh db internal success
+2025-2-21 09:48:45-debug: refresh db assets success
+2025-2-21 09:48:45-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 09:48:45-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 09:48:45-debug: asset-db:worker-effect-data-processing (2ms)
+2025-2-21 09:48:45-debug: asset-db:refresh-all-database (114ms)
+2025-2-21 09:48:45-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2025-2-21 09:48:50-debug: refresh db internal success
+2025-2-21 09:48:50-debug: refresh db assets success
+2025-2-21 09:48:50-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 09:48:50-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 09:48:50-debug: asset-db:refresh-all-database (90ms)
+2025-2-21 09:48:50-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 09:49:00-debug: start refresh asset from E:\sxbs2\sxbs2\assets\resources\ui\uilogin\uiloginView.prefab...
+2025-2-21 09:49:00-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\ui\uilogin\uiloginView.prefabbackground: #aaff85; color: #000;color: #000;
+2025-2-21 09:49:00-debug: refresh asset E:\sxbs2\sxbs2\assets\resources\ui\uilogin success
+2025-2-21 09:56:09-debug: refresh db internal success
+2025-2-21 09:56:09-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\initialize\view\LoadingViewComp.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 09:56:09-debug: refresh db assets success
+2025-2-21 09:56:09-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 09:56:09-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 09:56:09-debug: asset-db:refresh-all-database (93ms)
+2025-2-21 09:56:09-debug: asset-db:worker-effect-data-processing (-2ms)
+2025-2-21 09:56:09-debug: asset-db-hook-engine-extends-afterRefresh (-2ms)
+2025-2-21 09:56:28-debug: start refresh asset from E:\sxbs2\sxbs2\assets\resources\ui\uilogin\uiloginView.prefab...
+2025-2-21 09:56:28-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\ui\uilogin\uiloginView.prefabbackground: #aaff85; color: #000;color: #000;
+2025-2-21 09:56:28-debug: refresh asset E:\sxbs2\sxbs2\assets\resources\ui\uilogin success
+2025-2-21 10:10:27-debug: refresh db internal success
+2025-2-21 10:10:28-debug: refresh db assets success
+2025-2-21 10:10:28-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:10:28-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:10:28-debug: asset-db:refresh-all-database (251ms)
+2025-2-21 10:10:28-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:10:28-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:10:52-debug: refresh db internal success
+2025-2-21 10:10:52-debug: refresh db assets success
+2025-2-21 10:10:52-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:10:52-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:10:52-debug: asset-db:refresh-all-database (103ms)
+2025-2-21 10:10:52-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:10:52-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:11:00-debug: refresh db internal success
+2025-2-21 10:11:00-debug: refresh db assets success
+2025-2-21 10:11:00-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:11:00-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:11:00-debug: asset-db:refresh-all-database (96ms)
+2025-2-21 10:11:05-debug: start refresh asset from E:\sxbs2\sxbs2\assets\resources\ui\uilogin\uiloginView.prefab...
+2025-2-21 10:11:05-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\ui\uilogin\uiloginView.prefabbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:11:05-debug: refresh asset E:\sxbs2\sxbs2\assets\resources\ui\uilogin success
+2025-2-21 10:11:22-debug: start refresh asset from E:\sxbs2\sxbs2\assets\resources\ui\uilogin\uiloginView.prefab...
+2025-2-21 10:11:22-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\ui\uilogin\uiloginView.prefabbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:11:22-debug: refresh asset E:\sxbs2\sxbs2\assets\resources\ui\uilogin success
+2025-2-21 10:11:41-debug: start refresh asset from E:\sxbs2\sxbs2\assets\resources\ui\uilogin\uiloginView.prefab...
+2025-2-21 10:11:41-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\ui\uilogin\uiloginView.prefabbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:11:41-debug: refresh asset E:\sxbs2\sxbs2\assets\resources\ui\uilogin success
+2025-2-21 10:13:16-debug: refresh db internal success
+2025-2-21 10:13:16-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\ui\UIConfig.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:13:16-debug: refresh db assets success
+2025-2-21 10:13:16-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:13:16-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:13:16-debug: asset-db:refresh-all-database (99ms)
+2025-2-21 10:13:16-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:13:16-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:13:54-debug: refresh db internal success
+2025-2-21 10:13:54-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\ui\UIConfig.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:13:54-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\initialize\view\LoadingViewComp.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:13:54-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:13:54-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:13:54-debug: refresh db assets success
+2025-2-21 10:13:54-debug: asset-db:refresh-all-database (95ms)
+2025-2-21 10:13:54-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:13:54-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:13:59-debug: Query all assets info in project
+2025-2-21 10:13:59-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-2-21 10:13:59-debug: 查询 Asset Bundle start, progress: 0%
+2025-2-21 10:13:59-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:13:59-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-2-21 10:13:59-debug:   Number of all scripts: 88
+2025-2-21 10:13:59-debug:   Number of other assets: 346
+2025-2-21 10:13:59-debug:   Number of all scenes: 1
+2025-2-21 10:13:59-debug: // ---- build task 查询 Asset Bundle ---- (11ms)
+2025-2-21 10:13:59-debug: run build task 查询 Asset Bundle success in 11 ms√, progress: 5%
+2025-2-21 10:13:59-debug: [Build Memory track]: 查询 Asset Bundle start:169.68MB, end 169.66MB, increase: -16.82KB
+2025-2-21 10:13:59-debug: 查询 Asset Bundle start, progress: 5%
+2025-2-21 10:13:59-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:13:59-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
+2025-2-21 10:13:59-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
+2025-2-21 10:13:59-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-2-21 10:13:59-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:13:59-debug: [Build Memory track]: 查询 Asset Bundle start:169.67MB, end 169.76MB, increase: 87.01KB
+2025-2-21 10:13:59-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
+2025-2-21 10:13:59-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:169.77MB, end 169.78MB, increase: 11.33KB
+2025-2-21 10:13:59-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-2-21 10:13:59-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-2-21 10:13:59-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2025-2-21 10:13:59-debug: [Build Memory track]: 填充脚本数据到 settings.json start:169.80MB, end 169.81MB, increase: 12.75KB
+2025-2-21 10:13:59-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:13:59-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-2-21 10:13:59-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
+2025-2-21 10:13:59-debug: run build task 整理部分构建选项内数据到 settings.json success in 4 ms√, progress: 15%
+2025-2-21 10:13:59-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:169.82MB, end 169.95MB, increase: 125.40KB
+2025-2-21 10:17:05-debug: refresh db internal success
+2025-2-21 10:17:05-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\initialize\view\LoadingViewComp.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:17:05-debug: refresh db assets success
+2025-2-21 10:17:05-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:17:05-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:17:05-debug: asset-db:refresh-all-database (97ms)
+2025-2-21 10:17:05-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:17:05-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-2-21 10:17:06-debug: Query all assets info in project
+2025-2-21 10:17:06-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-2-21 10:17:06-debug: 查询 Asset Bundle start, progress: 0%
+2025-2-21 10:17:06-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:17:06-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-2-21 10:17:06-debug:   Number of all scenes: 1
+2025-2-21 10:17:06-debug:   Number of other assets: 346
+2025-2-21 10:17:06-debug:   Number of all scripts: 88
+2025-2-21 10:17:06-debug: // ---- build task 查询 Asset Bundle ---- (7ms)
+2025-2-21 10:17:06-debug: run build task 查询 Asset Bundle success in 7 ms√, progress: 5%
+2025-2-21 10:17:06-debug: [Build Memory track]: 查询 Asset Bundle start:170.51MB, end 171.32MB, increase: 833.68KB
+2025-2-21 10:17:06-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:17:06-debug: 查询 Asset Bundle start, progress: 5%
+2025-2-21 10:17:06-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-2-21 10:17:06-debug: [Build Memory track]: 查询 Asset Bundle start:171.33MB, end 170.56MB, increase: -793.87KB
+2025-2-21 10:17:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:17:06-debug: // ---- build task 查询 Asset Bundle ---- (3ms)
+2025-2-21 10:17:06-debug: run build task 查询 Asset Bundle success in 3 ms√, progress: 10%
+2025-2-21 10:17:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2025-2-21 10:17:06-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2025-2-21 10:17:06-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:170.57MB, end 170.59MB, increase: 15.50KB
+2025-2-21 10:17:06-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-2-21 10:17:06-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-2-21 10:17:06-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2025-2-21 10:17:06-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2025-2-21 10:17:06-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-2-21 10:17:06-debug: [Build Memory track]: 填充脚本数据到 settings.json start:170.60MB, end 170.62MB, increase: 16.40KB
+2025-2-21 10:17:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:17:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
+2025-2-21 10:17:06-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:170.63MB, end 170.75MB, increase: 125.77KB
+2025-2-21 10:17:06-debug: run build task 整理部分构建选项内数据到 settings.json success in 4 ms√, progress: 15%
+2025-2-21 10:17:07-debug: start refresh asset from E:\sxbs2\sxbs2\assets\resources\ui\uilogin\uiloginView.prefab...
+2025-2-21 10:17:07-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\ui\uilogin\uiloginView.prefabbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:17:07-debug: refresh asset E:\sxbs2\sxbs2\assets\resources\ui\uilogin success
+2025-2-21 10:17:08-debug: Query all assets info in project
+2025-2-21 10:17:08-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-2-21 10:17:08-debug: 查询 Asset Bundle start, progress: 0%
+2025-2-21 10:17:08-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:17:08-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-2-21 10:17:08-debug:   Number of all scenes: 1
+2025-2-21 10:17:08-debug:   Number of all scripts: 88
+2025-2-21 10:17:08-debug:   Number of other assets: 346
+2025-2-21 10:17:08-debug: // ---- build task 查询 Asset Bundle ---- (11ms)
+2025-2-21 10:17:08-debug: run build task 查询 Asset Bundle success in 11 ms√, progress: 5%
+2025-2-21 10:17:08-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:17:08-debug: [Build Memory track]: 查询 Asset Bundle start:171.32MB, end 171.23MB, increase: -94.59KB
+2025-2-21 10:17:08-debug: 查询 Asset Bundle start, progress: 5%
+2025-2-21 10:17:08-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
+2025-2-21 10:17:08-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
+2025-2-21 10:17:08-debug: [Build Memory track]: 查询 Asset Bundle start:171.24MB, end 171.32MB, increase: 85.99KB
+2025-2-21 10:17:08-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-2-21 10:17:08-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:17:08-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2025-2-21 10:17:08-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:171.34MB, end 171.37MB, increase: 28.62KB
+2025-2-21 10:17:08-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2025-2-21 10:17:08-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-2-21 10:17:08-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-2-21 10:17:08-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2025-2-21 10:17:08-debug: [Build Memory track]: 填充脚本数据到 settings.json start:171.38MB, end 171.40MB, increase: 17.62KB
+2025-2-21 10:17:08-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-2-21 10:17:08-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2025-2-21 10:17:08-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:17:08-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (8ms)
+2025-2-21 10:17:08-debug: run build task 整理部分构建选项内数据到 settings.json success in 8 ms√, progress: 15%
+2025-2-21 10:17:08-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:171.41MB, end 171.55MB, increase: 140.03KB
+2025-2-21 10:17:09-debug: Query all assets info in project
+2025-2-21 10:17:09-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-2-21 10:17:09-debug: 查询 Asset Bundle start, progress: 0%
+2025-2-21 10:17:09-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:17:09-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-2-21 10:17:09-debug:   Number of other assets: 346
+2025-2-21 10:17:09-debug:   Number of all scripts: 88
+2025-2-21 10:17:09-debug:   Number of all scenes: 1
+2025-2-21 10:17:09-debug: // ---- build task 查询 Asset Bundle ---- (16ms)
+2025-2-21 10:17:09-debug: run build task 查询 Asset Bundle success in 16 ms√, progress: 5%
+2025-2-21 10:17:09-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:17:09-debug: [Build Memory track]: 查询 Asset Bundle start:171.93MB, end 170.93MB, increase: -1026.14KB
+2025-2-21 10:17:09-debug: 查询 Asset Bundle start, progress: 5%
+2025-2-21 10:17:09-debug: // ---- build task 查询 Asset Bundle ---- (4ms)
+2025-2-21 10:17:09-debug: run build task 查询 Asset Bundle success in 4 ms√, progress: 10%
+2025-2-21 10:17:09-debug: [Build Memory track]: 查询 Asset Bundle start:170.94MB, end 171.02MB, increase: 84.85KB
+2025-2-21 10:17:09-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-2-21 10:17:09-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:17:09-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2025-2-21 10:17:09-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2025-2-21 10:17:09-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-2-21 10:17:09-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:171.04MB, end 171.05MB, increase: 15.50KB
+2025-2-21 10:17:09-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-2-21 10:17:09-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2025-2-21 10:17:09-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2025-2-21 10:17:09-debug: [Build Memory track]: 填充脚本数据到 settings.json start:171.07MB, end 171.08MB, increase: 17.33KB
+2025-2-21 10:17:09-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-2-21 10:17:09-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:17:09-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (6ms)
+2025-2-21 10:17:09-debug: run build task 整理部分构建选项内数据到 settings.json success in 6 ms√, progress: 15%
+2025-2-21 10:17:09-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:171.10MB, end 171.21MB, increase: 119.24KB
+2025-2-21 10:17:16-debug: refresh db internal success
+2025-2-21 10:17:16-debug: refresh db assets success
+2025-2-21 10:17:16-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:17:16-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:17:16-debug: asset-db:refresh-all-database (86ms)
+2025-2-21 10:17:16-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:17:16-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:17:53-debug: refresh db internal success
+2025-2-21 10:17:53-debug: refresh db assets success
+2025-2-21 10:17:53-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:17:53-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:17:53-debug: asset-db:refresh-all-database (88ms)
+2025-2-21 10:17:53-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:17:53-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:18:11-debug: start refresh asset from E:\sxbs2\sxbs2\assets\work\ui\uilogin...
+2025-2-21 10:18:11-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\ui\uiloginbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:18:11-debug: refresh asset E:\sxbs2\sxbs2\assets\work\ui success
+2025-2-21 10:18:11-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\uibackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:18:57-debug: start refresh asset from E:\sxbs2\sxbs2\assets\work\ui\uilogin\UILoginView.ts...
+2025-2-21 10:18:57-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\ui\uilogin\UILoginView.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:18:57-debug: refresh asset E:\sxbs2\sxbs2\assets\work\ui\uilogin success
+2025-2-21 10:18:57-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\ui\uiloginbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:18:58-debug: Query all assets info in project
+2025-2-21 10:18:58-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-2-21 10:18:58-debug: 查询 Asset Bundle start, progress: 0%
+2025-2-21 10:18:58-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:18:58-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-2-21 10:18:58-debug:   Number of all scripts: 89
+2025-2-21 10:18:58-debug:   Number of all scenes: 1
+2025-2-21 10:18:58-debug:   Number of other assets: 346
+2025-2-21 10:18:58-debug: // ---- build task 查询 Asset Bundle ---- (15ms)
+2025-2-21 10:18:58-debug: run build task 查询 Asset Bundle success in 15 ms√, progress: 5%
+2025-2-21 10:18:58-debug: [Build Memory track]: 查询 Asset Bundle start:173.42MB, end 173.35MB, increase: -72.29KB
+2025-2-21 10:18:58-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:18:58-debug: 查询 Asset Bundle start, progress: 5%
+2025-2-21 10:18:58-debug: // ---- build task 查询 Asset Bundle ---- (3ms)
+2025-2-21 10:18:58-debug: run build task 查询 Asset Bundle success in 3 ms√, progress: 10%
+2025-2-21 10:18:58-debug: [Build Memory track]: 查询 Asset Bundle start:173.36MB, end 173.44MB, increase: 85.56KB
+2025-2-21 10:18:58-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:18:58-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-2-21 10:18:58-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2025-2-21 10:18:58-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2025-2-21 10:18:58-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-2-21 10:18:58-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:173.46MB, end 173.47MB, increase: 15.48KB
+2025-2-21 10:18:58-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-2-21 10:18:58-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2025-2-21 10:18:58-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2025-2-21 10:18:58-debug: [Build Memory track]: 填充脚本数据到 settings.json start:173.49MB, end 173.50MB, increase: 15.45KB
+2025-2-21 10:18:58-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-2-21 10:18:58-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:18:58-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (6ms)
+2025-2-21 10:18:58-debug: run build task 整理部分构建选项内数据到 settings.json success in 6 ms√, progress: 15%
+2025-2-21 10:18:58-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:173.51MB, end 173.64MB, increase: 127.65KB
+2025-2-21 10:19:25-debug: refresh db internal success
+2025-2-21 10:19:25-debug: refresh db assets success
+2025-2-21 10:19:25-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:19:25-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:19:25-debug: asset-db:refresh-all-database (110ms)
+2025-2-21 10:19:25-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:19:25-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:19:28-debug: refresh db internal success
+2025-2-21 10:19:28-debug: refresh db assets success
+2025-2-21 10:19:28-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:19:28-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:19:28-debug: asset-db:refresh-all-database (81ms)
+2025-2-21 10:19:28-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:19:28-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:19:39-debug: start refresh asset from E:\sxbs2\sxbs2\assets\resources\ui\uilogin\uiloginView.prefab...
+2025-2-21 10:19:39-debug: %cImport%c: E:\sxbs2\sxbs2\assets\resources\ui\uilogin\uiloginView.prefabbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:19:39-debug: refresh asset E:\sxbs2\sxbs2\assets\resources\ui\uilogin success
+2025-2-21 10:19:40-debug: Query all assets info in project
+2025-2-21 10:19:40-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-2-21 10:19:40-debug: 查询 Asset Bundle start, progress: 0%
+2025-2-21 10:19:40-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:19:40-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-2-21 10:19:40-debug:   Number of all scenes: 1
+2025-2-21 10:19:40-debug:   Number of all scripts: 89
+2025-2-21 10:19:40-debug:   Number of other assets: 346
+2025-2-21 10:19:40-debug: // ---- build task 查询 Asset Bundle ---- (7ms)
+2025-2-21 10:19:40-debug: run build task 查询 Asset Bundle success in 7 ms√, progress: 5%
+2025-2-21 10:19:40-debug: [Build Memory track]: 查询 Asset Bundle start:175.13MB, end 175.09MB, increase: -44.71KB
+2025-2-21 10:19:40-debug: 查询 Asset Bundle start, progress: 5%
+2025-2-21 10:19:40-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:19:40-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
+2025-2-21 10:19:40-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
+2025-2-21 10:19:40-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-2-21 10:19:40-debug: [Build Memory track]: 查询 Asset Bundle start:175.10MB, end 175.19MB, increase: 87.07KB
+2025-2-21 10:19:40-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:19:40-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2025-2-21 10:19:40-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2025-2-21 10:19:40-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:175.20MB, end 175.22MB, increase: 14.42KB
+2025-2-21 10:19:40-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-2-21 10:19:40-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-2-21 10:19:40-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2025-2-21 10:19:40-debug: [Build Memory track]: 填充脚本数据到 settings.json start:175.23MB, end 175.25MB, increase: 17.11KB
+2025-2-21 10:19:40-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:19:40-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-2-21 10:19:40-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (3ms)
+2025-2-21 10:19:40-debug: run build task 整理部分构建选项内数据到 settings.json success in 3 ms√, progress: 15%
+2025-2-21 10:19:40-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:175.26MB, end 175.38MB, increase: 119.80KB
+2025-2-21 10:19:42-debug: Query all assets info in project
+2025-2-21 10:19:42-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-2-21 10:19:42-debug: 查询 Asset Bundle start, progress: 0%
+2025-2-21 10:19:42-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:19:42-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-2-21 10:19:42-debug:   Number of all scenes: 1
+2025-2-21 10:19:42-debug:   Number of all scripts: 89
+2025-2-21 10:19:42-debug:   Number of other assets: 346
+2025-2-21 10:19:42-debug: // ---- build task 查询 Asset Bundle ---- (8ms)
+2025-2-21 10:19:42-debug: run build task 查询 Asset Bundle success in 8 ms√, progress: 5%
+2025-2-21 10:19:42-debug: [Build Memory track]: 查询 Asset Bundle start:175.80MB, end 175.82MB, increase: 17.24KB
+2025-2-21 10:19:42-debug: 查询 Asset Bundle start, progress: 5%
+2025-2-21 10:19:42-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:19:42-debug: // ---- build task 查询 Asset Bundle ---- (5ms)
+2025-2-21 10:19:42-debug: run build task 查询 Asset Bundle success in 5 ms√, progress: 10%
+2025-2-21 10:19:42-debug: [Build Memory track]: 查询 Asset Bundle start:175.83MB, end 175.91MB, increase: 86.24KB
+2025-2-21 10:19:42-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-2-21 10:19:42-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:19:42-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
+2025-2-21 10:19:42-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 12%
+2025-2-21 10:19:42-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-2-21 10:19:42-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:175.93MB, end 175.94MB, increase: 15.53KB
+2025-2-21 10:19:42-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-2-21 10:19:42-debug: // ---- build task 填充脚本数据到 settings.json ---- (2ms)
+2025-2-21 10:19:42-debug: [Build Memory track]: 填充脚本数据到 settings.json start:175.96MB, end 175.97MB, increase: 16.03KB
+2025-2-21 10:19:42-debug: run build task 填充脚本数据到 settings.json success in 2 ms√, progress: 13%
+2025-2-21 10:19:42-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:19:42-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-2-21 10:19:42-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (10ms)
+2025-2-21 10:19:42-debug: run build task 整理部分构建选项内数据到 settings.json success in 10 ms√, progress: 15%
+2025-2-21 10:19:42-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:175.99MB, end 176.13MB, increase: 151.72KB
+2025-2-21 10:19:47-debug: refresh db internal success
+2025-2-21 10:19:47-debug: refresh db assets success
+2025-2-21 10:19:47-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:19:47-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:19:47-debug: asset-db:refresh-all-database (89ms)
+2025-2-21 10:19:47-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:20:24-debug: refresh db internal success
+2025-2-21 10:20:24-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\ui\uilogin\UILoginView.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:20:24-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:20:24-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:20:24-debug: refresh db assets success
+2025-2-21 10:20:24-debug: asset-db:refresh-all-database (86ms)
+2025-2-21 10:20:24-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:20:24-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:20:25-debug: Query all assets info in project
+2025-2-21 10:20:25-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-2-21 10:20:25-debug: 查询 Asset Bundle start, progress: 0%
+2025-2-21 10:20:25-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:20:25-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-2-21 10:20:25-debug:   Number of other assets: 346
+2025-2-21 10:20:25-debug:   Number of all scripts: 89
+2025-2-21 10:20:25-debug:   Number of all scenes: 1
+2025-2-21 10:20:25-debug: // ---- build task 查询 Asset Bundle ---- (9ms)
+2025-2-21 10:20:25-debug: run build task 查询 Asset Bundle success in 9 ms√, progress: 5%
+2025-2-21 10:20:25-debug: [Build Memory track]: 查询 Asset Bundle start:178.30MB, end 178.25MB, increase: -53.01KB
+2025-2-21 10:20:25-debug: 查询 Asset Bundle start, progress: 5%
+2025-2-21 10:20:25-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:20:25-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
+2025-2-21 10:20:25-debug: [Build Memory track]: 查询 Asset Bundle start:178.26MB, end 178.35MB, increase: 86.55KB
+2025-2-21 10:20:25-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
+2025-2-21 10:20:25-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:20:25-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-2-21 10:20:25-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2025-2-21 10:20:25-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2025-2-21 10:20:25-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-2-21 10:20:25-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:177.48MB, end 177.50MB, increase: 17.03KB
+2025-2-21 10:20:25-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-2-21 10:20:25-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2025-2-21 10:20:25-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2025-2-21 10:20:25-debug: [Build Memory track]: 填充脚本数据到 settings.json start:177.51MB, end 177.53MB, increase: 15.28KB
+2025-2-21 10:20:25-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-2-21 10:20:25-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:20:25-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:177.54MB, end 177.66MB, increase: 119.21KB
+2025-2-21 10:20:25-debug: run build task 整理部分构建选项内数据到 settings.json success in 6 ms√, progress: 15%
+2025-2-21 10:20:25-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (6ms)
+2025-2-21 10:20:26-debug: Query all assets info in project
+2025-2-21 10:20:26-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-2-21 10:20:26-debug: 查询 Asset Bundle start, progress: 0%
+2025-2-21 10:20:26-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:20:26-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-2-21 10:20:26-debug:   Number of all scenes: 1
+2025-2-21 10:20:26-debug:   Number of other assets: 346
+2025-2-21 10:20:26-debug:   Number of all scripts: 89
+2025-2-21 10:20:26-debug: // ---- build task 查询 Asset Bundle ---- (12ms)
+2025-2-21 10:20:26-debug: run build task 查询 Asset Bundle success in 12 ms√, progress: 5%
+2025-2-21 10:20:26-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:20:26-debug: [Build Memory track]: 查询 Asset Bundle start:178.21MB, end 178.17MB, increase: -38.73KB
+2025-2-21 10:20:26-debug: 查询 Asset Bundle start, progress: 5%
+2025-2-21 10:20:26-debug: // ---- build task 查询 Asset Bundle ---- (1ms)
+2025-2-21 10:20:26-debug: run build task 查询 Asset Bundle success in 1 ms√, progress: 10%
+2025-2-21 10:20:26-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-2-21 10:20:26-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:20:26-debug: [Build Memory track]: 查询 Asset Bundle start:178.18MB, end 178.27MB, increase: 89.12KB
+2025-2-21 10:20:26-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2025-2-21 10:20:26-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2025-2-21 10:20:26-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:178.29MB, end 178.30MB, increase: 15.55KB
+2025-2-21 10:20:26-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-2-21 10:20:26-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-2-21 10:20:26-debug: [Build Memory track]: 填充脚本数据到 settings.json start:178.31MB, end 178.33MB, increase: 14.96KB
+2025-2-21 10:20:26-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-2-21 10:20:26-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:20:26-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2025-2-21 10:20:26-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2025-2-21 10:20:26-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (11ms)
+2025-2-21 10:20:26-debug: run build task 整理部分构建选项内数据到 settings.json success in 11 ms√, progress: 15%
+2025-2-21 10:20:26-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:178.34MB, end 178.47MB, increase: 133.46KB
+2025-2-21 10:20:32-debug: refresh db internal success
+2025-2-21 10:20:32-debug: refresh db assets success
+2025-2-21 10:20:32-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:20:32-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:20:32-debug: asset-db:refresh-all-database (127ms)
+2025-2-21 10:20:32-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:20:32-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:21:28-debug: refresh db internal success
+2025-2-21 10:21:28-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\initialize\view\LoadingViewComp.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:21:28-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\ui\uilogin\UILoginView.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:21:28-debug: refresh db assets success
+2025-2-21 10:21:28-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:21:28-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:21:28-debug: asset-db:refresh-all-database (85ms)
+2025-2-21 10:21:28-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:21:28-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:21:29-debug: Query all assets info in project
+2025-2-21 10:21:29-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-2-21 10:21:29-debug: 查询 Asset Bundle start, progress: 0%
+2025-2-21 10:21:29-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:21:29-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-2-21 10:21:29-debug:   Number of all scenes: 1
+2025-2-21 10:21:29-debug:   Number of other assets: 346
+2025-2-21 10:21:29-debug:   Number of all scripts: 89
+2025-2-21 10:21:29-debug: // ---- build task 查询 Asset Bundle ---- (8ms)
+2025-2-21 10:21:29-debug: run build task 查询 Asset Bundle success in 8 ms√, progress: 5%
+2025-2-21 10:21:29-debug: [Build Memory track]: 查询 Asset Bundle start:164.33MB, end 164.30MB, increase: -35.86KB
+2025-2-21 10:21:29-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:21:29-debug: 查询 Asset Bundle start, progress: 5%
+2025-2-21 10:21:29-debug: // ---- build task 查询 Asset Bundle ---- (1ms)
+2025-2-21 10:21:29-debug: [Build Memory track]: 查询 Asset Bundle start:164.31MB, end 164.40MB, increase: 87.67KB
+2025-2-21 10:21:29-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:21:29-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-2-21 10:21:29-debug: run build task 查询 Asset Bundle success in 1 ms√, progress: 10%
+2025-2-21 10:21:29-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2025-2-21 10:21:29-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2025-2-21 10:21:29-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-2-21 10:21:29-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:164.41MB, end 164.43MB, increase: 15.53KB
+2025-2-21 10:21:29-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-2-21 10:21:29-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2025-2-21 10:21:29-debug: [Build Memory track]: 填充脚本数据到 settings.json start:164.44MB, end 164.46MB, increase: 16.59KB
+2025-2-21 10:21:29-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-2-21 10:21:29-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:21:29-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (12ms)
+2025-2-21 10:21:29-debug: run build task 整理部分构建选项内数据到 settings.json success in 12 ms√, progress: 15%
+2025-2-21 10:21:29-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:164.47MB, end 164.59MB, increase: 125.32KB
+2025-2-21 10:21:34-debug: refresh db internal success
+2025-2-21 10:21:34-debug: refresh db assets success
+2025-2-21 10:21:34-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:21:34-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:21:34-debug: asset-db:refresh-all-database (86ms)
+2025-2-21 10:21:34-debug: asset-db:worker-effect-data-processing (2ms)
+2025-2-21 10:21:34-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-2-21 10:21:55-debug: refresh db internal success
+2025-2-21 10:21:55-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\initialize\view\LoadingViewComp.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:21:55-debug: refresh db assets success
+2025-2-21 10:21:55-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:21:55-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:21:55-debug: asset-db:refresh-all-database (81ms)
+2025-2-21 10:21:55-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:21:55-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:21:56-debug: Query all assets info in project
+2025-2-21 10:21:56-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-2-21 10:21:56-debug: 查询 Asset Bundle start, progress: 0%
+2025-2-21 10:21:56-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:21:56-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-2-21 10:21:56-debug:   Number of other assets: 346
+2025-2-21 10:21:56-debug:   Number of all scenes: 1
+2025-2-21 10:21:56-debug:   Number of all scripts: 89
+2025-2-21 10:21:56-debug: // ---- build task 查询 Asset Bundle ---- (10ms)
+2025-2-21 10:21:56-debug: [Build Memory track]: 查询 Asset Bundle start:167.13MB, end 166.98MB, increase: -149.21KB
+2025-2-21 10:21:56-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:21:56-debug: 查询 Asset Bundle start, progress: 5%
+2025-2-21 10:21:56-debug: run build task 查询 Asset Bundle success in 10 ms√, progress: 5%
+2025-2-21 10:21:56-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
+2025-2-21 10:21:56-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
+2025-2-21 10:21:56-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:21:56-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-2-21 10:21:56-debug: [Build Memory track]: 查询 Asset Bundle start:166.99MB, end 167.08MB, increase: 86.18KB
+2025-2-21 10:21:56-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
+2025-2-21 10:21:56-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:167.09MB, end 167.11MB, increase: 13.88KB
+2025-2-21 10:21:56-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-2-21 10:21:56-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-2-21 10:21:56-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2025-2-21 10:21:56-debug: [Build Memory track]: 填充脚本数据到 settings.json start:167.12MB, end 167.13MB, increase: 11.50KB
+2025-2-21 10:21:56-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:21:56-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-2-21 10:21:56-debug: run build task 整理部分构建选项内数据到 settings.json success in 7 ms√, progress: 15%
+2025-2-21 10:21:56-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:167.14MB, end 166.42MB, increase: -738.54KB
+2025-2-21 10:21:56-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (7ms)
+2025-2-21 10:22:23-debug: refresh db internal success
+2025-2-21 10:22:23-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\initialize\view\LoadingViewComp.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:22:23-debug: refresh db assets success
+2025-2-21 10:22:23-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:22:23-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:22:23-debug: asset-db:refresh-all-database (88ms)
+2025-2-21 10:22:23-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:22:23-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-2-21 10:22:24-debug: Query all assets info in project
+2025-2-21 10:22:24-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-2-21 10:22:24-debug: 查询 Asset Bundle start, progress: 0%
+2025-2-21 10:22:24-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:22:24-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-2-21 10:22:24-debug:   Number of all scenes: 1
+2025-2-21 10:22:24-debug:   Number of all scripts: 89
+2025-2-21 10:22:24-debug:   Number of other assets: 346
+2025-2-21 10:22:24-debug: // ---- build task 查询 Asset Bundle ---- (14ms)
+2025-2-21 10:22:24-debug: run build task 查询 Asset Bundle success in 14 ms√, progress: 5%
+2025-2-21 10:22:24-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:22:24-debug: [Build Memory track]: 查询 Asset Bundle start:167.71MB, end 167.62MB, increase: -93.43KB
+2025-2-21 10:22:24-debug: 查询 Asset Bundle start, progress: 5%
+2025-2-21 10:22:24-debug: // ---- build task 查询 Asset Bundle ---- (4ms)
+2025-2-21 10:22:24-debug: run build task 查询 Asset Bundle success in 4 ms√, progress: 10%
+2025-2-21 10:22:24-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:22:24-debug: [Build Memory track]: 查询 Asset Bundle start:167.63MB, end 167.72MB, increase: 86.18KB
+2025-2-21 10:22:24-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-2-21 10:22:24-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
+2025-2-21 10:22:24-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 12%
+2025-2-21 10:22:24-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-2-21 10:22:24-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:167.73MB, end 167.75MB, increase: 17.07KB
+2025-2-21 10:22:24-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-2-21 10:22:24-debug: // ---- build task 填充脚本数据到 settings.json ---- (2ms)
+2025-2-21 10:22:24-debug: run build task 填充脚本数据到 settings.json success in 2 ms√, progress: 13%
+2025-2-21 10:22:24-debug: [Build Memory track]: 填充脚本数据到 settings.json start:167.76MB, end 167.78MB, increase: 15.28KB
+2025-2-21 10:22:24-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:22:24-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-2-21 10:22:24-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (5ms)
+2025-2-21 10:22:24-debug: run build task 整理部分构建选项内数据到 settings.json success in 5 ms√, progress: 15%
+2025-2-21 10:22:24-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:167.79MB, end 167.93MB, increase: 137.70KB
+2025-2-21 10:22:29-debug: refresh db internal success
+2025-2-21 10:22:29-debug: refresh db assets success
+2025-2-21 10:22:29-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:22:29-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:22:29-debug: asset-db:refresh-all-database (85ms)
+2025-2-21 10:23:07-debug: refresh db internal success
+2025-2-21 10:23:07-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\initialize\bll\InitRes.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:23:07-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\initialize\view\LoadingViewComp.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:23:07-debug: refresh db assets success
+2025-2-21 10:23:07-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:23:07-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:23:07-debug: asset-db:refresh-all-database (82ms)
+2025-2-21 10:23:07-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:23:07-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:23:08-debug: Query all assets info in project
+2025-2-21 10:23:08-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-2-21 10:23:08-debug: 查询 Asset Bundle start, progress: 0%
+2025-2-21 10:23:08-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:23:08-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-2-21 10:23:08-debug:   Number of all scenes: 1
+2025-2-21 10:23:08-debug:   Number of other assets: 346
+2025-2-21 10:23:08-debug:   Number of all scripts: 89
+2025-2-21 10:23:08-debug: // ---- build task 查询 Asset Bundle ---- (7ms)
+2025-2-21 10:23:08-debug: run build task 查询 Asset Bundle success in 7 ms√, progress: 5%
+2025-2-21 10:23:08-debug: [Build Memory track]: 查询 Asset Bundle start:170.49MB, end 170.35MB, increase: -142.66KB
+2025-2-21 10:23:08-debug: 查询 Asset Bundle start, progress: 5%
+2025-2-21 10:23:08-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:23:08-debug: // ---- build task 查询 Asset Bundle ---- (1ms)
+2025-2-21 10:23:08-debug: run build task 查询 Asset Bundle success in 1 ms√, progress: 10%
+2025-2-21 10:23:08-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-2-21 10:23:08-debug: [Build Memory track]: 查询 Asset Bundle start:170.37MB, end 170.45MB, increase: 86.16KB
+2025-2-21 10:23:08-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:23:08-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
+2025-2-21 10:23:08-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:170.46MB, end 170.48MB, increase: 11.30KB
+2025-2-21 10:23:08-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-2-21 10:23:08-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-2-21 10:23:08-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2025-2-21 10:23:08-debug: [Build Memory track]: 填充脚本数据到 settings.json start:170.49MB, end 170.50MB, increase: 12.13KB
+2025-2-21 10:23:08-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-2-21 10:23:08-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:23:08-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (5ms)
+2025-2-21 10:23:08-debug: run build task 整理部分构建选项内数据到 settings.json success in 5 ms√, progress: 15%
+2025-2-21 10:23:08-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:170.52MB, end 169.78MB, increase: -756.56KB
+2025-2-21 10:23:39-debug: refresh db internal success
+2025-2-21 10:23:39-debug: refresh db assets success
+2025-2-21 10:23:39-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:23:39-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:23:39-debug: asset-db:refresh-all-database (83ms)
+2025-2-21 10:23:39-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:23:39-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:24:30-debug: refresh db internal success
+2025-2-21 10:24:30-debug: refresh db assets success
+2025-2-21 10:24:30-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:24:30-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:24:30-debug: asset-db:refresh-all-database (90ms)
+2025-2-21 10:24:30-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:24:30-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:26:32-debug: refresh db internal success
+2025-2-21 10:26:32-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\Main.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:26:32-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\initialize\bll\InitRes.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:26:32-debug: refresh db assets success
+2025-2-21 10:26:32-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:26:32-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:26:32-debug: asset-db:refresh-all-database (87ms)
+2025-2-21 10:26:32-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:26:32-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:26:33-debug: Query all assets info in project
+2025-2-21 10:26:33-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-2-21 10:26:33-debug: 查询 Asset Bundle start, progress: 0%
+2025-2-21 10:26:33-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:26:33-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-2-21 10:26:33-debug:   Number of other assets: 346
+2025-2-21 10:26:33-debug:   Number of all scripts: 89
+2025-2-21 10:26:33-debug:   Number of all scenes: 1
+2025-2-21 10:26:33-debug: // ---- build task 查询 Asset Bundle ---- (16ms)
+2025-2-21 10:26:33-debug: run build task 查询 Asset Bundle success in 16 ms√, progress: 5%
+2025-2-21 10:26:33-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:26:33-debug: [Build Memory track]: 查询 Asset Bundle start:173.77MB, end 173.68MB, increase: -89.44KB
+2025-2-21 10:26:33-debug: 查询 Asset Bundle start, progress: 5%
+2025-2-21 10:26:33-debug: // ---- build task 查询 Asset Bundle ---- (3ms)
+2025-2-21 10:26:33-debug: run build task 查询 Asset Bundle success in 3 ms√, progress: 10%
+2025-2-21 10:26:33-debug: [Build Memory track]: 查询 Asset Bundle start:173.69MB, end 173.78MB, increase: 82.66KB
+2025-2-21 10:26:33-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-2-21 10:26:33-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:26:33-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2025-2-21 10:26:33-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2025-2-21 10:26:33-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:173.79MB, end 173.81MB, increase: 16.42KB
+2025-2-21 10:26:33-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-2-21 10:26:33-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-2-21 10:26:33-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2025-2-21 10:26:33-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2025-2-21 10:26:33-debug: [Build Memory track]: 填充脚本数据到 settings.json start:173.82MB, end 173.84MB, increase: 18.13KB
+2025-2-21 10:26:33-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-2-21 10:26:33-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:26:33-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (5ms)
+2025-2-21 10:26:33-debug: run build task 整理部分构建选项内数据到 settings.json success in 5 ms√, progress: 15%
+2025-2-21 10:26:33-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:173.85MB, end 173.13MB, increase: -739.08KB
+2025-2-21 10:27:45-debug: refresh db internal success
+2025-2-21 10:27:45-debug: refresh db assets success
+2025-2-21 10:27:45-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:27:45-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:27:45-debug: asset-db:refresh-all-database (86ms)
+2025-2-21 10:28:05-debug: start refresh asset from E:\sxbs2\sxbs2\assets\main.scene...
+2025-2-21 10:28:05-debug: %cImport%c: E:\sxbs2\sxbs2\assets\main.scenebackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:28:05-debug: refresh asset E:\sxbs2\sxbs2\assets success
+2025-2-21 10:28:06-debug: Query all assets info in project
+2025-2-21 10:28:06-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-2-21 10:28:06-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:28:06-debug: 查询 Asset Bundle start, progress: 0%
+2025-2-21 10:28:06-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-2-21 10:28:06-debug:   Number of all scripts: 89
+2025-2-21 10:28:06-debug:   Number of all scenes: 1
+2025-2-21 10:28:06-debug:   Number of other assets: 346
+2025-2-21 10:28:06-debug: // ---- build task 查询 Asset Bundle ---- (7ms)
+2025-2-21 10:28:06-debug: run build task 查询 Asset Bundle success in 7 ms√, progress: 5%
+2025-2-21 10:28:06-debug: [Build Memory track]: 查询 Asset Bundle start:175.01MB, end 174.89MB, increase: -124.70KB
+2025-2-21 10:28:06-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:28:06-debug: 查询 Asset Bundle start, progress: 5%
+2025-2-21 10:28:06-debug: // ---- build task 查询 Asset Bundle ---- (4ms)
+2025-2-21 10:28:06-debug: run build task 查询 Asset Bundle success in 4 ms√, progress: 10%
+2025-2-21 10:28:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:28:06-debug: [Build Memory track]: 查询 Asset Bundle start:174.91MB, end 174.99MB, increase: 83.29KB
+2025-2-21 10:28:06-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-2-21 10:28:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (-1ms)
+2025-2-21 10:28:06-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:175.00MB, end 175.02MB, increase: 14.64KB
+2025-2-21 10:28:06-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-2-21 10:28:06-debug: run build task 整理部分构建选项内数据到 settings.json success in -1 h -1 min -1 s√, progress: 12%
+2025-2-21 10:28:06-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-2-21 10:28:06-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2025-2-21 10:28:06-debug: [Build Memory track]: 填充脚本数据到 settings.json start:175.03MB, end 175.04MB, increase: 14.49KB
+2025-2-21 10:28:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:28:06-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-2-21 10:28:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (3ms)
+2025-2-21 10:28:06-debug: run build task 整理部分构建选项内数据到 settings.json success in 3 ms√, progress: 15%
+2025-2-21 10:28:06-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:175.06MB, end 175.19MB, increase: 131.95KB
+2025-2-21 10:28:16-debug: refresh db internal success
+2025-2-21 10:28:16-debug: %cImport%c: E:\sxbs2\sxbs2\assets\work\Main.tsbackground: #aaff85; color: #000;color: #000;
+2025-2-21 10:28:16-debug: refresh db assets success
+2025-2-21 10:28:16-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:28:16-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:28:16-debug: asset-db:refresh-all-database (89ms)
+2025-2-21 10:28:16-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:28:16-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:28:17-debug: Query all assets info in project
+2025-2-21 10:28:17-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-2-21 10:28:17-debug: 查询 Asset Bundle start, progress: 0%
+2025-2-21 10:28:17-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:28:17-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-2-21 10:28:17-debug:   Number of all scenes: 1
+2025-2-21 10:28:17-debug:   Number of all scripts: 89
+2025-2-21 10:28:17-debug:   Number of other assets: 346
+2025-2-21 10:28:17-debug: // ---- build task 查询 Asset Bundle ---- (9ms)
+2025-2-21 10:28:17-debug: run build task 查询 Asset Bundle success in 9 ms√, progress: 5%
+2025-2-21 10:28:17-debug: [Build Memory track]: 查询 Asset Bundle start:175.70MB, end 176.45MB, increase: 772.32KB
+2025-2-21 10:28:17-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:28:17-debug: 查询 Asset Bundle start, progress: 5%
+2025-2-21 10:28:17-debug: // ---- build task 查询 Asset Bundle ---- (5ms)
+2025-2-21 10:28:17-debug: run build task 查询 Asset Bundle success in 5 ms√, progress: 10%
+2025-2-21 10:28:17-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-2-21 10:28:17-debug: [Build Memory track]: 查询 Asset Bundle start:176.47MB, end 175.66MB, increase: -822.09KB
+2025-2-21 10:28:17-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:28:17-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (3ms)
+2025-2-21 10:28:17-debug: run build task 整理部分构建选项内数据到 settings.json success in 3 ms√, progress: 12%
+2025-2-21 10:28:17-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-2-21 10:28:17-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-2-21 10:28:17-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:175.68MB, end 175.69MB, increase: 17.02KB
+2025-2-21 10:28:17-debug: // ---- build task 填充脚本数据到 settings.json ---- (2ms)
+2025-2-21 10:28:17-debug: run build task 填充脚本数据到 settings.json success in 2 ms√, progress: 13%
+2025-2-21 10:28:17-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:28:17-debug: [Build Memory track]: 填充脚本数据到 settings.json start:175.71MB, end 175.72MB, increase: 16.25KB
+2025-2-21 10:28:17-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-2-21 10:28:17-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (9ms)
+2025-2-21 10:28:17-debug: run build task 整理部分构建选项内数据到 settings.json success in 9 ms√, progress: 15%
+2025-2-21 10:28:17-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:175.74MB, end 175.87MB, increase: 136.93KB
+2025-2-21 10:33:54-debug: refresh db internal success
+2025-2-21 10:33:54-debug: refresh db assets success
+2025-2-21 10:33:54-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:33:54-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:33:54-debug: asset-db:refresh-all-database (108ms)
+2025-2-21 10:34:35-debug: Start record console... {file(E:\sxbs2\sxbs2\temp\builder\log\android2025-2-19 14-02.log)}
+2025-2-21 10:34:35-debug: =================================== build Task (android) Start ================================
+2025-2-21 10:34:35-debug: Start build task, options:{"name":"sxbs2","server":"","platform":"android","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"overwriteProjectSettings":{"macroConfig":{"cleanupImageCache":"inherit-project-setting"},"includeModules":{"physics":"inherit-project-setting","physics-2d":"inherit-project-setting","gfx-webgl2":"off"}},"nativeCodeBundleMode":"wasm","polyfills":{"asyncFunctions":false},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"4c814192-1ed2-4dad-bce9-1bdcfdb02882","outputName":"android","taskName":"android","scenes":[{"url":"db://assets/main.scene","uuid":"4c814192-1ed2-4dad-bce9-1bdcfdb02882"}],"wasmCompressionMode":false,"packages":{"android":{"packageName":"com.sxbs2.book","resizeableActivity":true,"maxAspectRatio":"2.4","orientation":{"portrait":false,"upsideDown":false,"landscapeRight":true,"landscapeLeft":true},"apiLevel":30,"appABIs":["arm64-v8a","armeabi-v7a","x86","x86_64"],"useDebugKeystore":true,"keystorePath":"","keystorePassword":"","keystoreAlias":"","keystoreAliasPassword":"","appBundle":false,"androidInstant":false,"inputSDK":false,"remoteUrl":"","sdkPath":"","ndkPath":"","javaHome":"","javaPath":"","renderBackEnd":{"vulkan":true,"gles3":true,"gles2":true},"swappy":false,"__version__":"1.0.1"},"native":{"encrypted":false,"xxteaKey":"61+TKYl8xI1bzJIY","compressZip":false,"JobSystem":"none","__version__":"1.0.2"},"cocos-service":{"configID":"e8078b","services":[],"__version__":"3.0.7"},"oops-plugin-hot-update":{"hotUpdateEnable":true,"hotUpdateAddress":"http://192.168.3.22","hotUpdateVersion":"1.0.0","hotUpdateBuildNum":2,"__version__":"1.0.0"}},"__version__":"1.3.8","buildMode":"normal","logDest":"project://temp/builder/log/android2025-2-19 14-02.log"}
+2025-2-21 10:34:35-debug: Build with Cocos Creator 3.8.3
+2025-2-21 10:34:35-debug: native:(onBeforeBuild) start..., progress: 0%
+2025-2-21 10:34:35-debug: // ---- build task native：onBeforeBuild ----
+2025-2-21 10:34:35-debug: // ---- build task native：onBeforeBuild ---- (12ms)
+2025-2-21 10:34:35-debug: cocos-service:(onBeforeBuild) start..., progress: 2%
+2025-2-21 10:34:35-debug: native:(onBeforeBuild) in 12 ms ✓, progress: 2%
+2025-2-21 10:34:35-debug: // ---- build task cocos-service：onBeforeBuild ----
+2025-2-21 10:34:35-debug: // ---- build task cocos-service：onBeforeBuild ---- (208ms)
+2025-2-21 10:34:35-debug: cocos-service:(onBeforeBuild) in 208 ms ✓, progress: 4%
+2025-2-21 10:34:35-debug: // ---- build task scene：onBeforeBuild ----
+2025-2-21 10:34:35-debug: scene:(onBeforeBuild) start..., progress: 4%
+2025-2-21 10:34:35-debug: // ---- build task scene：onBeforeBuild ---- (22ms)
+2025-2-21 10:34:35-debug: oops-plugin-hot-update:(onBeforeBuild) start..., progress: 5%
+2025-2-21 10:34:35-debug: // ---- build task oops-plugin-hot-update：onBeforeBuild ----
+2025-2-21 10:34:35-debug: scene:(onBeforeBuild) in 22 ms ✓, progress: 5%
+2025-2-21 10:34:35-debug: // ---- build task oops-plugin-hot-update：onBeforeBuild ---- (22ms)
+2025-2-21 10:34:35-debug: Start lock asset db..., progress: 7%
+2025-2-21 10:34:35-debug: oops-plugin-hot-update:(onBeforeBuild) in 22 ms ✓, progress: 7%
+2025-2-21 10:34:35-log: Asset DB is paused with build!
+2025-2-21 10:34:35-debug: Query all assets info in project
+2025-2-21 10:34:35-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-2-21 10:34:36-debug: Native engine root:E:\cocos-dashboard-editors\Creator\3.8.3\resources\resources\3d\engine\native
+2025-2-21 10:34:35-debug: native:(onAfterInit) start..., progress: 7%
+2025-2-21 10:34:35-debug: // ---- build task native：onAfterInit ----
+2025-2-21 10:34:36-debug: // ---- build task native：onAfterInit ---- (486ms)
+2025-2-21 10:34:36-debug: native:(onAfterInit) in 486 ms ✓, progress: 9%
+2025-2-21 10:34:36-debug: android:(onAfterInit) start..., progress: 9%
+2025-2-21 10:34:36-debug: // ---- build task android：onAfterInit ----
+2025-2-21 10:34:36-debug: // ---- build task android：onAfterInit ---- (22ms)
+2025-2-21 10:34:36-debug: android:(onAfterInit) in 22 ms ✓, progress: 11%
+2025-2-21 10:34:36-debug: cocos-service:(onAfterInit) start..., progress: 11%
+2025-2-21 10:34:36-debug: // ---- build task cocos-service：onAfterInit ----
+2025-2-21 10:34:36-debug: // ---- build task cocos-service：onAfterInit ---- (109ms)
+2025-2-21 10:34:36-debug: cocos-service:(onAfterInit) in 109 ms ✓, progress: 13%
+2025-2-21 10:34:36-debug: // ---- build task engine：onAfterInit ----
+2025-2-21 10:34:36-debug: engine:(onAfterInit) start..., progress: 13%
+2025-2-21 10:34:36-debug: // ---- build task engine：onAfterInit ---- (19ms)
+2025-2-21 10:34:36-debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 15%
+2025-2-21 10:34:36-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+2025-2-21 10:34:36-debug: [adsense-h5g-plugin] remove script success
+2025-2-21 10:34:36-debug: engine:(onAfterInit) in 19 ms ✓, progress: 15%
+2025-2-21 10:34:36-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (20ms)
+2025-2-21 10:34:36-debug: adsense-h5g-plugin:(onBeforeBundleInit) in 20 ms ✓, progress: 15%
+2025-2-21 10:34:36-debug: Init all bundles start..., progress: 15%
+2025-2-21 10:34:36-debug: native:(onAfterBundleInit) start..., progress: 15%
+2025-2-21 10:34:36-debug: Num of bundles: 3..., progress: 15%
+2025-2-21 10:34:36-debug: // ---- build task native：onAfterBundleInit ----
+2025-2-21 10:34:36-debug: // ---- build task native：onAfterBundleInit ---- (30ms)
+2025-2-21 10:34:36-debug: android:(onAfterBundleInit) start..., progress: 15%
+2025-2-21 10:34:36-debug: native:(onAfterBundleInit) in 30 ms ✓, progress: 15%
+2025-2-21 10:34:36-debug: // ---- build task android：onAfterBundleInit ----
+2025-2-21 10:34:36-debug: // ---- build task android：onAfterBundleInit ---- (27ms)
+2025-2-21 10:34:36-debug: android:(onAfterBundleInit) in 27 ms ✓, progress: 15%
+2025-2-21 10:34:36-debug: 查询 Asset Bundle start, progress: 15%
+2025-2-21 10:34:36-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:34:36-debug: Init bundle root assets start..., progress: 15%
+2025-2-21 10:34:36-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-2-21 10:34:36-debug:   Number of all scripts: 89
+2025-2-21 10:34:36-debug:   Number of other assets: 346
+2025-2-21 10:34:36-debug: Init bundle root assets success..., progress: 15%
+2025-2-21 10:34:36-debug:   Number of all scenes: 1
+2025-2-21 10:34:36-debug: reload all scripts.
+2025-2-21 10:34:36-debug: Set detail map pack:///resolution-detail-map.json: {}
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2025-2-21 10:34:36-debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\80\80be4e5e3f7a41b3cd93b60dbbb453348944e210.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\80\80be4e5e3f7a41b3cd93b60dbbb453348944e210.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Register DebugViewRuntimeControl
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/80/80be4e5e3f7a41b3cd93b60dbbb453348944e210.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\e9\e9e8260ec72590250d0eef5173a7bd3cb15e294f.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\e9\e9e8260ec72590250d0eef5173a7bd3cb15e294f.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\be\be0a84fe61fb48290f7205e0ef6d05a984401a66.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\be\be0a84fe61fb48290f7205e0ef6d05a984401a66.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\c6\c63321e4a7d860c2a732e4e7e1f1c4f24c41b9f5.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\c6\c63321e4a7d860c2a732e4e7e1f1c4f24c41b9f5.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\ba\ba0d151c85e271fcfde37f90ad2b79d165921830.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\ba\ba0d151c85e271fcfde37f90ad2b79d165921830.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\d2\d20d28fc2985e1106acd281258097fa4737e39c3.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\d2\d20d28fc2985e1106acd281258097fa4737e39c3.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\c5\c5de1ce5fc9a5a7ef352ce97591338a8751e4f51.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\c5\c5de1ce5fc9a5a7ef352ce97591338a8751e4f51.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\81\81f310225bcff84fd255e56d099fe669f9069aff.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\81\81f310225bcff84fd255e56d099fe669f9069aff.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\64\64ad7e93ab2326bf449ba559aa1e63ee23288d10.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\64\64ad7e93ab2326bf449ba559aa1e63ee23288d10.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\f1\f17efeb7b15079fe9479999c001c4ee27d23b2b3.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\f1\f17efeb7b15079fe9479999c001c4ee27d23b2b3.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\95\95c8e25fbb46d270b4b355985abf11bc1a89df6b.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\95\95c8e25fbb46d270b4b355985abf11bc1a89df6b.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\25\255685af180fc099228344da2215a009f0616a19.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\25\255685af180fc099228344da2215a009f0616a19.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\bc\bce4a3c637b8071507224b599abd71725b69b4c2.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\bc\bce4a3c637b8071507224b599abd71725b69b4c2.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\a2\a270e26d89837324b9670978ba11c981abb74d8c.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\a2\a270e26d89837324b9670978ba11c981abb74d8c.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\c2\c2c2935995de9a00d04cfb0bdf9b541f82fec01b.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\c2\c2c2935995de9a00d04cfb0bdf9b541f82fec01b.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\95\956639694b7334584d46d0318bb674f3680963f6.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\95\956639694b7334584d46d0318bb674f3680963f6.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\3e\3ecd9ffc55808f4e0758ecd6aea3dcac42e7992c.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\3e\3ecd9ffc55808f4e0758ecd6aea3dcac42e7992c.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\07\07897661211e177fdafdb464d53108e63432206c.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\07\07897661211e177fdafdb464d53108e63432206c.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\84\84be2cd93030fe99071be8fa209106d3c43f72a0.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\84\84be2cd93030fe99071be8fa209106d3c43f72a0.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\65\657704b65dc582e2c70ab9a08ec4eedbe253ed0f.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\65\657704b65dc582e2c70ab9a08ec4eedbe253ed0f.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\90\907686452a7c59933ac090468197eb80d3e94a10.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\90\907686452a7c59933ac090468197eb80d3e94a10.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/bc/bce4a3c637b8071507224b599abd71725b69b4c2.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/engine-export-to-editor/cc/editor/populate-internal-constants" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/90/907686452a7c59933ac090468197eb80d3e94a10.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/95/956639694b7334584d46d0318bb674f3680963f6.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/65/657704b65dc582e2c70ab9a08ec4eedbe253ed0f.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/a2/a270e26d89837324b9670978ba11c981abb74d8c.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/25/255685af180fc099228344da2215a009f0616a19.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/c2/c2c2935995de9a00d04cfb0bdf9b541f82fec01b.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/d2/d20d28fc2985e1106acd281258097fa4737e39c3.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/f1/f17efeb7b15079fe9479999c001c4ee27d23b2b3.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/84/84be2cd93030fe99071be8fa209106d3c43f72a0.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/c6/c63321e4a7d860c2a732e4e7e1f1c4f24c41b9f5.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/be/be0a84fe61fb48290f7205e0ef6d05a984401a66.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/07/07897661211e177fdafdb464d53108e63432206c.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/95/95c8e25fbb46d270b4b355985abf11bc1a89df6b.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/64/64ad7e93ab2326bf449ba559aa1e63ee23288d10.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/3e/3ecd9ffc55808f4e0758ecd6aea3dcac42e7992c.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/81/81f310225bcff84fd255e56d099fe669f9069aff.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/ba/ba0d151c85e271fcfde37f90ad2b79d165921830.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "cce:/internal/x/engine-export-to-editor/cc/editor/populate-internal-constants" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/c5/c5de1ce5fc9a5a7ef352ce97591338a8751e4f51.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/e9/e9e8260ec72590250d0eef5173a7bd3cb15e294f.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\d5\d57b10ebd5764102fafafde353f648dc950b9de3.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\d5\d57b10ebd5764102fafafde353f648dc950b9de3.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\b7\b76c9a702381c87c74ce85e8969fceb73431cba8.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\b7\b76c9a702381c87c74ce85e8969fceb73431cba8.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\d0\d026c45c21c2e51e36f8f318b7fbd75f6955d5db.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\d0\d026c45c21c2e51e36f8f318b7fbd75f6955d5db.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\2c\2c981052233707b37a0cecb2667b75a849f1c103.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\2c\2c981052233707b37a0cecb2667b75a849f1c103.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\b7\b7aa00f112160f9b2ff2bac0119ee658ae61e9dc.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\b7\b7aa00f112160f9b2ff2bac0119ee658ae61e9dc.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\dd\ddff1ee276540dc8737cd784c0f63261bf272ac2.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\dd\ddff1ee276540dc8737cd784c0f63261bf272ac2.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\84\84b06b876c3004ed80df05aa3dbcff8a32fd3832.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\84\84b06b876c3004ed80df05aa3dbcff8a32fd3832.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\30\30ccae55b3d3e6d640b0fa4cde4f4ed482582aa8.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\30\30ccae55b3d3e6d640b0fa4cde4f4ed482582aa8.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\56\5616dff818b65dffaeadc44a79a54f7a39874fcd.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\56\5616dff818b65dffaeadc44a79a54f7a39874fcd.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\78\7824b6555aa066bb8609a8cace3a4c6608bb8536.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\78\7824b6555aa066bb8609a8cace3a4c6608bb8536.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\4f\4f8f0919a365d720e420dac4d427735ee326e223.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\4f\4f8f0919a365d720e420dac4d427735ee326e223.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\5b\5bd409222ac874f1a689b030649813c048a188d7.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\5b\5bd409222ac874f1a689b030649813c048a188d7.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\58\58a0a3dedc31450902477b3a3a8f3cd2f34fd621.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\58\58a0a3dedc31450902477b3a3a8f3cd2f34fd621.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\cf\cf798515bf56703d6d1864436cabed1db921a01e.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\cf\cf798515bf56703d6d1864436cabed1db921a01e.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\20\2089e9481dde7baa92a2ae0f49d7941372d29026.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\20\2089e9481dde7baa92a2ae0f49d7941372d29026.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\3b\3b9d786f1c83ccf3f180ff051cd2e29fd975bc16.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\3b\3b9d786f1c83ccf3f180ff051cd2e29fd975bc16.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\3b\3bc3c79b5fff14ed349554b9bb8ac60e624effb3.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\3b\3bc3c79b5fff14ed349554b9bb8ac60e624effb3.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\62\62da24733d8601ce637ebf0da779481a94c35fe0.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\62\62da24733d8601ce637ebf0da779481a94c35fe0.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\53\5356577980683d842ef240c59c8a3bee65ccd4d4.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\53\5356577980683d842ef240c59c8a3bee65ccd4d4.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\9c\9c8addd02866252464be2921a4336dfa136b0b33.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\9c\9c8addd02866252464be2921a4336dfa136b0b33.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\55\5546119e9fb2fb10a46bee58a50427b2c80ec150.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\55\5546119e9fb2fb10a46bee58a50427b2c80ec150.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\07\0767da26cb833690413bb1dc4022e1f51be91a50.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\07\0767da26cb833690413bb1dc4022e1f51be91a50.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\c5\c58ce782773d0bf6efc67a556eb42f1874a3e51a.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\c5\c58ce782773d0bf6efc67a556eb42f1874a3e51a.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\d1\d1f5d0386c435b49c8f63b294ecac520cb075f41.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\d1\d1f5d0386c435b49c8f63b294ecac520cb075f41.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\80\80d434eb225cc2b817db3bbe1b27733ef2526a49.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\80\80d434eb225cc2b817db3bbe1b27733ef2526a49.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/2c/2c981052233707b37a0cecb2667b75a849f1c103.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/b7/b76c9a702381c87c74ce85e8969fceb73431cba8.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/55/5546119e9fb2fb10a46bee58a50427b2c80ec150.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Register AudioEffect
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/5b/5bd409222ac874f1a689b030649813c048a188d7.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/20/2089e9481dde7baa92a2ae0f49d7941372d29026.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Register AudioMusic
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/b7/b7aa00f112160f9b2ff2bac0119ee658ae61e9dc.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/d0/d026c45c21c2e51e36f8f318b7fbd75f6955d5db.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/78/7824b6555aa066bb8609a8cace3a4c6608bb8536.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/62/62da24733d8601ce637ebf0da779481a94c35fe0.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/58/58a0a3dedc31450902477b3a3a8f3cd2f34fd621.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/4f/4f8f0919a365d720e420dac4d427735ee326e223.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/30/30ccae55b3d3e6d640b0fa4cde4f4ed482582aa8.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/84/84b06b876c3004ed80df05aa3dbcff8a32fd3832.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/cf/cf798515bf56703d6d1864436cabed1db921a01e.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Register DelegateComponent
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/07/0767da26cb833690413bb1dc4022e1f51be91a50.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/d1/d1f5d0386c435b49c8f63b294ecac520cb075f41.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/dd/ddff1ee276540dc8737cd784c0f63261bf272ac2.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/9c/9c8addd02866252464be2921a4336dfa136b0b33.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/53/5356577980683d842ef240c59c8a3bee65ccd4d4.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Register LangLabelParamsItem
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/3b/3bc3c79b5fff14ed349554b9bb8ac60e624effb3.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/80/80d434eb225cc2b817db3bbe1b27733ef2526a49.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Register Notify
+2025-2-21 10:34:36-debug: [[Executor]] Register LanguageLabel
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/c5/c58ce782773d0bf6efc67a556eb42f1874a3e51a.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/d5/d57b10ebd5764102fafafde353f648dc950b9de3.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/3b/3b9d786f1c83ccf3f180ff051cd2e29fd975bc16.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/56/5616dff818b65dffaeadc44a79a54f7a39874fcd.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\98\98dd342b64b6b875eed6f595f2b18b70f3770323.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\98\98dd342b64b6b875eed6f595f2b18b70f3770323.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/98/98dd342b64b6b875eed6f595f2b18b70f3770323.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\be\be8b887d90f27a744cb0e372926d37de7be9c995.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\be\be8b887d90f27a744cb0e372926d37de7be9c995.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/be/be8b887d90f27a744cb0e372926d37de7be9c995.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\49\49b6fdada86c105a27d6beed09cbda775e8b1dc0.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\49\49b6fdada86c105a27d6beed09cbda775e8b1dc0.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Register CommonPrompt
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/49/49b6fdada86c105a27d6beed09cbda775e8b1dc0.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\00\00b55119f7afdfeb55b4ed875a1f6153b9a87e40.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\00\00b55119f7afdfeb55b4ed875a1f6153b9a87e40.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Register LoadingIndicator
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/00/00b55119f7afdfeb55b4ed875a1f6153b9a87e40.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\6b\6b56ee10f63706b19c0f3bc27debe3f80d24d5ff.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\6b\6b56ee10f63706b19c0f3bc27debe3f80d24d5ff.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/6b/6b56ee10f63706b19c0f3bc27debe3f80d24d5ff.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\4f\4f25a710f935d73b9d5aa275af3f08d1867cdfab.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\4f\4f25a710f935d73b9d5aa275af3f08d1867cdfab.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\da\da26b57c4edf604aed9f23ce44d23ba61c5d9d69.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\da\da26b57c4edf604aed9f23ce44d23ba61c5d9d69.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Register ListItem
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/4f/4f25a710f935d73b9d5aa275af3f08d1867cdfab.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Register List
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/da/da26b57c4edf604aed9f23ce44d23ba61c5d9d69.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\1c\1c350da8ae49bcffd58e6482f2a14bb5d9246fa5.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\1c\1c350da8ae49bcffd58e6482f2a14bb5d9246fa5.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/1c/1c350da8ae49bcffd58e6482f2a14bb5d9246fa5.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\dc\dc2606d79d39cc9d5f10db1825ccabf022341849.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\dc\dc2606d79d39cc9d5f10db1825ccabf022341849.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/dc/dc2606d79d39cc9d5f10db1825ccabf022341849.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\0c\0cc14b9a11b1db0305dc178f94de7d0a1b035086.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\0c\0cc14b9a11b1db0305dc178f94de7d0a1b035086.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/0c/0cc14b9a11b1db0305dc178f94de7d0a1b035086.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\76\76380712c3e64ccda1845da5b217447327fedcbb.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\76\76380712c3e64ccda1845da5b217447327fedcbb.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/76/76380712c3e64ccda1845da5b217447327fedcbb.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Register LanguageSpine
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\4d\4db8deb76a23e783191ebdcabef2982596ebaa95.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\4d\4db8deb76a23e783191ebdcabef2982596ebaa95.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Register LanguageSprite
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/4d/4db8deb76a23e783191ebdcabef2982596ebaa95.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\e9\e96057f8856a21343cc0f947f90c16f5452ce4ae.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\e9\e96057f8856a21343cc0f947f90c16f5452ce4ae.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/e9/e96057f8856a21343cc0f947f90c16f5452ce4ae.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\a2\a27d815930c3212b28b6a8c9a50d9e33e4a27906.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\a2\a27d815930c3212b28b6a8c9a50d9e33e4a27906.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/a2/a27d815930c3212b28b6a8c9a50d9e33e4a27906.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\5f\5f71380fc7dda77b4cdcb6b75a1bf723805478c0.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\5f\5f71380fc7dda77b4cdcb6b75a1bf723805478c0.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/5f/5f71380fc7dda77b4cdcb6b75a1bf723805478c0.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\1a\1a9f3612921076d09725325094d2608881b6c9c6.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\1a\1a9f3612921076d09725325094d2608881b6c9c6.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\5e\5ea6b19ca8485531581854109a08692b33d353c5.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\5e\5ea6b19ca8485531581854109a08692b33d353c5.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/ed/ed1b514cc761a910828090437434cf000d8c2872.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/5e/5ea6b19ca8485531581854109a08692b33d353c5.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Register VMBase
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/1a/1a9f3612921076d09725325094d2608881b6c9c6.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\ed\ed1b514cc761a910828090437434cf000d8c2872.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\ed\ed1b514cc761a910828090437434cf000d8c2872.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\f2\f20071735897d369c85f27dd1c25d6753b255bdd.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\f2\f20071735897d369c85f27dd1c25d6753b255bdd.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Register MVCompsEdit
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/f2/f20071735897d369c85f27dd1c25d6753b255bdd.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\b0\b016bb40c2694a9da524d3b7e34de8d4d385ea81.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\b0\b016bb40c2694a9da524d3b7e34de8d4d385ea81.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Register VMCustom
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/b0/b016bb40c2694a9da524d3b7e34de8d4d385ea81.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\77\772a74137389470e69c930f2c36c1940d95d0433.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\77\772a74137389470e69c930f2c36c1940d95d0433.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Register VMEvent
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/77/772a74137389470e69c930f2c36c1940d95d0433.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\df\df90aa6fb383ce982a3897e643f756546838c115.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\df\df90aa6fb383ce982a3897e643f756546838c115.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Register VMLabel
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/df/df90aa6fb383ce982a3897e643f756546838c115.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\1e\1e32155741e0a59fefdc104503b1e339539746dc.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\1e\1e32155741e0a59fefdc104503b1e339539746dc.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Register VMModify
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/1e/1e32155741e0a59fefdc104503b1e339539746dc.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\a6\a6754463a53cdf6421d2383cbd27edb867707bcd.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\a6\a6754463a53cdf6421d2383cbd27edb867707bcd.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\33\33d98cf01a93fbdd0a655eeed20bee0785d84077.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\33\33d98cf01a93fbdd0a655eeed20bee0785d84077.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Register GameComponent
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/33/33d98cf01a93fbdd0a655eeed20bee0785d84077.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Register VMParent
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/a6/a6754463a53cdf6421d2383cbd27edb867707bcd.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\de\de1da13813a7c9e3b6a3150b9bf5e16dc733d5b7.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\de\de1da13813a7c9e3b6a3150b9bf5e16dc733d5b7.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/de/de1da13813a7c9e3b6a3150b9bf5e16dc733d5b7.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Register VMProgress
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\a8\a84d62d95b4838dfaddc7bdfdb43abdf6a6c6aa7.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\a8\a84d62d95b4838dfaddc7bdfdb43abdf6a6c6aa7.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Register VMState
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/a8/a84d62d95b4838dfaddc7bdfdb43abdf6a6c6aa7.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\6e\6e2783bf68b7d10772ec185410e7df6328824e4b.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\6e\6e2783bf68b7d10772ec185410e7df6328824e4b.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Register BhvButtonGroup
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/6e/6e2783bf68b7d10772ec185410e7df6328824e4b.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\73\734614869c2a098be919c61badda7be8c72d4e66.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\73\734614869c2a098be919c61badda7be8c72d4e66.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Register BhvFrameIndex
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/73/734614869c2a098be919c61badda7be8c72d4e66.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\74\7485a06e9b99b6a246722f6bad34b25fec9c480d.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\74\7485a06e9b99b6a246722f6bad34b25fec9c480d.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/74/7485a06e9b99b6a246722f6bad34b25fec9c480d.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Register BhvRollNumber
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\43\43f858433e72c7f9af12b72daff64b713f58709f.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\43\43f858433e72c7f9af12b72daff64b713f58709f.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/43/43f858433e72c7f9af12b72daff64b713f58709f.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Register BhvSwitchPage
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\c0\c05412cd0151c8f7922d68348ff7eed44422cdf5.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\c0\c05412cd0151c8f7922d68348ff7eed44422cdf5.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Register CCVMParentComp
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/c0/c05412cd0151c8f7922d68348ff7eed44422cdf5.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\8c\8c16da6e33324d578859ec4387e9f9af7a403428.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\8c\8c16da6e33324d578859ec4387e9f9af7a403428.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\7d\7dca945f759947e186a15bb4f3ead78fff1e97c8.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\7d\7dca945f759947e186a15bb4f3ead78fff1e97c8.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\f1\f1f977e5fa09307f61ec6a3b0d5fc940d66d75fd.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\f1\f1f977e5fa09307f61ec6a3b0d5fc940d66d75fd.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\ff\ffb2b15b637143e89efd182acf826bd34808c261.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\ff\ffb2b15b637143e89efd182acf826bd34808c261.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\21\21693ced6e078b2d6b9feadb2f8582604fe8285e.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\21\21693ced6e078b2d6b9feadb2f8582604fe8285e.js is not in module cache!
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\b7\b7be3e87e0b23105b69896ec89547a204fa671d3.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\b7\b7be3e87e0b23105b69896ec89547a204fa671d3.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/ff/ffb2b15b637143e89efd182acf826bd34808c261.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/7d/7dca945f759947e186a15bb4f3ead78fff1e97c8.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/b7/b7be3e87e0b23105b69896ec89547a204fa671d3.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/f1/f1f977e5fa09307f61ec6a3b0d5fc940d66d75fd.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Register LoadingViewComp
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/21/21693ced6e078b2d6b9feadb2f8582604fe8285e.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Register Main
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/8c/8c16da6e33324d578859ec4387e9f9af7a403428.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\3a\3a4ce6e81034b491ae090c16c2cd79323eb7f6db.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\3a\3a4ce6e81034b491ae090c16c2cd79323eb7f6db.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/3a/3a4ce6e81034b491ae090c16c2cd79323eb7f6db.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\65\659ec38c0284272233f854accb017c938ffc693a.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\65\659ec38c0284272233f854accb017c938ffc693a.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/65/659ec38c0284272233f854accb017c938ffc693a.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\eb\ebb2f4da69128c6baafd1f5fbbbc633ce6fa02da.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\eb\ebb2f4da69128c6baafd1f5fbbbc633ce6fa02da.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/eb/ebb2f4da69128c6baafd1f5fbbbc633ce6fa02da.js" loaded.
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\8f\8f06a28c0352c6bc4b36db6bd4cef608d9491064.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\8f\8f06a28c0352c6bc4b36db6bd4cef608d9491064.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/8f/8f06a28c0352c6bc4b36db6bd4cef608d9491064.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Register HotUpdate
+2025-2-21 10:34:36-debug: E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\9f\9fe62a63121036c47a343bf3135208541795efed.js resolved to E:\sxbs2\sxbs2\temp\programming\packer-driver\targets\editor\chunks\9f\9fe62a63121036c47a343bf3135208541795efed.js is not in module cache!
+2025-2-21 10:34:36-debug: [[Executor]] Register UILoginView
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/9f/9fe62a63121036c47a343bf3135208541795efed.js" loaded.
+2025-2-21 10:34:36-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2025-2-21 10:34:36-debug: Incremental keys: oops
+2025-2-21 10:34:36-debug: Init bundle share assets start..., progress: 15%
+2025-2-21 10:34:36-debug: Init bundle share assets success..., progress: 15%
+2025-2-21 10:34:36-debug: handle json group in bundle internal
+2025-2-21 10:34:36-debug: handle json group in bundle internal success
+2025-2-21 10:34:36-debug: init image compress task 0 in bundle internal
+2025-2-21 10:34:36-debug: handle json group in bundle main
+2025-2-21 10:34:36-debug: handle json group in bundle main success
+2025-2-21 10:34:36-debug: init image compress task 0 in bundle main
+2025-2-21 10:34:36-debug: init image compress task 0 in bundle resources
+2025-2-21 10:34:36-debug: handle json group in bundle resources success
+2025-2-21 10:34:36-debug: handle json group in bundle resources
+2025-2-21 10:34:36-debug: // ---- build task 查询 Asset Bundle ---- (263ms)
+2025-2-21 10:34:36-debug: 查询 Asset Bundle start, progress: 20%
+2025-2-21 10:34:36-debug: run build task 查询 Asset Bundle success in 263 ms√, progress: 20%
+2025-2-21 10:34:36-debug: [Build Memory track]: 查询 Asset Bundle start:168.34MB, end 171.00MB, increase: 2.66MB
+2025-2-21 10:34:36-debug: // ---- build task 查询 Asset Bundle ----
+2025-2-21 10:34:36-debug: // ---- build task 查询 Asset Bundle ---- (19ms)
+2025-2-21 10:34:36-debug: run build task 查询 Asset Bundle success in 19 ms√, progress: 25%
+2025-2-21 10:34:36-debug: [Build Memory track]: 查询 Asset Bundle start:171.02MB, end 171.15MB, increase: 140.29KB
+2025-2-21 10:34:36-debug: // ---- build task native：onAfterBundleDataTask ----
+2025-2-21 10:34:36-debug: native:(onAfterBundleDataTask) start..., progress: 25%
+2025-2-21 10:34:36-debug: // ---- build task native：onAfterBundleDataTask ---- (19ms)
+2025-2-21 10:34:36-debug: 打包脚本 start, progress: 25%
+2025-2-21 10:34:36-debug: native:(onAfterBundleDataTask) in 19 ms ✓, progress: 25%
+2025-2-21 10:34:36-debug: // ---- build task 打包脚本 ----
+2025-2-21 10:34:36-debug: Caught exception during build core-js: WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema. - configuration.entry should be an non-empty array.   -> A non-empty array of non-empty stringsThis may indicates the core-js polyfill is not necessary. See https://github.com/zloirock/core-js/issues/822
+2025-2-21 10:34:36-debug: Generate systemJs..., progress: 25%
+2025-2-21 10:34:39-debug: 构建项目脚本 start..., progress: 25%
+2025-2-21 10:34:39-debug: Build script in bundle start, progress: 25%
+2025-2-21 10:34:39-log: Run build task(build-script) in child, see: chrome://inspect/#devices
+2025-2-21 10:34:40-log: [build-script]enter sub process 17956, E:\cocos-dashboard-editors\Creator\3.8.3\CocosCreator.exe,E:\cocos-dashboard-editors\Creator\3.8.3\resources\app.asar\builtin\builder\static\sub-process-index
+2025-2-21 10:34:44-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///E:/sxbs2/sxbs2/assets/core/Oops.ts -> file:///E:/sxbs2/sxbs2/assets/libs/network/WsNet.ts -> file:///E:/sxbs2/sxbs2/assets/core/Oops.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///E:/sxbs2/sxbs2/assets/core/Oops.ts -> file:///E:/sxbs2/sxbs2/assets/libs/network/WsNet.ts -> file:///E:/sxbs2/sxbs2/assets/libs/network/WsFunc.ts -> file:///E:/sxbs2/sxbs2/assets/core/Oops.ts
+2025-2-21 10:34:47-debug: excute-script over with build-script 7461ms
+2025-2-21 10:34:47-debug: Copy externalScripts success!
+2025-2-21 10:34:47-debug: Build script in bundle success, progress: 25%
+2025-2-21 10:34:47-debug: 构建项目脚本 in (7550 ms) √, progress: 25%
+2025-2-21 10:34:47-debug: 构建引擎脚本 start..., progress: 25%
+2025-2-21 10:34:47-debug: Use cache engine: {link(C:\Users\ASUS\AppData\Local\Temp\CocosCreator\3.8.3\builder\engine\dbc9bb6b20c325a3a6d15da976d839a9)}
+2025-2-21 10:34:47-debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","dragon-bones","intersection-2d","meshopt","particle-2d","physics-2d-box2d","profiler","spine","tiled-map","tween","ui","video","webview"],"engineVersion":"3.8.3","md5Map":[],"engineName":"src/cocos-js","platform":"ANDROID","useCache":true,"isNative":true,"nativeCodeBundleMode":"wasm","wasmCompressionMode":false,"output":"E:\\sxbs2\\sxbs2\\build\\android\\data\\src\\cocos-js","targets":"chrome 116","flags":{"DEBUG":false},"entry":"E:\\cocos-dashboard-editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine"}
+2025-2-21 10:34:47-debug: 构建引擎脚本 in (200 ms) √, progress: 25%
+2025-2-21 10:34:47-debug: Copy plugin script ..., progress: 25%
+2025-2-21 10:34:47-debug: Generate import-map..., progress: 25%
+2025-2-21 10:34:47-debug: // ---- build task 打包脚本 ---- (10809ms)
+2025-2-21 10:34:47-debug: run build task 打包脚本 success in 10 s√, progress: 30%
+2025-2-21 10:34:47-debug: [Build Memory track]: 打包脚本 start:171.37MB, end 176.85MB, increase: 5.48MB
+2025-2-21 10:34:47-debug: Build bundles..., progress: 30%
+2025-2-21 10:34:47-debug: // ---- build task Build Assets ----
+2025-2-21 10:34:47-debug: Build Assets start, progress: 30%
+2025-2-21 10:34:47-debug: Pack Images start, progress: 30%
+2025-2-21 10:34:47-debug: Get Cache info of pac success {asset(9fa4ce44-23c1-4a20-9b6c-29623ff951af)}
+2025-2-21 10:34:47-debug: Asset {asset(db://assets/resources/common/texture/auto-atlas.pac)} is Bundle
+2025-2-21 10:34:47-debug: builder:pack-auto-atlas-image (168ms)
+2025-2-21 10:34:47-debug: Compress image start..., progress: 30%
+2025-2-21 10:34:47-debug: Num of all image compress task 0, really: 0, configTasks: 0
+2025-2-21 10:34:47-debug: Pack Images success, progress: 30%
+2025-2-21 10:34:47-debug: Compress image success..., progress: 30%
+2025-2-21 10:34:47-debug: Output asset in bundles start, progress: 30%
+2025-2-21 10:34:47-debug: No image need to compress
+2025-2-21 10:34:47-debug: handle json group
+2025-2-21 10:34:47-debug: Handle all json groups in bundle internal
+2025-2-21 10:34:47-debug: Handle all json groups in bundle resources
+2025-2-21 10:34:47-debug: sort compress task {}
+2025-2-21 10:34:47-debug: handle json group
+2025-2-21 10:34:47-debug: Handle all json groups in bundle main
+2025-2-21 10:34:47-debug: handle json group
+2025-2-21 10:34:47-debug: handle single json
+2025-2-21 10:34:47-debug: Json group(0cf31e0aa) compile success，json number: 6
+2025-2-21 10:34:47-debug: Json group(01b3a629c) compile success，json number: 6
+2025-2-21 10:34:47-debug: Json group(0ba941546) compile success，json number: 6
+2025-2-21 10:34:47-debug: Json group(0eeecc5a5) compile success，json number: 6
+2025-2-21 10:34:47-debug: Json group(0ca60d3e4) compile success，json number: 6
+2025-2-21 10:34:47-debug: handle single json
+2025-2-21 10:34:47-debug: Json group(03d47e9a5) compile success，json number: 6
+2025-2-21 10:34:47-debug: handle single json
+2025-2-21 10:34:48-debug: Output asset in bundles success, progress: 30%
+2025-2-21 10:34:48-debug: Output asset in bundles start, progress: 30%
+2025-2-21 10:34:48-debug: compress config of bundle internal...
+2025-2-21 10:34:48-debug: compress config of bundle internal success
+2025-2-21 10:34:48-debug: compress config of bundle main...
+2025-2-21 10:34:48-debug: compress config of bundle resources success
+2025-2-21 10:34:48-debug: compress config of bundle main success
+2025-2-21 10:34:48-debug: output config of bundle internal success
+2025-2-21 10:34:48-debug: output config of bundle resources
+2025-2-21 10:34:48-debug: output config of bundle resources success
+2025-2-21 10:34:48-debug: compress config of bundle resources...
+2025-2-21 10:34:48-debug: output config of bundle internal
+2025-2-21 10:34:48-debug: output config of bundle main
+2025-2-21 10:34:48-debug: output config of bundle main success
+2025-2-21 10:34:48-debug: Output asset in bundles success, progress: 30%
+2025-2-21 10:34:48-debug: // ---- build task Build Assets ---- (352ms)
+2025-2-21 10:34:48-debug: run build task Build Assets success in 352 ms√, progress: 35%
+2025-2-21 10:34:48-debug: [Build Memory track]: Build Assets start:176.87MB, end 176.17MB, increase: -717.44KB
+2025-2-21 10:34:48-debug: 整理部分构建选项内数据到 settings.json start, progress: 35%
+2025-2-21 10:34:48-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:34:48-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (24ms)
+2025-2-21 10:34:48-debug: run build task 整理部分构建选项内数据到 settings.json success in 24 ms√, progress: 36%
+2025-2-21 10:34:48-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:176.26MB, end 176.35MB, increase: 101.19KB
+2025-2-21 10:34:48-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-2-21 10:34:48-debug: 填充脚本数据到 settings.json start, progress: 36%
+2025-2-21 10:34:48-debug: // ---- build task 填充脚本数据到 settings.json ---- (18ms)
+2025-2-21 10:34:48-debug: run build task 填充脚本数据到 settings.json success in 18 ms√, progress: 38%
+2025-2-21 10:34:48-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-2-21 10:34:48-debug: [Build Memory track]: 填充脚本数据到 settings.json start:176.37MB, end 176.44MB, increase: 66.93KB
+2025-2-21 10:34:48-debug: 整理部分构建选项内数据到 settings.json start, progress: 38%
+2025-2-21 10:34:48-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (20ms)
+2025-2-21 10:34:48-debug: run build task 整理部分构建选项内数据到 settings.json success in 20 ms√, progress: 40%
+2025-2-21 10:34:48-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:176.45MB, end 176.62MB, increase: 172.09KB
+2025-2-21 10:34:48-debug: cocos-service:(onBeforeCompressSettings) start..., progress: 40%
+2025-2-21 10:34:48-debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2025-2-21 10:34:48-debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (208ms)
+2025-2-21 10:34:48-debug: oops-plugin-hot-update:(onBeforeCompressSettings) start..., progress: 41%
+2025-2-21 10:34:48-debug: cocos-service:(onBeforeCompressSettings) in 208 ms ✓, progress: 41%
+2025-2-21 10:34:48-debug: // ---- build task oops-plugin-hot-update：onBeforeCompressSettings ----
+2025-2-21 10:34:48-debug: // ---- build task oops-plugin-hot-update：onBeforeCompressSettings ---- (19ms)
+2025-2-21 10:34:48-debug: 整理静态模板文件 start, progress: 43%
+2025-2-21 10:34:48-debug: oops-plugin-hot-update:(onBeforeCompressSettings) in 19 ms ✓, progress: 43%
+2025-2-21 10:34:48-debug: // ---- build task 整理静态模板文件 ----
+2025-2-21 10:34:48-debug: // ---- build task 整理静态模板文件 ---- (74ms)
+2025-2-21 10:34:48-debug: run build task 整理静态模板文件 success in 74 ms√, progress: 48%
+2025-2-21 10:34:48-debug: [Build Memory track]: 整理静态模板文件 start:176.85MB, end 177.00MB, increase: 150.79KB
+2025-2-21 10:34:48-debug: // ---- build task native：onAfterCompressSettings ----
+2025-2-21 10:34:48-debug: native:(onAfterCompressSettings) start..., progress: 48%
+2025-2-21 10:34:48-log: Checking template version...
+2025-2-21 10:34:48-log: Validating template consistency...
+2025-2-21 10:34:48-debug: generateCMakeConfig, {"CC_USE_GLES3":"set(CC_USE_GLES3 ON)","CC_USE_GLES2":"set(CC_USE_GLES2 ON)","USE_SERVER_MODE":"set(USE_SERVER_MODE OFF)","NET_MODE":"set(NET_MODE 0)","XXTEAKEY":"","CC_ENABLE_SWAPPY":"set(CC_ENABLE_SWAPPY OFF)","APP_NAME":"set(APP_NAME \"sxbs2\")","COCOS_X_PATH":"set(COCOS_X_PATH \"E:/cocos-dashboard-editors/Creator/3.8.3/resources/resources/3d/engine/native\")","USE_JOB_SYSTEM_TASKFLOW":"set(USE_JOB_SYSTEM_TASKFLOW OFF)","USE_JOB_SYSTEM_TBB":"set(USE_JOB_SYSTEM_TBB OFF)","ENABLE_FLOAT_OUTPUT":"set(ENABLE_FLOAT_OUTPUT OFF)","USE_PHYSICS_PHYSX":"set(USE_PHYSICS_PHYSX OFF)","USE_OCCLUSION_QUERY":"set(USE_OCCLUSION_QUERY OFF)","USE_GEOMETRY_RENDERER":"set(USE_GEOMETRY_RENDERER OFF)","USE_DEBUG_RENDERER":"set(USE_DEBUG_RENDERER OFF)","USE_AUDIO":"set(USE_AUDIO ON)","USE_VIDEO":"set(USE_VIDEO ON)","USE_WEBVIEW":"set(USE_WEBVIEW ON)","USE_SOCKET":"set(USE_SOCKET OFF)","USE_WEBSOCKET_SERVER":"set(USE_WEBSOCKET_SERVER OFF)","USE_SPINE":"set(USE_SPINE ON)","USE_DRAGONBONES":"set(USE_DRAGONBONES ON)","CC_USE_VULKAN":"set(CC_USE_VULKAN ON)"}
+2025-2-21 10:34:48-log: While replace template content, file E:\sxbs2\sxbs2\build\android\proj\main.cpp
+2025-2-21 10:34:48-log: While replace template content, file E:\sxbs2\sxbs2\build\android\proj\main.m
+2025-2-21 10:34:48-log: While replace template content, file E:\sxbs2\sxbs2\native\engine\android/entry/src/main/config.json
+2025-2-21 10:34:48-log: update settings.properties
+2025-2-21 10:34:48-log: update gradle.properties
+2025-2-21 10:34:48-log: AndroidManifest.xml has already been updated!
+2025-2-21 10:34:48-log: AndroidAPI level 30
+2025-2-21 10:34:48-debug: // ---- build task native：onAfterCompressSettings ---- (32ms)
+2025-2-21 10:34:48-debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2025-2-21 10:34:48-debug: native:(onAfterCompressSettings) in 32 ms ✓, progress: 50%
+2025-2-21 10:34:48-debug: cocos-service:(onAfterCompressSettings) start..., progress: 50%
+2025-2-21 10:34:48-debug: // ---- build task cocos-service：onAfterCompressSettings ---- (91ms)
+2025-2-21 10:34:48-debug: cocos-service:(onAfterCompressSettings) in 91 ms ✓, progress: 52%
+2025-2-21 10:34:48-debug: oops-plugin-hot-update:(onAfterCompressSettings) start..., progress: 52%
+2025-2-21 10:34:48-debug: // ---- build task oops-plugin-hot-update：onAfterCompressSettings ----
+2025-2-21 10:34:48-debug: // ---- build task oops-plugin-hot-update：onAfterCompressSettings ---- (22ms)
+2025-2-21 10:34:48-debug: 给所有的资源加上 MD5 后缀 start, progress: 54%
+2025-2-21 10:34:48-debug: oops-plugin-hot-update:(onAfterCompressSettings) in 22 ms ✓, progress: 54%
+2025-2-21 10:34:48-debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
+2025-2-21 10:34:48-debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (23ms)
+2025-2-21 10:34:48-debug: run build task 给所有的资源加上 MD5 后缀 success in 23 ms√, progress: 64%
+2025-2-21 10:34:48-debug: // ---- build task native：onAfterBuild ----
+2025-2-21 10:34:48-debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:178.14MB, end 178.20MB, increase: 68.36KB
+2025-2-21 10:34:48-debug: native:(onAfterBuild) start..., progress: 64%
+2025-2-21 10:34:48-debug: // ---- build task native：onAfterBuild ---- (21ms)
+2025-2-21 10:34:48-debug: cocos-service:(onAfterBuild) start..., progress: 65%
+2025-2-21 10:34:48-debug: native:(onAfterBuild) in 21 ms ✓, progress: 65%
+2025-2-21 10:34:48-debug: // ---- build task cocos-service：onAfterBuild ----
+2025-2-21 10:34:48-debug: // ---- build task cocos-service：onAfterBuild ---- (85ms)
+2025-2-21 10:34:48-debug: cocos-service:(onAfterBuild) in 85 ms ✓, progress: 67%
+2025-2-21 10:34:48-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
+2025-2-21 10:34:48-debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 67%
+2025-2-21 10:34:48-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (18ms)
+2025-2-21 10:34:48-debug: adsense-h5g-plugin:(onAfterBuild) in 18 ms ✓, progress: 69%
+2025-2-21 10:34:48-debug: // ---- build task oops-plugin-hot-update：onAfterBuild ----
+2025-2-21 10:34:48-log: [oops-plugin-hot-update] 生成 project.manifest 成功
+2025-2-21 10:34:49-log: [oops-plugin-hot-update] 已成功生成清单文件
+2025-2-21 10:34:49-log: [oops-plugin-hot-update] 已成功生成版本文件
+2025-2-21 10:34:49-log: [oops-plugin-hot-update] 资源拷贝完成
+2025-2-21 10:34:48-log: [oops-plugin-hot-update] 注入 main.js 成功
+2025-2-21 10:34:48-debug: oops-plugin-hot-update:(onAfterBuild) start..., progress: 69%
+2025-2-21 10:34:49-debug: // ---- build task oops-plugin-hot-update：onAfterBuild ---- (814ms)
+2025-2-21 10:34:49-debug: oops-plugin-hot-update:(onAfterBuild) in 814 ms ✓, progress: 71%
+2025-2-21 10:34:49-log: Asset DB is resume!
+2025-2-21 10:34:49-debug: builder:build-project-total (14021ms)
+2025-2-21 10:34:49-debug: build success in 14021!
+2025-2-21 10:34:49-debug: [Build Memory track]: builder:build-project-total start:177.47MB, end 213.38MB, increase: 35.91MB
+2025-2-21 10:34:49-debug: ================================ build Task (android) Finished in (14 s)ms ================================
+2025-2-21 10:34:49-debug: Stop record console. {file(E:\sxbs2\sxbs2\temp\builder\log\android2025-2-19 14-02.log)}
+2025-2-21 10:37:19-debug: refresh db internal success
+2025-2-21 10:37:19-debug: refresh db assets success
+2025-2-21 10:37:19-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:37:19-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:37:19-debug: asset-db:refresh-all-database (126ms)
+2025-2-21 10:37:19-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:37:19-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-2-21 10:37:20-debug: refresh db internal success
+2025-2-21 10:37:20-debug: refresh db assets success
+2025-2-21 10:37:20-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:37:20-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:37:20-debug: asset-db:refresh-all-database (105ms)
+2025-2-21 10:37:20-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:37:20-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-2-21 10:37:21-debug: refresh db internal success
+2025-2-21 10:37:21-debug: refresh db assets success
+2025-2-21 10:37:21-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:37:21-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:37:21-debug: asset-db:refresh-all-database (103ms)
+2025-2-21 10:37:21-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:37:21-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:37:22-debug: refresh db internal success
+2025-2-21 10:37:22-debug: refresh db assets success
+2025-2-21 10:37:22-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:37:22-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:37:22-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:37:22-debug: asset-db:refresh-all-database (94ms)
+2025-2-21 10:37:22-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:37:22-debug: refresh db internal success
+2025-2-21 10:37:22-debug: refresh db assets success
+2025-2-21 10:37:22-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:37:22-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:37:22-debug: asset-db:refresh-all-database (95ms)
+2025-2-21 10:37:22-debug: asset-db:worker-effect-data-processing (2ms)
+2025-2-21 10:37:22-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-2-21 10:37:23-debug: refresh db internal success
+2025-2-21 10:37:24-debug: refresh db assets success
+2025-2-21 10:37:24-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:37:24-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:37:24-debug: asset-db:refresh-all-database (98ms)
+2025-2-21 10:37:24-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:37:24-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:37:24-debug: refresh db internal success
+2025-2-21 10:37:24-debug: refresh db assets success
+2025-2-21 10:37:24-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:37:24-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:37:24-debug: asset-db:refresh-all-database (76ms)
+2025-2-21 10:37:24-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:37:24-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:37:25-debug: refresh db internal success
+2025-2-21 10:37:25-debug: refresh db assets success
+2025-2-21 10:37:25-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:37:25-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:37:25-debug: asset-db:refresh-all-database (74ms)
+2025-2-21 10:37:25-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-2-21 10:37:25-debug: refresh db internal success
+2025-2-21 10:37:25-debug: refresh db assets success
+2025-2-21 10:37:25-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:37:25-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:37:25-debug: asset-db:worker-effect-data-processing (2ms)
+2025-2-21 10:37:25-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-2-21 10:37:25-debug: asset-db:refresh-all-database (120ms)
+2025-2-21 10:38:25-debug: refresh db internal success
+2025-2-21 10:38:25-debug: refresh db assets success
+2025-2-21 10:38:25-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:38:25-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:38:25-debug: asset-db:refresh-all-database (83ms)
+2025-2-21 10:38:25-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-2-21 10:38:43-debug: refresh db internal success
+2025-2-21 10:38:43-debug: refresh db assets success
+2025-2-21 10:38:43-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:38:43-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:38:43-debug: asset-db:refresh-all-database (87ms)
+2025-2-21 10:55:01-debug: refresh db internal success
+2025-2-21 10:55:01-debug: refresh db assets success
+2025-2-21 10:55:01-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-2-21 10:55:01-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-2-21 10:55:01-debug: asset-db:refresh-all-database (299ms)
+2025-2-21 10:55:01-debug: asset-db:worker-effect-data-processing (1ms)
+2025-2-21 10:55:01-debug: asset-db-hook-engine-extends-afterRefresh (1ms)

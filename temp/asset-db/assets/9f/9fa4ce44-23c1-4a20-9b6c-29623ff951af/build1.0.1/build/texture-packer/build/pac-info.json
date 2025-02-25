@@ -1,0 +1,127 @@
+{
+  "md5": "14263",
+  "versionDev": "1.0.2",
+  "sharpMd5": "4e4ce",
+  "result": {
+    "atlases": [
+      {
+        "spriteFrameInfos": [
+          {
+            "name": "bg_window",
+            "uuid": "f9cfbca9-9f35-4dda-8925-64e34e6e9802@f9941",
+            "imageUuid": "f9cfbca9-9f35-4dda-8925-64e34e6e9802",
+            "textureUuid": "f9cfbca9-9f35-4dda-8925-64e34e6e9802@6c48a",
+            "trim": {
+              "rotatedWidth": 320,
+              "rotatedHeight": 478,
+              "x": 3,
+              "y": 3,
+              "width": 478,
+              "height": 320
+            },
+            "rawWidth": 478,
+            "rawHeight": 320,
+            "width": 484,
+            "height": 326,
+            "originalPath": "G:\\sxbs2\\sxbs2\\library\\f9\\f9cfbca9-9f35-4dda-8925-64e34e6e9802.png",
+            "rotated": true,
+            "_mtime": 1739925208639.7515,
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 326,
+            "rotatedHeight": 484
+          },
+          {
+            "name": "toast",
+            "uuid": "ef58b575-d5bd-4b6b-ac05-6364e90ff8fc@f9941",
+            "imageUuid": "ef58b575-d5bd-4b6b-ac05-6364e90ff8fc",
+            "textureUuid": "ef58b575-d5bd-4b6b-ac05-6364e90ff8fc@6c48a",
+            "trim": {
+              "rotatedWidth": 90,
+              "rotatedHeight": 528,
+              "x": 329,
+              "y": 3,
+              "width": 528,
+              "height": 90
+            },
+            "rawWidth": 539,
+            "rawHeight": 90,
+            "width": 534,
+            "height": 96,
+            "originalPath": "G:\\sxbs2\\sxbs2\\library\\ef\\ef58b575-d5bd-4b6b-ac05-6364e90ff8fc.png",
+            "rotated": true,
+            "_mtime": 1739925208645.7502,
+            "x": 326,
+            "y": 0,
+            "rotatedWidth": 96,
+            "rotatedHeight": 534
+          },
+          {
+            "name": "loading",
+            "uuid": "06942a20-0474-4385-9a85-293366d2473e@f9941",
+            "imageUuid": "06942a20-0474-4385-9a85-293366d2473e",
+            "textureUuid": "06942a20-0474-4385-9a85-293366d2473e@6c48a",
+            "trim": {
+              "rotatedWidth": 138,
+              "rotatedHeight": 138,
+              "x": 3,
+              "y": 487,
+              "width": 138,
+              "height": 138
+            },
+            "rawWidth": 138,
+            "rawHeight": 138,
+            "width": 144,
+            "height": 144,
+            "originalPath": "G:\\sxbs2\\sxbs2\\library\\06\\06942a20-0474-4385-9a85-293366d2473e.png",
+            "rotated": false,
+            "_mtime": 1739925208642.7502,
+            "x": 0,
+            "y": 484,
+            "rotatedWidth": 144,
+            "rotatedHeight": 144
+          },
+          {
+            "name": "btn_ok",
+            "uuid": "56a0bfc3-686d-4e85-bb26-5f5a6855ae06@f9941",
+            "imageUuid": "56a0bfc3-686d-4e85-bb26-5f5a6855ae06",
+            "textureUuid": "56a0bfc3-686d-4e85-bb26-5f5a6855ae06@6c48a",
+            "trim": {
+              "rotatedWidth": 117,
+              "rotatedHeight": 53,
+              "x": 147,
+              "y": 487,
+              "width": 117,
+              "height": 53
+            },
+            "rawWidth": 117,
+            "rawHeight": 53,
+            "width": 123,
+            "height": 59,
+            "originalPath": "G:\\sxbs2\\sxbs2\\library\\56\\56a0bfc3-686d-4e85-bb26-5f5a6855ae06.png",
+            "rotated": false,
+            "_mtime": 1739925208640.753,
+            "x": 144,
+            "y": 484,
+            "rotatedWidth": 123,
+            "rotatedHeight": 59
+          }
+        ],
+        "width": 422,
+        "height": 628,
+        "name": "auto-atlas.pac-0",
+        "imagePath": "G:\\sxbs2\\sxbs2\\temp\\asset-db\\assets\\9f\\9fa4ce44-23c1-4a20-9b6c-29623ff951af\\build1.0.1\\build\\texture-packer\\build\\125e3220c.png",
+        "imageUuid": "125e3220c",
+        "textureUuid": "125e3220c@6c48a",
+        "compressed": {
+          "imagePathNoExt": "",
+          "suffixs": [
+            ".png"
+          ]
+        }
+      }
+    ],
+    "unpackedImages": [],
+    "pacUuid": "9fa4ce44-23c1-4a20-9b6c-29623ff951af"
+  }
+}

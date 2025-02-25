@@ -1,0 +1,2797 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "E:\\sxbs2\\sxbs2\\assets\\main.scene.meta": {
+      "time": 1739927190696.9287
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\main.scene": {
+      "time": 1740104885901.567,
+      "uuid": "4c814192-1ed2-4dad-bce9-1bdcfdb02882"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources.meta": {
+      "time": 1739930346472.984
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources": {
+      "time": 1740101836855.2957,
+      "uuid": "6dc15dbc-c169-4da7-892c-80c1e236a98a"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language.meta": {
+      "time": 1739930359585.4463
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language": {
+      "time": 1739930405382.0276,
+      "uuid": "5ed2c2e3-2619-4373-919c-c1e696d864f9"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\json.meta": {
+      "time": 1739930373926.0835
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\json": {
+      "time": 1739930430130.8645,
+      "uuid": "f5c4b4ab-045c-4dd6-9cac-800c00ac19a0"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\spine.meta": {
+      "time": 1739930394332.2344
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\spine": {
+      "time": 1739930394330.234,
+      "uuid": "7f95fde4-ef41-402a-90b2-ff671420d768"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture.meta": {
+      "time": 1739930405383.0254
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture": {
+      "time": 1739930450786.6357,
+      "uuid": "6b7a4586-4b2b-41af-b7b0-75f87bfd4b94"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\json\\en.json.meta": {
+      "time": 1739925208697.7515
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\json\\en.json": {
+      "time": 1739925208696.7502,
+      "uuid": "2c0f4643-d84a-49b9-9069-8efe9434304c"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\json\\zh.json.meta": {
+      "time": 1739925208699.7532
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\json\\zh.json": {
+      "time": 1739925208698.7527,
+      "uuid": "f39d9bde-aff1-4255-846f-cbc4169d5d45"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture\\en.meta": {
+      "time": 1739925208706.7507
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture\\en\\image.jpg.meta": {
+      "time": 1739925208704.7515
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture\\en": {
+      "time": 1739930450744.6333,
+      "uuid": "ec976edd-f0a0-4f29-a3f9-c803b92ef9be"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture\\en\\image.jpg": {
+      "time": 1739925208704.7515,
+      "uuid": "3d5b607a-face-426b-8200-acf8384108db"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture\\zh.meta": {
+      "time": 1739925208709.7495
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture\\zh\\image.jpg.meta": {
+      "time": 1739925208708.751
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture\\zh": {
+      "time": 1739930450782.6345,
+      "uuid": "c03f86e4-9b94-4703-a944-93c83c0c07fd"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture\\zh\\image.jpg": {
+      "time": 1739925208707.7505,
+      "uuid": "a65eaaec-d315-4134-a79e-23bb817d1939"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common.meta": {
+      "time": 1739930573124.1577
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common": {
+      "time": 1739931000760.1848,
+      "uuid": "ddd31349-c8c5-481a-ab1c-2009ad49bd48"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core.meta": {
+      "time": 1739927682230.6274
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common.meta": {
+      "time": 1739928944774.907
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui.meta": {
+      "time": 1739928020593.7268
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core": {
+      "time": 1739933386166.3418,
+      "uuid": "bffc50e1-a955-4c5e-8a1a-a216d9f57775"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common": {
+      "time": 1739933619972.8987,
+      "uuid": "7b2b7479-babb-47a4-9a68-1ebd18ee7b85"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui": {
+      "time": 1739928840803.9233,
+      "uuid": "817ff09a-de1c-400a-bb92-fd324fcc3b14"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\utils.meta": {
+      "time": 1739928914228.697
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\utils": {
+      "time": 1740099185111.9473,
+      "uuid": "362f64f6-2e83-49bc-b433-d1eb2dd2f84c"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\loader.meta": {
+      "time": 1739928961800.9841
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\loader": {
+      "time": 1739928972803.1934,
+      "uuid": "40915911-e36f-4154-875f-b2a17dd268a6"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\log.meta": {
+      "time": 1739929696398.9165
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\log": {
+      "time": 1739929706640.9487,
+      "uuid": "6b956ef4-7f64-430c-b27b-0e367b539c40"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\Oops.ts.meta": {
+      "time": 1739928359321.3923
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\Oops.ts": {
+      "time": 1740030172313.5557,
+      "uuid": "b9aeb5fc-8abc-47d7-82b0-dead0ec1067d"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\storage.meta": {
+      "time": 1739929102102.5442
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\storage": {
+      "time": 1739929321792.86,
+      "uuid": "3c54f5f9-4dd4-4588-b764-211456eddaea"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer.meta": {
+      "time": 1739928039249.999
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer": {
+      "time": 1739928433272.9443,
+      "uuid": "faa552e3-d482-4968-b95d-adae505689aa"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\prompt.meta": {
+      "time": 1739928840804.9219
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\prompt": {
+      "time": 1739928880420.116,
+      "uuid": "861e00c3-6c29-404e-8e21-3d194ec5441f"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\Root.ts.meta": {
+      "time": 1739928371826.0935
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\Root.ts": {
+      "time": 1740035124522.6199,
+      "uuid": "2c835353-03ab-4654-b80f-b46301ca991c"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\utils\\JsonUtil.ts.meta": {
+      "time": 1739930226456.9275
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\utils\\JsonUtil.ts": {
+      "time": 1740099200981.1562,
+      "uuid": "0c54e880-bf25-477f-8bf5-f73919a69ceb"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\utils\\StringUtil.ts.meta": {
+      "time": 1739929636926.8833
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\utils\\StringUtil.ts": {
+      "time": 1739929656122.237,
+      "uuid": "41efae31-9392-411f-9a3f-44c6119c5e7c"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\utils\\ViewUtil.ts.meta": {
+      "time": 1739928925431.4011
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\utils\\ViewUtil.ts": {
+      "time": 1739929019857.7158,
+      "uuid": "62d5db94-a6ef-4ed4-975b-f976a15ee636"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\loader\\ResLoader.ts.meta": {
+      "time": 1739928972804.194
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\loader\\ResLoader.ts": {
+      "time": 1739928994272.656,
+      "uuid": "5ce0bf08-e5f8-4e82-a118-f2c69c5cd30f"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\log\\Logger.ts.meta": {
+      "time": 1739929706641.9487
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\log\\Logger.ts": {
+      "time": 1739929741393.2815,
+      "uuid": "55c5e083-6e23-4642-b162-0535e684e673"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\storage\\StorageManager.ts.meta": {
+      "time": 1739929127009.856
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\storage\\StorageManager.ts": {
+      "time": 1739936130676.9597,
+      "uuid": "53090d32-3be5-408a-8740-2dfd0645b5df"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\storage\\StorageSecuritySimple.ts.meta": {
+      "time": 1739929321793.861
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\storage\\StorageSecuritySimple.ts": {
+      "time": 1739929338591.2742,
+      "uuid": "1e32d5a6-ea0d-4f67-9389-029df5e9f392"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\Defines.ts.meta": {
+      "time": 1739928068925.4707
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\Defines.ts": {
+      "time": 1739928591898.5989,
+      "uuid": "074fe13a-3589-4425-b4e1-a5241e74776d"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\DelegateComponent.ts.meta": {
+      "time": 1739928337391.682
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\DelegateComponent.ts": {
+      "time": 1739928590379.025,
+      "uuid": "227800b4-0389-4527-b2e9-6a406b468bce"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerDialog.ts.meta": {
+      "time": 1739928433273.9463
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerDialog.ts": {
+      "time": 1739928588793.2837,
+      "uuid": "e07c486b-b445-49f0-9e7e-9e23a611d2d2"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerManager.ts.meta": {
+      "time": 1739928101585.6973
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerManager.ts": {
+      "time": 1739928586355.0422,
+      "uuid": "36af41c0-4ebf-473d-bbea-087e91dc2fef"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerNotify.ts.meta": {
+      "time": 1739928411854.9578
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerNotify.ts": {
+      "time": 1739928580316.5393,
+      "uuid": "f74d08e1-f436-400a-8972-9944d939fd48"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerPopup.ts.meta": {
+      "time": 1739928401319.9502
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerPopup.ts": {
+      "time": 1739928617465.4597,
+      "uuid": "bf144802-a440-4a39-a0b0-9ae71adb76fe"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerUI.ts.meta": {
+      "time": 1739928390975.6296
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerUI.ts": {
+      "time": 1739928685851.2283,
+      "uuid": "e4dc32ae-197e-4ed7-931c-d4a6418534df"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\prompt\\CommonPrompt.ts.meta": {
+      "time": 1739928862594.0022
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\prompt\\CommonPrompt.ts": {
+      "time": 1739930948419.0354,
+      "uuid": "0975d04d-0e55-48f4-b5ab-df8f9504daa7"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\module.meta": {
+      "time": 1739927867671.2603
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\module": {
+      "time": 1740037043841.5732,
+      "uuid": "6dc2f8ec-edb5-4b0e-8ce0-57d95ce09ad1"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\prompt\\LoadingIndicator.ts.meta": {
+      "time": 1739928871716.362
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\prompt\\LoadingIndicator.ts": {
+      "time": 1739930961571.338,
+      "uuid": "87032fcf-dd3b-4690-9fe4-57ac910a13d3"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs.meta": {
+      "time": 1739927724269.2434
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs": {
+      "time": 1740038926567.8896,
+      "uuid": "2846aaac-9e41-4f29-9962-14f22f95f9f2"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\prompt\\Notify.ts.meta": {
+      "time": 1739928880421.115
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\gui\\prompt\\Notify.ts": {
+      "time": 1739930498919.0308,
+      "uuid": "869d2f16-3e09-4a7a-a2fe-a4f0afa9b92a"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\gui.meta": {
+      "time": 1739929923576.6274
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\gui": {
+      "time": 1739929933608.4778,
+      "uuid": "91e60089-bdb9-4a30-8ae6-6f4a2ac46fd2"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language.meta": {
+      "time": 1739929933609.4783
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language": {
+      "time": 1739930194099.7014,
+      "uuid": "95cb3621-61ec-49f1-81c3-9f5737a7e5fc"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\Language.ts.meta": {
+      "time": 1739930165393.5867
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\Language.ts": {
+      "time": 1739930182269.6296,
+      "uuid": "fab64a35-33bc-4362-a890-7c49df673bc6"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguageData.ts.meta": {
+      "time": 1739930014887.4995
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguageData.ts": {
+      "time": 1739930041005.8308,
+      "uuid": "66e9a76f-73ba-4eb3-889c-002fa95e9891"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguageLabel.ts.meta": {
+      "time": 1739929968120.8904
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguageLabel.ts": {
+      "time": 1739930001021.0361,
+      "uuid": "2912b759-2db5-420b-ad56-51f0a9db5b63"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguagePack.ts.meta": {
+      "time": 1739930194100.7004
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguagePack.ts": {
+      "time": 1739930207398.34,
+      "uuid": "d418bc74-7c6e-43f2-a1ee-cd7533886ad0"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguageSpine.ts.meta": {
+      "time": 1739930104477.4048
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguageSpine.ts": {
+      "time": 1739930116423.689,
+      "uuid": "dc4406e4-361e-4025-9528-01de4e4ab2d7"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work.meta": {
+      "time": 1739927747830.742
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work": {
+      "time": 1740035414367.7808,
+      "uuid": "2449098a-6857-4835-87a5-18d610a2feeb"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguageSprite.ts.meta": {
+      "time": 1739930130705.304
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguageSprite.ts": {
+      "time": 1739930142340.8972,
+      "uuid": "96893596-d069-492a-a110-ec21f2687135"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim.meta": {
+      "time": 1739925208627.751
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim\\button_scale_end.anim.meta": {
+      "time": 1739925208623.751
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim\\button_scale_start.anim.meta": {
+      "time": 1739925208624.7505
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim\\notify.anim.meta": {
+      "time": 1739925208626.7505
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim": {
+      "time": 1739931000674.18,
+      "uuid": "0b70ab49-9f2b-4cbb-b4cb-849b2e477598"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim\\notify.anim": {
+      "time": 1739925208625.7505,
+      "uuid": "4cecde51-d46d-4b20-b02e-e58f063ec56f"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim\\button_scale_end.anim": {
+      "time": 1739925208622.7512,
+      "uuid": "0430e564-9665-435e-9895-7b8e19fcb0b9"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim\\button_scale_start.anim": {
+      "time": 1739925208623.751,
+      "uuid": "99c3c7ad-3086-4333-81e6-19b82da0c89d"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab.meta": {
+      "time": 1739925208637.7505
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\alert.prefab.meta": {
+      "time": 1739925208629.7507
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\confirm.prefab.meta": {
+      "time": 1739925208631.7507
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\mask.prefab.meta": {
+      "time": 1739925208633.7534
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\notify.prefab.meta": {
+      "time": 1739925208634.7515
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\wait.prefab.meta": {
+      "time": 1739925208636.7502
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab": {
+      "time": 1739931000716.1843,
+      "uuid": "853ce1af-fb40-4f30-aebb-f12234f3d7fe"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\alert.prefab": {
+      "time": 1739931107780.2366,
+      "uuid": "51127053-183b-41dc-b9d5-de54f6774526"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\wait.prefab": {
+      "time": 1739931284532.2224,
+      "uuid": "9498d064-7cb5-4005-b470-3af693c28cc7"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\confirm.prefab": {
+      "time": 1739931165130.3384,
+      "uuid": "b2c7551a-2cd9-4ef0-beef-fdce5988ff03"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\mask.prefab": {
+      "time": 1739925208632.7505,
+      "uuid": "142393a8-2641-4775-a79c-cbfe1bd9e5ca"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\notify.prefab": {
+      "time": 1739931247476.8733,
+      "uuid": "80f1f6cc-e3c7-4c99-8b81-1083aa66330a"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture.meta": {
+      "time": 1739925208647.7502
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\auto-atlas.pac.meta": {
+      "time": 1739925208638.7495
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\bg_window.png.meta": {
+      "time": 1739925208640.753
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\btn_ok.png.meta": {
+      "time": 1739925208641.7517
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\loading.png.meta": {
+      "time": 1739925208643.751
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\toast.png.meta": {
+      "time": 1739925208646.7505
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture": {
+      "time": 1739931000756.189,
+      "uuid": "0489d8e2-9e0b-4c7e-b5ec-647a864e9214"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\auto-atlas.pac": {
+      "time": 1739925208638.7495,
+      "uuid": "9fa4ce44-23c1-4a20-9b6c-29623ff951af"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\loading.png": {
+      "time": 1739925208642.7502,
+      "uuid": "06942a20-0474-4385-9a85-293366d2473e"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\toast.png": {
+      "time": 1739925208645.7502,
+      "uuid": "ef58b575-d5bd-4b6b-ac05-6364e90ff8fc"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\bg_window.png": {
+      "time": 1739925208639.7515,
+      "uuid": "f9cfbca9-9f35-4dda-8925-64e34e6e9802"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\btn_ok.png": {
+      "time": 1739925208640.753,
+      "uuid": "56a0bfc3-686d-4e85-bb26-5f5a6855ae06"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\event.meta": {
+      "time": 1739931489339.9802
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\event": {
+      "time": 1739931492404.3354,
+      "uuid": "08d3bee1-9517-409d-a8f5-8987b73546d5"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\event\\EventDispatcher.ts.meta": {
+      "time": 1739925211329.4773
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\event\\EventDispatcher.ts": {
+      "time": 1739931497761.7256,
+      "uuid": "c680a7f9-88f3-4a78-83b8-700adfffdd26"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\event\\EventMessage.ts.meta": {
+      "time": 1739925211330.4778
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\event\\EventMessage.ts": {
+      "time": 1739931502716.1692,
+      "uuid": "beea7bbd-c672-43e2-b323-eae6bf2d3705"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\event\\MessageManager.ts.meta": {
+      "time": 1739925211331.4773
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\event\\MessageManager.ts": {
+      "time": 1739931509495.3618,
+      "uuid": "a401f63e-c23f-4db2-a380-0a867b672fd1"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\audio.meta": {
+      "time": 1739925211326.4773
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\audio\\AudioEffect.ts.meta": {
+      "time": 1739925211322.477
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\audio\\AudioEffectPool.ts.meta": {
+      "time": 1739925211323.4788
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\audio\\AudioManager.ts.meta": {
+      "time": 1739925211324.4773
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\audio\\AudioMusic.ts.meta": {
+      "time": 1739925211326.4773
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\audio": {
+      "time": 1739931603145.9224,
+      "uuid": "a643bc0f-eea9-46d6-8771-708dbdda9583"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\audio\\AudioEffect.ts": {
+      "time": 1739931609327.009,
+      "uuid": "e52d2cac-6350-446e-9713-d82cf45b0b2c"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\audio\\AudioEffectPool.ts": {
+      "time": 1739931615959.0977,
+      "uuid": "01278043-8ebb-42af-8081-a663b90d994d"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\audio\\AudioManager.ts": {
+      "time": 1739931627510.3784,
+      "uuid": "252f0cfe-bcf3-4bf1-8fe3-b0b626a26b70"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\audio\\AudioMusic.ts": {
+      "time": 1739931633202.103,
+      "uuid": "5c1f392a-19eb-4188-8bf8-f3f0afb9a42f"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\network.meta": {
+      "time": 1739932692088.5183
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\network": {
+      "time": 1739937198128.526,
+      "uuid": "fd940ec1-2da2-40b6-b84b-eb2b1f49c1c5"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\network\\HttpRequest.ts.meta": {
+      "time": 1739932744060.8564
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\network\\HttpRequest.ts": {
+      "time": 1739932780697.078,
+      "uuid": "ca706104-8d62-4870-9e2f-9b3b2a924f12"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\config.json.meta": {
+      "time": 1739925208659.7505
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\config.json": {
+      "time": 1739933305063.3125,
+      "uuid": "0f8f84c7-5a96-49fe-a127-f66d9c90c822"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\game.meta": {
+      "time": 1739933386167.3428
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\game": {
+      "time": 1739933401548.7,
+      "uuid": "bb9830dc-51dd-445e-b3e2-618b726a8bc1"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\game\\GameManager.ts.meta": {
+      "time": 1739925211356.4785
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\game\\GameManager.ts": {
+      "time": 1739933406471.33,
+      "uuid": "73fa0084-7ce8-4c74-9528-670a05208655"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\timer.meta": {
+      "time": 1739925211353.4768
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\timer\\Timer.ts.meta": {
+      "time": 1739925211351.4778
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\timer\\TimerManager.ts.meta": {
+      "time": 1739925211352.4778
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\timer": {
+      "time": 1739933566656.5237,
+      "uuid": "7f902b11-1772-41e8-8f6c-68dc641a1c93"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\timer\\Timer.ts": {
+      "time": 1739925211350.478,
+      "uuid": "6021f72d-d6e8-49b0-8984-ba1745582d1f"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\timer\\TimerManager.ts": {
+      "time": 1739925211352.4778,
+      "uuid": "7360054b-b080-4b38-a84e-85deed7783fc"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\random.meta": {
+      "time": 1739925211342.478
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\random\\RandomManager.ts.meta": {
+      "time": 1739925211340.4768
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\random\\SeedRandom.ts.meta": {
+      "time": 1739925211341.4773
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\random": {
+      "time": 1739933619968.8967,
+      "uuid": "3378e15d-0afd-4825-bc3c-6d61128da4c9"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\random\\RandomManager.ts": {
+      "time": 1739925211339.4775,
+      "uuid": "3e09e241-c1f6-41b0-b3ea-16ccd92ef312"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\common\\random\\SeedRandom.ts": {
+      "time": 1739925211341.4773,
+      "uuid": "9b02b9cd-c306-445a-af45-b79f41442201"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\network\\WsNet.ts.meta": {
+      "time": 1739934217845.132
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\network\\WsNet.ts": {
+      "time": 1740039951023.4995,
+      "uuid": "19dc044d-2e3d-4abb-a637-daf7c99a0e74"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\network\\WsFunc.ts.meta": {
+      "time": 1739937198129.527
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\network\\WsFunc.ts": {
+      "time": 1739937500720.7996,
+      "uuid": "5139cb36-da16-4b13-afcc-3bf29673b64e"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\utils\\List.ts.meta": {
+      "time": 1723192970160.161
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\utils\\List.ts": {
+      "time": 1723701977287.2324,
+      "uuid": "5a154bf9-6d2f-4214-9aea-1d2279ea1012"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\utils\\ListItem.ts.meta": {
+      "time": 1723192970160.161
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\utils\\ListItem.ts": {
+      "time": 1723192634087.7395,
+      "uuid": "850b3c58-2e3d-447f-9265-4385ffe19647"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\ui.meta": {
+      "time": 1739945667662.5806
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\ui": {
+      "time": 1740104291189.7517,
+      "uuid": "1b337f26-183a-48ed-8f68-0116643a3567"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\ui\\UIConfig.ts.meta": {
+      "time": 1739945702744.705
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\ui\\UIConfig.ts": {
+      "time": 1740104017403.0247,
+      "uuid": "7cc1cea6-848d-4915-b6d2-76227a41aae4"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\ui\\initialize.meta": {
+      "time": 1739946004296.234
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\ui\\initialize": {
+      "time": 1739946004294.2324,
+      "uuid": "d2ba7687-13ba-4c08-af52-077a3e4f4589"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs.meta": {
+      "time": 1739925211486.4773
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECS.ts.meta": {
+      "time": 1739925211475.4775
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSComp.ts.meta": {
+      "time": 1739925211476.4778
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSEntity.ts.meta": {
+      "time": 1739925211478.4773
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSGroup.ts.meta": {
+      "time": 1739925211479.4773
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSMask.ts.meta": {
+      "time": 1739925211480.4766
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSMatcher.ts.meta": {
+      "time": 1739925211481.4773
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSModel.ts.meta": {
+      "time": 1739925211483.4795
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSSystem.ts.meta": {
+      "time": 1739925211484.478
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs": {
+      "time": 1739948425707.1072,
+      "uuid": "1a67473d-eb8f-4021-9e62-a4fe85df465e"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECS.ts": {
+      "time": 1739925211474.4773,
+      "uuid": "be87f4fb-ea99-4b91-a50a-118a64b95d27"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSComp.ts": {
+      "time": 1739925211476.4778,
+      "uuid": "3d017661-0194-47e1-b3df-a4baf9fbef05"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSEntity.ts": {
+      "time": 1739925211477.4775,
+      "uuid": "1fb62582-dcf6-4fbc-b863-a1941fad1109"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSGroup.ts": {
+      "time": 1739925211478.4773,
+      "uuid": "c21a2de8-f4fe-4534-96a6-70c9a86167ec"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSMask.ts": {
+      "time": 1739925211479.4773,
+      "uuid": "d1869e0f-3dbb-46b3-9229-828fef689057"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSMatcher.ts": {
+      "time": 1739925211481.4773,
+      "uuid": "37e8aae5-a8f9-4ded-a999-6321c5bc1229"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSModel.ts": {
+      "time": 1739925211482.4773,
+      "uuid": "1d60e80c-eabf-46b5-ae0e-a7754005218c"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSSystem.ts": {
+      "time": 1739925211483.4795,
+      "uuid": "9261f456-8364-4163-9931-6c526c635402"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\collection.meta": {
+      "time": 1739925211473.479
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\collection\\AsyncQueue.ts.meta": {
+      "time": 1739925211469.4758
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\collection\\Collection.ts.meta": {
+      "time": 1739925211470.4775
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\collection\\List.ts.meta": {
+      "time": 1739925211472.4792
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\collection": {
+      "time": 1739951165759.853,
+      "uuid": "40f8c594-1d00-40b5-b7f5-63a75a839132"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\collection\\AsyncQueue.ts": {
+      "time": 1739925211468.4797,
+      "uuid": "8c48b04d-e76d-49cc-8c61-21326e9c58e2"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\collection\\Collection.ts": {
+      "time": 1739925211470.4775,
+      "uuid": "1dcf502d-4105-4adc-a43f-da31c70f9822"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\collection\\List.ts": {
+      "time": 1739925211472.4792,
+      "uuid": "f4d36215-9036-4415-8189-c8ecbac22670"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\Main.ts.meta": {
+      "time": 1739925208742.7517
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\Main.ts": {
+      "time": 1740104892763.6675,
+      "uuid": "0eec0b38-aab6-45ee-89cf-95806b0fecbe"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\common.meta": {
+      "time": 1740035296411.051
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\common": {
+      "time": 1740037317655.6362,
+      "uuid": "61df7efb-9059-4b38-8f9a-0706719aa143"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\common\\ecs.meta": {
+      "time": 1740035343170.139
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\common\\ecs": {
+      "time": 1740035353380.1665,
+      "uuid": "c3644645-c43b-4919-a7fb-365d17610d96"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\common\\ecs\\SingletonModuleComp.ts.meta": {
+      "time": 1739925208767.7515
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\common\\ecs\\SingletonModuleComp.ts": {
+      "time": 1740037583619.8933,
+      "uuid": "c1147d9a-3dcd-4fd0-ad87-f4d964ee62a8"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\initialize.meta": {
+      "time": 1740035414368.7788
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\initialize": {
+      "time": 1740035940090.8271,
+      "uuid": "063c96e7-686f-488a-8647-e3c9dbe7a253"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\initialize\\Initialize.ts.meta": {
+      "time": 1739925208789.7502
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\initialize\\Initialize.ts": {
+      "time": 1740037601771.3188,
+      "uuid": "ffbce42c-e99f-48a0-8e73-ea6b756af330"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\initialize\\bll.meta": {
+      "time": 1739925208792.7502
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\initialize\\bll\\InitRes.ts.meta": {
+      "time": 1739925208792.7502
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\initialize\\bll": {
+      "time": 1740035468337.1353,
+      "uuid": "de5401a8-45c8-4249-aa4c-933102551227"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\initialize\\bll\\InitRes.ts": {
+      "time": 1740104764960.4524,
+      "uuid": "2ee0cf3e-ed1f-4414-a41b-f8e3e7f66964"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\loading.meta": {
+      "time": 1739925208727.7527
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading.meta": {
+      "time": 1739925208723.7527
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\loading\\prefab.meta": {
+      "time": 1739925208726.7527
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading\\texture.meta": {
+      "time": 1739925208722.7522
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\loading\\prefab\\loading.prefab.meta": {
+      "time": 1739925208725.7527
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading\\texture\\bg.png.meta": {
+      "time": 1739925208717.7512
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading\\texture\\icon_loading_bar.png.meta": {
+      "time": 1739925208719.7534
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading\\texture\\panel_loading_bottom_frame.png.meta": {
+      "time": 1739925208721.7537
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\loading": {
+      "time": 1740035768047.1963,
+      "uuid": "c2392cff-8a0b-4baa-95de-e3bfe2999f3c"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading": {
+      "time": 1740035768049.1958,
+      "uuid": "989ba6a5-5936-4360-802e-82a5a22158da"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\loading\\prefab": {
+      "time": 1740035768044.1973,
+      "uuid": "9e4a59af-22c3-4c0b-b864-98193db88d5f"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading\\texture": {
+      "time": 1740035768055.197,
+      "uuid": "9df30361-6dbb-444f-8809-df0b7fd3f29e"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\loading\\prefab\\loading.prefab": {
+      "time": 1740039895183.33,
+      "uuid": "b3142304-c27f-4492-b94f-551d154a2bf4"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading\\texture\\icon_loading_bar.png": {
+      "time": 1739925208718.7534,
+      "uuid": "1ac049d7-c899-492a-89a7-4e8d85ce4cb1"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading\\texture\\panel_loading_bottom_frame.png": {
+      "time": 1739925208720.7534,
+      "uuid": "a2001856-24f5-4ac7-9309-1207a3210cd8"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading\\texture\\bg.png": {
+      "time": 1739925208716.7532,
+      "uuid": "0021cb5a-e4f0-4709-b0b6-5e21875720b7"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\initialize\\view.meta": {
+      "time": 1739925208799.7505
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\initialize\\view\\Hot.ts.meta": {
+      "time": 1739925208794.7502
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\initialize\\view\\HotUpdate.ts.meta": {
+      "time": 1739925208796.7495
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\initialize\\view\\LoadingViewComp.ts.meta": {
+      "time": 1739925208798.7495
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\initialize\\view": {
+      "time": 1740035940085.822,
+      "uuid": "a36c4006-66a4-4a3e-9f87-e64b179de4e5"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\initialize\\view\\Hot.ts": {
+      "time": 1740039764943.3096,
+      "uuid": "f63770a4-6dbf-4283-9476-ca015630e0af"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\initialize\\view\\HotUpdate.ts": {
+      "time": 1740037323347.0188,
+      "uuid": "f64de890-2c08-4b87-91c6-a94a9a23da00"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\initialize\\view\\LoadingViewComp.ts": {
+      "time": 1740104555331.0803,
+      "uuid": "92429ca4-4e7c-450a-b706-c96e7c2568e3"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view.meta": {
+      "time": 1739925211544.4778
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\JsonOb.ts.meta": {
+      "time": 1739925211519.4792
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\StringFormat.ts.meta": {
+      "time": 1739925211522.4788
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui.meta": {
+      "time": 1739925211543.4773
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ViewModel.ts.meta": {
+      "time": 1739925211537.4773
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMBase.ts.meta": {
+      "time": 1739925211523.4778
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMCompsEdit.ts.meta": {
+      "time": 1739925211524.4773
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMCustom.ts.meta": {
+      "time": 1739925211526.4785
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMEnv.ts.meta": {
+      "time": 1739925211527.4773
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMEvent.ts.meta": {
+      "time": 1739925211528.4773
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMLabel.ts.meta": {
+      "time": 1739925211530.4773
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMModify.ts.meta": {
+      "time": 1739925211531.4775
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMParent.ts.meta": {
+      "time": 1739925211533.4788
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMProgress.ts.meta": {
+      "time": 1739925211534.478
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMState.ts.meta": {
+      "time": 1739925211535.4797
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui\\BhvButtonGroup.ts.meta": {
+      "time": 1739925211539.4775
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui\\BhvFrameIndex.ts.meta": {
+      "time": 1739925211540.4766
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui\\BhvRollNumber.ts.meta": {
+      "time": 1739925211541.4763
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui\\BhvSwitchPage.ts.meta": {
+      "time": 1739925211543.4773
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\README.md.meta": {
+      "time": 1739925211520.4763
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view": {
+      "time": 1740036289159.5818,
+      "uuid": "731608ed-fdd6-4eff-ae23-667a860d4c18"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui": {
+      "time": 1740036289129.5845,
+      "uuid": "db5db990-a4e8-45f0-9d71-86130657dc43"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\JsonOb.ts": {
+      "time": 1740036313099.3281,
+      "uuid": "000b0d0b-c75f-4a7b-8840-15cf7f4259e1"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\StringFormat.ts": {
+      "time": 1739925211521.477,
+      "uuid": "85fe819c-ea1e-40bd-af89-b1d6c1b3c711"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ViewModel.ts": {
+      "time": 1739925211536.479,
+      "uuid": "54f75938-5fe4-4fd2-a697-3b3adf672b0b"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMBase.ts": {
+      "time": 1739925211522.4788,
+      "uuid": "2f6f3e88-bd47-4f3b-bc72-9e75533e0cdb"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMCompsEdit.ts": {
+      "time": 1739925211524.4773,
+      "uuid": "2359e157-285e-4715-84bb-e0aed8d7bfd4"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMCustom.ts": {
+      "time": 1739925211525.4775,
+      "uuid": "ce6627f0-b125-4f2c-aa66-1f1f8aa1c16e"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMEnv.ts": {
+      "time": 1739925211526.4785,
+      "uuid": "fdf7243d-d4f7-425e-93d0-fbadacd6e7e2"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMEvent.ts": {
+      "time": 1739925211528.4773,
+      "uuid": "a9ce791f-f176-4978-b3e5-4f68969f6cc3"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMLabel.ts": {
+      "time": 1739925211529.4773,
+      "uuid": "545c0e57-b06f-460c-98ac-a441962af62f"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMModify.ts": {
+      "time": 1739925211531.4775,
+      "uuid": "7d2a4be8-68e2-4918-9651-5853c6e8193b"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMParent.ts": {
+      "time": 1740037404282.943,
+      "uuid": "15ccc88e-f994-47e3-beac-3ca0ff2ef07b"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMProgress.ts": {
+      "time": 1739925211533.4788,
+      "uuid": "2a50ea88-ec96-4d57-94a1-d32fd077d0ba"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMState.ts": {
+      "time": 1739925211535.4797,
+      "uuid": "47052bb0-fd8e-4ed4-b5da-2ce6e3e00471"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui\\BhvButtonGroup.ts": {
+      "time": 1739925211538.4773,
+      "uuid": "41df6efa-2f9e-4bbc-9e76-bb1910a5fc49"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui\\BhvFrameIndex.ts": {
+      "time": 1739925211539.4775,
+      "uuid": "c238ec1f-2765-499d-9f06-6fc610b394ec"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui\\BhvRollNumber.ts": {
+      "time": 1739925211541.4763,
+      "uuid": "72d13770-986f-4b4b-8824-2614ae029dc5"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui\\BhvSwitchPage.ts": {
+      "time": 1739925211542.4775,
+      "uuid": "b3d08de4-9dca-433e-a573-b4cb62aba0ce"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\README.md": {
+      "time": 1739925211520.4763,
+      "uuid": "75bee78b-9817-4c58-a8a2-ac3626541dc2"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\module\\common.meta": {
+      "time": 1740036382393.4937
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\module\\common": {
+      "time": 1740037046610.0908,
+      "uuid": "d01b4656-13f0-4bfd-ad1c-c9e49eda816c"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\module\\common\\CCVMParentComp.ts.meta": {
+      "time": 1739925211565.4778
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\module\\common\\CCVMParentComp.ts": {
+      "time": 1740037072102.3452,
+      "uuid": "5908a4e6-3359-48b6-95e0-a3b44ea50790"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\common\\config.meta": {
+      "time": 1740036915042.3953
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\common\\config": {
+      "time": 1740036978722.6,
+      "uuid": "edeed88d-6cf1-4c66-a02a-33bdf96db284"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\common\\config\\GameEvent.ts.meta": {
+      "time": 1739925208758.7505
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\common\\config\\GameEvent.ts": {
+      "time": 1740036984380.6372,
+      "uuid": "28ac0ad6-53bf-471a-9256-ae7c8ad351a7"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\module\\config.meta": {
+      "time": 1739929470582.1838
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\module\\config": {
+      "time": 1739929605773.4507,
+      "uuid": "daf71b35-fd64-45a7-a66a-d0c56dbb018e"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\module\\config\\Config.ts.meta": {
+      "time": 1739929493154.412
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\module\\config\\Config.ts": {
+      "time": 1739929825686.0818,
+      "uuid": "1b4708e7-dd4f-4c0f-8b7b-6e2dc38cda3c"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\module\\config\\GameConfig.ts.meta": {
+      "time": 1739929566558.709
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\module\\config\\GameConfig.ts": {
+      "time": 1740036765412.6082,
+      "uuid": "8bddca89-fff1-487e-a905-0fc87d41281e"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\module\\config\\GameQueryConfig.ts.meta": {
+      "time": 1739929605774.4495
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\module\\config\\GameQueryConfig.ts": {
+      "time": 1740036763622.4211,
+      "uuid": "e130d9b8-b5ca-4a53-9a8c-382a8911fdd5"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\module\\common\\GameComponent.ts.meta": {
+      "time": 1739925211568.4783
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\module\\common\\GameComponent.ts": {
+      "time": 1740037076503.9355,
+      "uuid": "623629d6-6d66-4feb-9de3-e972ffcc90ea"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\common\\prompt.meta": {
+      "time": 1739925208775.7527
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\common\\prompt\\TipsManager.ts.meta": {
+      "time": 1739925208774.7512
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\common\\prompt": {
+      "time": 1740037317649.6343,
+      "uuid": "74d4a589-399e-401e-96c4-9abd888d7266"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\common\\prompt\\TipsManager.ts": {
+      "time": 1740037632718.512,
+      "uuid": "9748eae2-11c2-4ea7-a392-76767faa1b39"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\jsmd5.meta": {
+      "time": 1740038920458.7656
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\jsmd5": {
+      "time": 1740038931442.981,
+      "uuid": "ef23e8ee-b06d-424b-84ba-31a3034a5023"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\jsmd5\\jsb_md5.ts.meta": {
+      "time": 1740038931443.9802
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\libs\\jsmd5\\jsb_md5.ts": {
+      "time": 1740039708681.2522,
+      "uuid": "7d55bdfc-79b3-4294-b0a4-a6dc07485e11"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\config.meta": {
+      "time": 1739925208660.7507
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\config\\game.meta": {
+      "time": 1739925208657.7507
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\Language.json.meta": {
+      "time": 1739925208650.7522
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\NetCode.json.meta": {
+      "time": 1739925208651.752
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\PromptWindow.json.meta": {
+      "time": 1739925208653.7505
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\RoleJob.json.meta": {
+      "time": 1739925208655.7522
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\RoleLevelUp.json.meta": {
+      "time": 1739925208656.7505
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\config": {
+      "time": 1740099007008.6401,
+      "uuid": "11938e97-a8b3-4375-9632-5313d684e918"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\config\\game": {
+      "time": 1740099007019.6462,
+      "uuid": "a2c06fee-9cbe-4e3b-b9ff-a29cdd9e6646"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\Language.json": {
+      "time": 1739925208649.7493,
+      "uuid": "b92e9be8-b6df-4e15-8b4b-16326a243229"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\NetCode.json": {
+      "time": 1739925208651.752,
+      "uuid": "632275d6-db6d-4335-9d55-31da137fb8f6"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\RoleLevelUp.json": {
+      "time": 1739925208655.7522,
+      "uuid": "11a2f047-e929-4f50-8df1-d31311013e88"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\RoleJob.json": {
+      "time": 1739925208654.7505,
+      "uuid": "ff18f0c9-550b-4e48-aca8-d37fe1d2b510"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\PromptWindow.json": {
+      "time": 1739925208652.751,
+      "uuid": "f563a1f3-e357-40cf-9fdb-28ad8b1b1d1d"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\utils\\ImageUtil.ts.meta": {
+      "time": 1739925211386.4785
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\core\\utils\\ImageUtil.ts": {
+      "time": 1740099191153.4392,
+      "uuid": "ebdf3ad1-9c47-4862-92a0-19d5bc812999"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\ui.meta": {
+      "time": 1740101836856.2944
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\ui": {
+      "time": 1740102476958.99,
+      "uuid": "b20b5a45-047c-41ee-9dfc-d6cf7fd61b90"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\ui\\uilogin.meta": {
+      "time": 1740102476959.9937
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\ui\\uilogin": {
+      "time": 1740102500376.7905,
+      "uuid": "21b84800-7484-49a5-9e6b-a18bb8c376b3"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\ui\\uilogin\\uiloginView.prefab.meta": {
+      "time": 1740102500381.7908
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\resources\\ui\\uilogin\\uiloginView.prefab": {
+      "time": 1740104379681.212,
+      "uuid": "f6111e05-96f9-4eb1-a896-d70cbd9c05eb"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\ui\\uilogin.meta": {
+      "time": 1740104291190.7515
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\ui\\uilogin": {
+      "time": 1740104337030.9358,
+      "uuid": "d38fd1d9-a8d4-4636-8270-1541a2ff643d"
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\ui\\uilogin\\UILoginView.ts.meta": {
+      "time": 1740104337031.934
+    },
+    "E:\\sxbs2\\sxbs2\\assets\\work\\ui\\uilogin\\UILoginView.ts": {
+      "time": 1740104443874.7698,
+      "uuid": "d12d1f5e-9cc9-402d-a20c-058c6403be37"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core": {
+      "time": 1740443944085.094,
+      "uuid": "bffc50e1-a955-4c5e-8a1a-a216d9f57775"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs": {
+      "time": 1740443944354.6821,
+      "uuid": "2846aaac-9e41-4f29-9962-14f22f95f9f2"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\module": {
+      "time": 1740443944391.6826,
+      "uuid": "6dc2f8ec-edb5-4b0e-8ce0-57d95ce09ad1"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources": {
+      "time": 1740464010292.6323,
+      "uuid": "6dc15dbc-c169-4da7-892c-80c1e236a98a"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work": {
+      "time": 1740443944755.7078,
+      "uuid": "2449098a-6857-4835-87a5-18d610a2feeb"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common": {
+      "time": 1740443944002.0935,
+      "uuid": "7b2b7479-babb-47a4-9a68-1ebd18ee7b85"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\game": {
+      "time": 1740443944023.1223,
+      "uuid": "bb9830dc-51dd-445e-b3e2-618b726a8bc1"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui": {
+      "time": 1740443944068.0898,
+      "uuid": "817ff09a-de1c-400a-bb92-fd324fcc3b14"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\utils": {
+      "time": 1740443944113.0942,
+      "uuid": "362f64f6-2e83-49bc-b433-d1eb2dd2f84c"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\collection": {
+      "time": 1740443944159.0938,
+      "uuid": "40f8c594-1d00-40b5-b7f5-63a75a839132"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs": {
+      "time": 1740443944209.0974,
+      "uuid": "1a67473d-eb8f-4021-9e62-a4fe85df465e"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\gui": {
+      "time": 1740443944217.095,
+      "uuid": "91e60089-bdb9-4a30-8ae6-6f4a2ac46fd2"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\jsmd5": {
+      "time": 1740443944254.097,
+      "uuid": "ef23e8ee-b06d-424b-84ba-31a3034a5023"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view": {
+      "time": 1740443944332.0916,
+      "uuid": "731608ed-fdd6-4eff-ae23-667a860d4c18"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\network": {
+      "time": 1740443944368.6807,
+      "uuid": "fd940ec1-2da2-40b6-b84b-eb2b1f49c1c5"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\module\\common": {
+      "time": 1740443944388.6829,
+      "uuid": "d01b4656-13f0-4bfd-ad1c-c9e49eda816c"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\module\\config": {
+      "time": 1740443944405.7117,
+      "uuid": "daf71b35-fd64-45a7-a66a-d0c56dbb018e"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common": {
+      "time": 1740443944493.711,
+      "uuid": "ddd31349-c8c5-481a-ab1c-2009ad49bd48"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\config": {
+      "time": 1740443944533.6816,
+      "uuid": "11938e97-a8b3-4375-9632-5313d684e918"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language": {
+      "time": 1740443944588.6792,
+      "uuid": "5ed2c2e3-2619-4373-919c-c1e696d864f9"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\loading": {
+      "time": 1740443944649.7104,
+      "uuid": "c2392cff-8a0b-4baa-95de-e3bfe2999f3c"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\ui": {
+      "time": 1740443944662.71,
+      "uuid": "b20b5a45-047c-41ee-9dfc-d6cf7fd61b90"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\common": {
+      "time": 1740443944710.6826,
+      "uuid": "61df7efb-9059-4b38-8f9a-0706719aa143"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\initialize": {
+      "time": 1740443944738.6794,
+      "uuid": "063c96e7-686f-488a-8647-e3c9dbe7a253"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\ui": {
+      "time": 1740443944769.7131,
+      "uuid": "1b337f26-183a-48ed-8f68-0116643a3567"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\audio": {
+      "time": 1740443943935.1147,
+      "uuid": "a643bc0f-eea9-46d6-8771-708dbdda9583"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\event": {
+      "time": 1740443943953.1233,
+      "uuid": "08d3bee1-9517-409d-a8f5-8987b73546d5"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\loader": {
+      "time": 1740443943962.093,
+      "uuid": "40915911-e36f-4154-875f-b2a17dd268a6"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\log": {
+      "time": 1740443943971.0938,
+      "uuid": "6b956ef4-7f64-430c-b27b-0e367b539c40"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\random": {
+      "time": 1740443943985.0913,
+      "uuid": "3378e15d-0afd-4825-bc3c-6d61128da4c9"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\storage": {
+      "time": 1740443943999.1118,
+      "uuid": "3c54f5f9-4dd4-4588-b764-211456eddaea"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\timer": {
+      "time": 1740443944014.091,
+      "uuid": "7f902b11-1772-41e8-8f6c-68dc641a1c93"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer": {
+      "time": 1740443944066.091,
+      "uuid": "faa552e3-d482-4968-b95d-adae505689aa"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\prompt": {
+      "time": 1740443944082.1233,
+      "uuid": "861e00c3-6c29-404e-8e21-3d194ec5441f"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language": {
+      "time": 1740443944246.125,
+      "uuid": "95cb3621-61ec-49f1-81c3-9f5737a7e5fc"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui": {
+      "time": 1740443944350.7087,
+      "uuid": "db5db990-a4e8-45f0-9d71-86130657dc43"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim": {
+      "time": 1740443944458.6785,
+      "uuid": "0b70ab49-9f2b-4cbb-b4cb-849b2e477598"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab": {
+      "time": 1740443944489.6836,
+      "uuid": "853ce1af-fb40-4f30-aebb-f12234f3d7fe"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture": {
+      "time": 1740443944525.705,
+      "uuid": "0489d8e2-9e0b-4c7e-b5ec-647a864e9214"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\config\\game": {
+      "time": 1740443944559.7144,
+      "uuid": "a2c06fee-9cbe-4e3b-b9ff-a29cdd9e6646"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\json": {
+      "time": 1740443944582.6836,
+      "uuid": "f5c4b4ab-045c-4dd6-9cac-800c00ac19a0"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\spine": {
+      "time": 1739930394330.234,
+      "uuid": "7f95fde4-ef41-402a-90b2-ff671420d768"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture": {
+      "time": 1740443944608.7097,
+      "uuid": "6b7a4586-4b2b-41af-b7b0-75f87bfd4b94"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading": {
+      "time": 1740443944631.6826,
+      "uuid": "989ba6a5-5936-4360-802e-82a5a22158da"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\loading\\prefab": {
+      "time": 1740443944654.6794,
+      "uuid": "9e4a59af-22c3-4c0b-b864-98193db88d5f"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\ui\\uilogin": {
+      "time": 1740443944666.6782,
+      "uuid": "21b84800-7484-49a5-9e6b-a18bb8c376b3"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\common\\config": {
+      "time": 1740443944699.7046,
+      "uuid": "edeed88d-6cf1-4c66-a02a-33bdf96db284"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\common\\ecs": {
+      "time": 1740443944707.6787,
+      "uuid": "c3644645-c43b-4919-a7fb-365d17610d96"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\common\\prompt": {
+      "time": 1740443944715.6826,
+      "uuid": "74d4a589-399e-401e-96c4-9abd888d7266"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\initialize\\bll": {
+      "time": 1740443944734.6787,
+      "uuid": "de5401a8-45c8-4249-aa4c-933102551227"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\initialize\\view": {
+      "time": 1740443944751.7095,
+      "uuid": "a36c4006-66a4-4a3e-9f87-e64b179de4e5"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\ui\\initialize": {
+      "time": 1739946004294.2324,
+      "uuid": "d2ba7687-13ba-4c08-af52-077a3e4f4589"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\ui\\uilogin": {
+      "time": 1740443944774.7092,
+      "uuid": "d38fd1d9-a8d4-4636-8270-1541a2ff643d"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture\\en": {
+      "time": 1740443944605.7068,
+      "uuid": "ec976edd-f0a0-4f29-a3f9-c803b92ef9be"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture\\zh": {
+      "time": 1740443944615.7097,
+      "uuid": "c03f86e4-9b94-4703-a944-93c83c0c07fd"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading\\texture": {
+      "time": 1740443944646.7102,
+      "uuid": "9df30361-6dbb-444f-8809-df0b7fd3f29e"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\Oops.ts": {
+      "time": 1740030172313.5557,
+      "uuid": "b9aeb5fc-8abc-47d7-82b0-dead0ec1067d"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\Root.ts": {
+      "time": 1740035124522.6199,
+      "uuid": "2c835353-03ab-4654-b80f-b46301ca991c"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\Main.ts": {
+      "time": 1740104892763.6675,
+      "uuid": "0eec0b38-aab6-45ee-89cf-95806b0fecbe"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\game\\GameManager.ts": {
+      "time": 1739933406471.33,
+      "uuid": "73fa0084-7ce8-4c74-9528-670a05208655"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\utils\\ImageUtil.ts": {
+      "time": 1740099191153.4392,
+      "uuid": "ebdf3ad1-9c47-4862-92a0-19d5bc812999"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\utils\\JsonUtil.ts": {
+      "time": 1740099200981.1562,
+      "uuid": "0c54e880-bf25-477f-8bf5-f73919a69ceb"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\utils\\List.ts": {
+      "time": 1723701977287.2324,
+      "uuid": "5a154bf9-6d2f-4214-9aea-1d2279ea1012"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\utils\\ListItem.ts": {
+      "time": 1723192634087.7395,
+      "uuid": "850b3c58-2e3d-447f-9265-4385ffe19647"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\utils\\StringUtil.ts": {
+      "time": 1739929656122.237,
+      "uuid": "41efae31-9392-411f-9a3f-44c6119c5e7c"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\utils\\ViewUtil.ts": {
+      "time": 1739929019857.7158,
+      "uuid": "62d5db94-a6ef-4ed4-975b-f976a15ee636"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\collection\\AsyncQueue.ts": {
+      "time": 1739925211468.4797,
+      "uuid": "8c48b04d-e76d-49cc-8c61-21326e9c58e2"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\collection\\Collection.ts": {
+      "time": 1739925211470.4775,
+      "uuid": "1dcf502d-4105-4adc-a43f-da31c70f9822"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\collection\\List.ts": {
+      "time": 1739925211472.4792,
+      "uuid": "f4d36215-9036-4415-8189-c8ecbac22670"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECS.ts": {
+      "time": 1739925211474.4773,
+      "uuid": "be87f4fb-ea99-4b91-a50a-118a64b95d27"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSComp.ts": {
+      "time": 1739925211476.4778,
+      "uuid": "3d017661-0194-47e1-b3df-a4baf9fbef05"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSEntity.ts": {
+      "time": 1739925211477.4775,
+      "uuid": "1fb62582-dcf6-4fbc-b863-a1941fad1109"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSGroup.ts": {
+      "time": 1739925211478.4773,
+      "uuid": "c21a2de8-f4fe-4534-96a6-70c9a86167ec"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSMask.ts": {
+      "time": 1739925211479.4773,
+      "uuid": "d1869e0f-3dbb-46b3-9229-828fef689057"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSMatcher.ts": {
+      "time": 1739925211481.4773,
+      "uuid": "37e8aae5-a8f9-4ded-a999-6321c5bc1229"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSModel.ts": {
+      "time": 1739925211482.4773,
+      "uuid": "1d60e80c-eabf-46b5-ae0e-a7754005218c"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSSystem.ts": {
+      "time": 1739925211483.4795,
+      "uuid": "9261f456-8364-4163-9931-6c526c635402"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\jsmd5\\jsb_md5.ts": {
+      "time": 1740039708681.2522,
+      "uuid": "7d55bdfc-79b3-4294-b0a4-a6dc07485e11"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\JsonOb.ts": {
+      "time": 1740036313099.3281,
+      "uuid": "000b0d0b-c75f-4a7b-8840-15cf7f4259e1"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\StringFormat.ts": {
+      "time": 1739925211521.477,
+      "uuid": "85fe819c-ea1e-40bd-af89-b1d6c1b3c711"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ViewModel.ts": {
+      "time": 1739925211536.479,
+      "uuid": "54f75938-5fe4-4fd2-a697-3b3adf672b0b"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMBase.ts": {
+      "time": 1739925211522.4788,
+      "uuid": "2f6f3e88-bd47-4f3b-bc72-9e75533e0cdb"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMCompsEdit.ts": {
+      "time": 1739925211524.4773,
+      "uuid": "2359e157-285e-4715-84bb-e0aed8d7bfd4"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMCustom.ts": {
+      "time": 1739925211525.4775,
+      "uuid": "ce6627f0-b125-4f2c-aa66-1f1f8aa1c16e"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMEnv.ts": {
+      "time": 1739925211526.4785,
+      "uuid": "fdf7243d-d4f7-425e-93d0-fbadacd6e7e2"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMEvent.ts": {
+      "time": 1739925211528.4773,
+      "uuid": "a9ce791f-f176-4978-b3e5-4f68969f6cc3"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMLabel.ts": {
+      "time": 1739925211529.4773,
+      "uuid": "545c0e57-b06f-460c-98ac-a441962af62f"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMModify.ts": {
+      "time": 1739925211531.4775,
+      "uuid": "7d2a4be8-68e2-4918-9651-5853c6e8193b"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMParent.ts": {
+      "time": 1740037404282.943,
+      "uuid": "15ccc88e-f994-47e3-beac-3ca0ff2ef07b"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMProgress.ts": {
+      "time": 1739925211533.4788,
+      "uuid": "2a50ea88-ec96-4d57-94a1-d32fd077d0ba"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMState.ts": {
+      "time": 1739925211535.4797,
+      "uuid": "47052bb0-fd8e-4ed4-b5da-2ce6e3e00471"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\network\\HttpRequest.ts": {
+      "time": 1739932780697.078,
+      "uuid": "ca706104-8d62-4870-9e2f-9b3b2a924f12"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\network\\WsFunc.ts": {
+      "time": 1739937500720.7996,
+      "uuid": "5139cb36-da16-4b13-afcc-3bf29673b64e"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\network\\WsNet.ts": {
+      "time": 1740466322508.4114,
+      "uuid": "19dc044d-2e3d-4abb-a637-daf7c99a0e74"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\module\\common\\CCVMParentComp.ts": {
+      "time": 1740037072102.3452,
+      "uuid": "5908a4e6-3359-48b6-95e0-a3b44ea50790"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\module\\common\\GameComponent.ts": {
+      "time": 1740037076503.9355,
+      "uuid": "623629d6-6d66-4feb-9de3-e972ffcc90ea"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\module\\config\\Config.ts": {
+      "time": 1739929825686.0818,
+      "uuid": "1b4708e7-dd4f-4c0f-8b7b-6e2dc38cda3c"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\module\\config\\GameConfig.ts": {
+      "time": 1740036765412.6082,
+      "uuid": "8bddca89-fff1-487e-a905-0fc87d41281e"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\module\\config\\GameQueryConfig.ts": {
+      "time": 1740036763622.4211,
+      "uuid": "e130d9b8-b5ca-4a53-9a8c-382a8911fdd5"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\initialize\\Initialize.ts": {
+      "time": 1740037601771.3188,
+      "uuid": "ffbce42c-e99f-48a0-8e73-ea6b756af330"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\ui\\UIConfig.ts": {
+      "time": 1740104017403.0247,
+      "uuid": "7cc1cea6-848d-4915-b6d2-76227a41aae4"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\audio\\AudioEffect.ts": {
+      "time": 1739931609327.009,
+      "uuid": "e52d2cac-6350-446e-9713-d82cf45b0b2c"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\audio\\AudioEffectPool.ts": {
+      "time": 1739931615959.0977,
+      "uuid": "01278043-8ebb-42af-8081-a663b90d994d"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\audio\\AudioManager.ts": {
+      "time": 1739931627510.3784,
+      "uuid": "252f0cfe-bcf3-4bf1-8fe3-b0b626a26b70"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\audio\\AudioMusic.ts": {
+      "time": 1739931633202.103,
+      "uuid": "5c1f392a-19eb-4188-8bf8-f3f0afb9a42f"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\event\\EventDispatcher.ts": {
+      "time": 1739931497761.7256,
+      "uuid": "c680a7f9-88f3-4a78-83b8-700adfffdd26"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\event\\EventMessage.ts": {
+      "time": 1739931502716.1692,
+      "uuid": "beea7bbd-c672-43e2-b323-eae6bf2d3705"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\event\\MessageManager.ts": {
+      "time": 1739931509495.3618,
+      "uuid": "a401f63e-c23f-4db2-a380-0a867b672fd1"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\loader\\ResLoader.ts": {
+      "time": 1739928994272.656,
+      "uuid": "5ce0bf08-e5f8-4e82-a118-f2c69c5cd30f"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\log\\Logger.ts": {
+      "time": 1739929741393.2815,
+      "uuid": "55c5e083-6e23-4642-b162-0535e684e673"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\random\\RandomManager.ts": {
+      "time": 1739925211339.4775,
+      "uuid": "3e09e241-c1f6-41b0-b3ea-16ccd92ef312"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\random\\SeedRandom.ts": {
+      "time": 1739925211341.4773,
+      "uuid": "9b02b9cd-c306-445a-af45-b79f41442201"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\storage\\StorageManager.ts": {
+      "time": 1739936130676.9597,
+      "uuid": "53090d32-3be5-408a-8740-2dfd0645b5df"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\storage\\StorageSecuritySimple.ts": {
+      "time": 1739929338591.2742,
+      "uuid": "1e32d5a6-ea0d-4f67-9389-029df5e9f392"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\timer\\Timer.ts": {
+      "time": 1739925211350.478,
+      "uuid": "6021f72d-d6e8-49b0-8984-ba1745582d1f"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\timer\\TimerManager.ts": {
+      "time": 1739925211352.4778,
+      "uuid": "7360054b-b080-4b38-a84e-85deed7783fc"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\Defines.ts": {
+      "time": 1739928591898.5989,
+      "uuid": "074fe13a-3589-4425-b4e1-a5241e74776d"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\DelegateComponent.ts": {
+      "time": 1739928590379.025,
+      "uuid": "227800b4-0389-4527-b2e9-6a406b468bce"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerDialog.ts": {
+      "time": 1739928588793.2837,
+      "uuid": "e07c486b-b445-49f0-9e7e-9e23a611d2d2"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerManager.ts": {
+      "time": 1739928586355.0422,
+      "uuid": "36af41c0-4ebf-473d-bbea-087e91dc2fef"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerNotify.ts": {
+      "time": 1739928580316.5393,
+      "uuid": "f74d08e1-f436-400a-8972-9944d939fd48"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerPopup.ts": {
+      "time": 1739928617465.4597,
+      "uuid": "bf144802-a440-4a39-a0b0-9ae71adb76fe"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerUI.ts": {
+      "time": 1739928685851.2283,
+      "uuid": "e4dc32ae-197e-4ed7-931c-d4a6418534df"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\prompt\\CommonPrompt.ts": {
+      "time": 1739930948419.0354,
+      "uuid": "0975d04d-0e55-48f4-b5ab-df8f9504daa7"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\prompt\\LoadingIndicator.ts": {
+      "time": 1739930961571.338,
+      "uuid": "87032fcf-dd3b-4690-9fe4-57ac910a13d3"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\prompt\\Notify.ts": {
+      "time": 1739930498919.0308,
+      "uuid": "869d2f16-3e09-4a7a-a2fe-a4f0afa9b92a"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\Language.ts": {
+      "time": 1739930182269.6296,
+      "uuid": "fab64a35-33bc-4362-a890-7c49df673bc6"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguageData.ts": {
+      "time": 1739930041005.8308,
+      "uuid": "66e9a76f-73ba-4eb3-889c-002fa95e9891"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguageLabel.ts": {
+      "time": 1739930001021.0361,
+      "uuid": "2912b759-2db5-420b-ad56-51f0a9db5b63"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguagePack.ts": {
+      "time": 1739930207398.34,
+      "uuid": "d418bc74-7c6e-43f2-a1ee-cd7533886ad0"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguageSpine.ts": {
+      "time": 1739930116423.689,
+      "uuid": "dc4406e4-361e-4025-9528-01de4e4ab2d7"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguageSprite.ts": {
+      "time": 1739930142340.8972,
+      "uuid": "96893596-d069-492a-a110-ec21f2687135"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui\\BhvButtonGroup.ts": {
+      "time": 1739925211538.4773,
+      "uuid": "41df6efa-2f9e-4bbc-9e76-bb1910a5fc49"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui\\BhvFrameIndex.ts": {
+      "time": 1739925211539.4775,
+      "uuid": "c238ec1f-2765-499d-9f06-6fc610b394ec"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui\\BhvRollNumber.ts": {
+      "time": 1739925211541.4763,
+      "uuid": "72d13770-986f-4b4b-8824-2614ae029dc5"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui\\BhvSwitchPage.ts": {
+      "time": 1739925211542.4775,
+      "uuid": "b3d08de4-9dca-433e-a573-b4cb62aba0ce"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\common\\config\\GameEvent.ts": {
+      "time": 1740036984380.6372,
+      "uuid": "28ac0ad6-53bf-471a-9256-ae7c8ad351a7"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\common\\ecs\\SingletonModuleComp.ts": {
+      "time": 1740037583619.8933,
+      "uuid": "c1147d9a-3dcd-4fd0-ad87-f4d964ee62a8"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\common\\prompt\\TipsManager.ts": {
+      "time": 1740037632718.512,
+      "uuid": "9748eae2-11c2-4ea7-a392-76767faa1b39"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\initialize\\bll\\InitRes.ts": {
+      "time": 1740104764960.4524,
+      "uuid": "2ee0cf3e-ed1f-4414-a41b-f8e3e7f66964"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\initialize\\view\\Hot.ts": {
+      "time": 1740472694025.6787,
+      "uuid": "f63770a4-6dbf-4283-9476-ca015630e0af"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\initialize\\view\\HotUpdate.ts": {
+      "time": 1740469703402.09,
+      "uuid": "f64de890-2c08-4b87-91c6-a94a9a23da00"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\initialize\\view\\LoadingViewComp.ts": {
+      "time": 1740104555331.0803,
+      "uuid": "92429ca4-4e7c-450a-b706-c96e7c2568e3"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\ui\\uilogin\\UILoginView.ts": {
+      "time": 1740104443874.7698,
+      "uuid": "d12d1f5e-9cc9-402d-a20c-058c6403be37"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core.meta": {
+      "time": 1739927682230.6274
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs.meta": {
+      "time": 1739927724269.2434
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\module.meta": {
+      "time": 1739927867671.2603
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources.meta": {
+      "time": 1739930346472.984
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work.meta": {
+      "time": 1739927747830.742
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common.meta": {
+      "time": 1739928944774.907
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\game.meta": {
+      "time": 1739933386167.3428
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui.meta": {
+      "time": 1739928020593.7268
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\utils.meta": {
+      "time": 1739928914228.697
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\collection.meta": {
+      "time": 1739925211473.479
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs.meta": {
+      "time": 1739925211486.4773
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\gui.meta": {
+      "time": 1739929923576.6274
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\jsmd5.meta": {
+      "time": 1740038920458.7656
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view.meta": {
+      "time": 1739925211544.4778
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\network.meta": {
+      "time": 1739932692088.5183
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\module\\common.meta": {
+      "time": 1740036382393.4937
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\module\\config.meta": {
+      "time": 1739929470582.1838
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common.meta": {
+      "time": 1739930573124.1577
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\config.meta": {
+      "time": 1739925208660.7507
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language.meta": {
+      "time": 1739930359585.4463
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\loading.meta": {
+      "time": 1739925208727.7527
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\ui.meta": {
+      "time": 1740101836856.2944
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\common.meta": {
+      "time": 1740035296411.051
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\initialize.meta": {
+      "time": 1740035414368.7788
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\ui.meta": {
+      "time": 1739945667662.5806
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\audio.meta": {
+      "time": 1739925211326.4773
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\event.meta": {
+      "time": 1739931489339.9802
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\loader.meta": {
+      "time": 1739928961800.9841
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\log.meta": {
+      "time": 1739929696398.9165
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\random.meta": {
+      "time": 1739925211342.478
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\storage.meta": {
+      "time": 1739929102102.5442
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\timer.meta": {
+      "time": 1739925211353.4768
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer.meta": {
+      "time": 1739928039249.999
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\prompt.meta": {
+      "time": 1739928840804.9219
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language.meta": {
+      "time": 1739929933609.4783
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui.meta": {
+      "time": 1739925211543.4773
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim.meta": {
+      "time": 1739925208627.751
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab.meta": {
+      "time": 1739925208637.7505
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture.meta": {
+      "time": 1739925208647.7502
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\config\\game.meta": {
+      "time": 1739925208657.7507
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\json.meta": {
+      "time": 1739930373926.0835
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\spine.meta": {
+      "time": 1739930394332.2344
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture.meta": {
+      "time": 1739930405383.0254
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading.meta": {
+      "time": 1739925208723.7527
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\loading\\prefab.meta": {
+      "time": 1739925208726.7527
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\ui\\uilogin.meta": {
+      "time": 1740102476959.9937
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\common\\config.meta": {
+      "time": 1740036915042.3953
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\common\\ecs.meta": {
+      "time": 1740035343170.139
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\common\\prompt.meta": {
+      "time": 1739925208775.7527
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\initialize\\bll.meta": {
+      "time": 1739925208792.7502
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\initialize\\view.meta": {
+      "time": 1739925208799.7505
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\ui\\initialize.meta": {
+      "time": 1739946004296.234
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\ui\\uilogin.meta": {
+      "time": 1740104291190.7515
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture\\en.meta": {
+      "time": 1739925208706.7507
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture\\zh.meta": {
+      "time": 1739925208709.7495
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading\\texture.meta": {
+      "time": 1739925208722.7522
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\Oops.ts.meta": {
+      "time": 1739928359321.3923
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\Root.ts.meta": {
+      "time": 1739928371826.0935
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\Main.ts.meta": {
+      "time": 1739925208742.7517
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\game\\GameManager.ts.meta": {
+      "time": 1739925211356.4785
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\utils\\ImageUtil.ts.meta": {
+      "time": 1739925211386.4785
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\utils\\JsonUtil.ts.meta": {
+      "time": 1739930226456.9275
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\utils\\List.ts.meta": {
+      "time": 1723192970160.161
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\utils\\ListItem.ts.meta": {
+      "time": 1723192970160.161
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\utils\\StringUtil.ts.meta": {
+      "time": 1739929636926.8833
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\utils\\ViewUtil.ts.meta": {
+      "time": 1739928925431.4011
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\collection\\AsyncQueue.ts.meta": {
+      "time": 1739925211469.4758
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\collection\\Collection.ts.meta": {
+      "time": 1739925211470.4775
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\collection\\List.ts.meta": {
+      "time": 1739925211472.4792
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECS.ts.meta": {
+      "time": 1739925211475.4775
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSComp.ts.meta": {
+      "time": 1739925211476.4778
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSEntity.ts.meta": {
+      "time": 1739925211478.4773
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSGroup.ts.meta": {
+      "time": 1739925211479.4773
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSMask.ts.meta": {
+      "time": 1739925211480.4766
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSMatcher.ts.meta": {
+      "time": 1739925211481.4773
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSModel.ts.meta": {
+      "time": 1739925211483.4795
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\ecs\\ECSSystem.ts.meta": {
+      "time": 1739925211484.478
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\jsmd5\\jsb_md5.ts.meta": {
+      "time": 1740038931443.9802
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\JsonOb.ts.meta": {
+      "time": 1739925211519.4792
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\StringFormat.ts.meta": {
+      "time": 1739925211522.4788
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ViewModel.ts.meta": {
+      "time": 1739925211537.4773
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMBase.ts.meta": {
+      "time": 1739925211523.4778
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMCompsEdit.ts.meta": {
+      "time": 1739925211524.4773
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMCustom.ts.meta": {
+      "time": 1739925211526.4785
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMEnv.ts.meta": {
+      "time": 1739925211527.4773
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMEvent.ts.meta": {
+      "time": 1739925211528.4773
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMLabel.ts.meta": {
+      "time": 1739925211530.4773
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMModify.ts.meta": {
+      "time": 1739925211531.4775
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMParent.ts.meta": {
+      "time": 1739925211533.4788
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMProgress.ts.meta": {
+      "time": 1739925211534.478
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\VMState.ts.meta": {
+      "time": 1739925211535.4797
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\network\\HttpRequest.ts.meta": {
+      "time": 1739932744060.8564
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\network\\WsFunc.ts.meta": {
+      "time": 1739937198129.527
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\network\\WsNet.ts.meta": {
+      "time": 1739934217845.132
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\module\\common\\CCVMParentComp.ts.meta": {
+      "time": 1739925211565.4778
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\module\\common\\GameComponent.ts.meta": {
+      "time": 1739925211568.4783
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\module\\config\\Config.ts.meta": {
+      "time": 1739929493154.412
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\module\\config\\GameConfig.ts.meta": {
+      "time": 1739929566558.709
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\module\\config\\GameQueryConfig.ts.meta": {
+      "time": 1739929605774.4495
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\initialize\\Initialize.ts.meta": {
+      "time": 1739925208789.7502
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\ui\\UIConfig.ts.meta": {
+      "time": 1739945702744.705
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\audio\\AudioEffect.ts.meta": {
+      "time": 1739925211322.477
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\audio\\AudioEffectPool.ts.meta": {
+      "time": 1739925211323.4788
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\audio\\AudioManager.ts.meta": {
+      "time": 1739925211324.4773
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\audio\\AudioMusic.ts.meta": {
+      "time": 1739925211326.4773
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\event\\EventDispatcher.ts.meta": {
+      "time": 1739925211329.4773
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\event\\EventMessage.ts.meta": {
+      "time": 1739925211330.4778
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\event\\MessageManager.ts.meta": {
+      "time": 1739925211331.4773
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\loader\\ResLoader.ts.meta": {
+      "time": 1739928972804.194
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\log\\Logger.ts.meta": {
+      "time": 1739929706641.9487
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\random\\RandomManager.ts.meta": {
+      "time": 1739925211340.4768
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\random\\SeedRandom.ts.meta": {
+      "time": 1739925211341.4773
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\storage\\StorageManager.ts.meta": {
+      "time": 1739929127009.856
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\storage\\StorageSecuritySimple.ts.meta": {
+      "time": 1739929321793.861
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\timer\\Timer.ts.meta": {
+      "time": 1739925211351.4778
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\common\\timer\\TimerManager.ts.meta": {
+      "time": 1739925211352.4778
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\Defines.ts.meta": {
+      "time": 1739928068925.4707
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\DelegateComponent.ts.meta": {
+      "time": 1739928337391.682
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerDialog.ts.meta": {
+      "time": 1739928433273.9463
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerManager.ts.meta": {
+      "time": 1739928101585.6973
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerNotify.ts.meta": {
+      "time": 1739928411854.9578
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerPopup.ts.meta": {
+      "time": 1739928401319.9502
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\layer\\LayerUI.ts.meta": {
+      "time": 1739928390975.6296
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\prompt\\CommonPrompt.ts.meta": {
+      "time": 1739928862594.0022
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\prompt\\LoadingIndicator.ts.meta": {
+      "time": 1739928871716.362
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\core\\gui\\prompt\\Notify.ts.meta": {
+      "time": 1739928880421.115
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\Language.ts.meta": {
+      "time": 1739930165393.5867
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguageData.ts.meta": {
+      "time": 1739930014887.4995
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguageLabel.ts.meta": {
+      "time": 1739929968120.8904
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguagePack.ts.meta": {
+      "time": 1739930194100.7004
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguageSpine.ts.meta": {
+      "time": 1739930104477.4048
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\gui\\language\\LanguageSprite.ts.meta": {
+      "time": 1739930130705.304
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui\\BhvButtonGroup.ts.meta": {
+      "time": 1739925211539.4775
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui\\BhvFrameIndex.ts.meta": {
+      "time": 1739925211540.4766
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui\\BhvRollNumber.ts.meta": {
+      "time": 1739925211541.4763
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\ui\\BhvSwitchPage.ts.meta": {
+      "time": 1739925211543.4773
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\common\\config\\GameEvent.ts.meta": {
+      "time": 1739925208758.7505
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\common\\ecs\\SingletonModuleComp.ts.meta": {
+      "time": 1739925208767.7515
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\common\\prompt\\TipsManager.ts.meta": {
+      "time": 1739925208774.7512
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\initialize\\bll\\InitRes.ts.meta": {
+      "time": 1739925208792.7502
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\initialize\\view\\Hot.ts.meta": {
+      "time": 1739925208794.7502
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\initialize\\view\\HotUpdate.ts.meta": {
+      "time": 1739925208796.7495
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\initialize\\view\\LoadingViewComp.ts.meta": {
+      "time": 1739925208798.7495
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\work\\ui\\uilogin\\UILoginView.ts.meta": {
+      "time": 1740104337031.934
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\main.scene": {
+      "time": 1740104885901.567,
+      "uuid": "4c814192-1ed2-4dad-bce9-1bdcfdb02882"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\config.json": {
+      "time": 1739933305063.3125,
+      "uuid": "0f8f84c7-5a96-49fe-a127-f66d9c90c822"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\README.md": {
+      "time": 1739925211520.4763,
+      "uuid": "75bee78b-9817-4c58-a8a2-ac3626541dc2"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim\\button_scale_end.anim": {
+      "time": 1739925208622.7512,
+      "uuid": "0430e564-9665-435e-9895-7b8e19fcb0b9"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim\\button_scale_start.anim": {
+      "time": 1739925208623.751,
+      "uuid": "99c3c7ad-3086-4333-81e6-19b82da0c89d"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim\\notify.anim": {
+      "time": 1739925208625.7505,
+      "uuid": "4cecde51-d46d-4b20-b02e-e58f063ec56f"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\alert.prefab": {
+      "time": 1739931107780.2366,
+      "uuid": "51127053-183b-41dc-b9d5-de54f6774526"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\confirm.prefab": {
+      "time": 1740464339031.256,
+      "uuid": "b2c7551a-2cd9-4ef0-beef-fdce5988ff03"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\mask.prefab": {
+      "time": 1739925208632.7505,
+      "uuid": "142393a8-2641-4775-a79c-cbfe1bd9e5ca"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\notify.prefab": {
+      "time": 1739931247476.8733,
+      "uuid": "80f1f6cc-e3c7-4c99-8b81-1083aa66330a"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\wait.prefab": {
+      "time": 1739931284532.2224,
+      "uuid": "9498d064-7cb5-4005-b470-3af693c28cc7"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\auto-atlas.pac": {
+      "time": 1739925208638.7495,
+      "uuid": "9fa4ce44-23c1-4a20-9b6c-29623ff951af"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\bg_window.png": {
+      "time": 1739925208639.7515,
+      "uuid": "f9cfbca9-9f35-4dda-8925-64e34e6e9802"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\btn_ok.png": {
+      "time": 1739925208640.753,
+      "uuid": "56a0bfc3-686d-4e85-bb26-5f5a6855ae06"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\loading.png": {
+      "time": 1739925208642.7502,
+      "uuid": "06942a20-0474-4385-9a85-293366d2473e"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\toast.png": {
+      "time": 1739925208645.7502,
+      "uuid": "ef58b575-d5bd-4b6b-ac05-6364e90ff8fc"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\Language.json": {
+      "time": 1739925208649.7493,
+      "uuid": "b92e9be8-b6df-4e15-8b4b-16326a243229"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\NetCode.json": {
+      "time": 1739925208651.752,
+      "uuid": "632275d6-db6d-4335-9d55-31da137fb8f6"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\PromptWindow.json": {
+      "time": 1739925208652.751,
+      "uuid": "f563a1f3-e357-40cf-9fdb-28ad8b1b1d1d"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\RoleJob.json": {
+      "time": 1739925208654.7505,
+      "uuid": "ff18f0c9-550b-4e48-aca8-d37fe1d2b510"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\RoleLevelUp.json": {
+      "time": 1739925208655.7522,
+      "uuid": "11a2f047-e929-4f50-8df1-d31311013e88"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\json\\en.json": {
+      "time": 1739925208696.7502,
+      "uuid": "2c0f4643-d84a-49b9-9069-8efe9434304c"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\json\\zh.json": {
+      "time": 1740469665496.9011,
+      "uuid": "f39d9bde-aff1-4255-846f-cbc4169d5d45"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\loading\\prefab\\loading.prefab": {
+      "time": 1740472978003.1255,
+      "uuid": "b3142304-c27f-4492-b94f-551d154a2bf4"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\ui\\uilogin\\uiloginView.prefab": {
+      "time": 1740472893269.1204,
+      "uuid": "f6111e05-96f9-4eb1-a896-d70cbd9c05eb"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture\\en\\image.jpg": {
+      "time": 1739925208704.7515,
+      "uuid": "3d5b607a-face-426b-8200-acf8384108db"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture\\zh\\image.jpg": {
+      "time": 1739925208707.7505,
+      "uuid": "a65eaaec-d315-4134-a79e-23bb817d1939"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading\\texture\\bg.png": {
+      "time": 1739925208716.7532,
+      "uuid": "0021cb5a-e4f0-4709-b0b6-5e21875720b7"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading\\texture\\icon_loading_bar.png": {
+      "time": 1739925208718.7534,
+      "uuid": "1ac049d7-c899-492a-89a7-4e8d85ce4cb1"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading\\texture\\panel_loading_bottom_frame.png": {
+      "time": 1739925208720.7534,
+      "uuid": "a2001856-24f5-4ac7-9309-1207a3210cd8"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\config.json.meta": {
+      "time": 1739925208659.7505
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\main.scene.meta": {
+      "time": 1739927190696.9287
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\libs\\model-view\\README.md.meta": {
+      "time": 1739925211520.4763
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim\\button_scale_end.anim.meta": {
+      "time": 1739925208623.751
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim\\button_scale_start.anim.meta": {
+      "time": 1739925208624.7505
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim\\notify.anim.meta": {
+      "time": 1739925208626.7505
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\alert.prefab.meta": {
+      "time": 1739925208629.7507
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\mask.prefab.meta": {
+      "time": 1739925208633.7534
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\confirm.prefab.meta": {
+      "time": 1739925208631.7507
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\auto-atlas.pac.meta": {
+      "time": 1739925208638.7495
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\notify.prefab.meta": {
+      "time": 1739925208634.7515
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\wait.prefab.meta": {
+      "time": 1739925208636.7502
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\Language.json.meta": {
+      "time": 1739925208650.7522
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\NetCode.json.meta": {
+      "time": 1739925208651.752
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\PromptWindow.json.meta": {
+      "time": 1739925208653.7505
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\btn_ok.png.meta": {
+      "time": 1739925208641.7517
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\toast.png.meta": {
+      "time": 1739925208646.7505
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\loading.png.meta": {
+      "time": 1739925208643.751
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\bg_window.png.meta": {
+      "time": 1739925208640.753
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\RoleJob.json.meta": {
+      "time": 1739925208655.7522
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\json\\zh.json.meta": {
+      "time": 1739925208699.7532
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\json\\en.json.meta": {
+      "time": 1739925208697.7515
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\config\\game\\RoleLevelUp.json.meta": {
+      "time": 1739925208656.7505
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\loading\\prefab\\loading.prefab.meta": {
+      "time": 1739925208725.7527
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\ui\\uilogin\\uiloginView.prefab.meta": {
+      "time": 1740102500381.7908
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture\\en\\image.jpg.meta": {
+      "time": 1739925208704.7515
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\language\\texture\\zh\\image.jpg.meta": {
+      "time": 1739925208708.751
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading\\texture\\icon_loading_bar.png.meta": {
+      "time": 1739925208719.7534
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading\\texture\\panel_loading_bottom_frame.png.meta": {
+      "time": 1739925208721.7537
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\loading\\loading\\texture\\bg.png.meta": {
+      "time": 1739925208717.7512
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\project.manifest.meta": {
+      "time": 1740464010326.63
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\version.manifest.meta": {
+      "time": 1740464010323.632
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\version.manifest": {
+      "time": 1740470911827.4053,
+      "uuid": "a71ccdb6-92f6-4a0c-9d51-91e082d02451"
+    },
+    "G:\\sxbs2\\sxbs2\\assets\\resources\\project.manifest": {
+      "time": 1740470911827.4053,
+      "uuid": "79f3941a-4b0a-4d2f-863d-ef98685d0f00"
+    }
+  },
+  "missing": {
+    "7b2b7479-babb-47a4-9a68-1ebd18ee7b85": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\common",
+      "time": 1739929696397.9158,
+      "removeTime": 1739930746653
+    },
+    "40915911-e36f-4154-875f-b2a17dd268a6": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\common\\loader",
+      "time": 1739928972803.1934,
+      "removeTime": 1739930746654
+    },
+    "5ce0bf08-e5f8-4e82-a118-f2c69c5cd30f": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\common\\loader\\ResLoader.ts",
+      "time": 1739928994272.656,
+      "removeTime": 1739930746656
+    },
+    "b78c0465-d888-4e29-aa97-75dc13ad8d7c": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\common\\storage\\folder",
+      "time": 1739929118708.475,
+      "removeTime": 1739929123536
+    },
+    "6dc2f8ec-edb5-4b0e-8ce0-57d95ce09ad1": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\module",
+      "time": 1739929470581.1853,
+      "removeTime": 1739930746675
+    },
+    "bffc50e1-a955-4c5e-8a1a-a216d9f57775": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core",
+      "time": 1739929095559.451,
+      "removeTime": 1739930746653
+    },
+    "817ff09a-de1c-400a-bb92-fd324fcc3b14": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\gui",
+      "time": 1739928840803.9233,
+      "removeTime": 1739930746653
+    },
+    "b9aeb5fc-8abc-47d7-82b0-dead0ec1067d": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\Oops.ts",
+      "time": 1739929800686.306,
+      "removeTime": 1739930746653
+    },
+    "2c835353-03ab-4654-b80f-b46301ca991c": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\Root.ts",
+      "time": 1739929843885.2937,
+      "removeTime": 1739930746654
+    },
+    "362f64f6-2e83-49bc-b433-d1eb2dd2f84c": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\utils",
+      "time": 1739930226455.9265,
+      "removeTime": 1739930746654
+    },
+    "6b956ef4-7f64-430c-b27b-0e367b539c40": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\common\\log",
+      "time": 1739929706640.9487,
+      "removeTime": 1739930746654
+    },
+    "3c54f5f9-4dd4-4588-b764-211456eddaea": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\common\\storage",
+      "time": 1739929321792.86,
+      "removeTime": 1739930746655
+    },
+    "faa552e3-d482-4968-b95d-adae505689aa": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\gui\\layer",
+      "time": 1739928433272.9443,
+      "removeTime": 1739930746655
+    },
+    "861e00c3-6c29-404e-8e21-3d194ec5441f": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\gui\\prompt",
+      "time": 1739928880420.116,
+      "removeTime": 1739930746655
+    },
+    "0c54e880-bf25-477f-8bf5-f73919a69ceb": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\utils\\JsonUtil.ts",
+      "time": 1739930242232.3225,
+      "removeTime": 1739930746655
+    },
+    "41efae31-9392-411f-9a3f-44c6119c5e7c": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\utils\\StringUtil.ts",
+      "time": 1739929656122.237,
+      "removeTime": 1739930746656
+    },
+    "62d5db94-a6ef-4ed4-975b-f976a15ee636": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\utils\\ViewUtil.ts",
+      "time": 1739929019857.7158,
+      "removeTime": 1739930746656
+    },
+    "55c5e083-6e23-4642-b162-0535e684e673": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\common\\log\\Logger.ts",
+      "time": 1739929741393.2815,
+      "removeTime": 1739930746656
+    },
+    "53090d32-3be5-408a-8740-2dfd0645b5df": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\common\\storage\\StorageManager.ts",
+      "time": 1739929145532.1975,
+      "removeTime": 1739930746657
+    },
+    "1e32d5a6-ea0d-4f67-9389-029df5e9f392": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\common\\storage\\StorageSecuritySimple.ts",
+      "time": 1739929338591.2742,
+      "removeTime": 1739930746657
+    },
+    "074fe13a-3589-4425-b4e1-a5241e74776d": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\gui\\layer\\Defines.ts",
+      "time": 1739928591898.5989,
+      "removeTime": 1739930746657
+    },
+    "227800b4-0389-4527-b2e9-6a406b468bce": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\gui\\layer\\DelegateComponent.ts",
+      "time": 1739928590379.025,
+      "removeTime": 1739930746657
+    },
+    "e07c486b-b445-49f0-9e7e-9e23a611d2d2": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\gui\\layer\\LayerDialog.ts",
+      "time": 1739928588793.2837,
+      "removeTime": 1739930746657
+    },
+    "36af41c0-4ebf-473d-bbea-087e91dc2fef": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\gui\\layer\\LayerManager.ts",
+      "time": 1739928586355.0422,
+      "removeTime": 1739930746658
+    },
+    "f74d08e1-f436-400a-8972-9944d939fd48": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\gui\\layer\\LayerNotify.ts",
+      "time": 1739928580316.5393,
+      "removeTime": 1739930746658
+    },
+    "bf144802-a440-4a39-a0b0-9ae71adb76fe": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\gui\\layer\\LayerPopup.ts",
+      "time": 1739928617465.4597,
+      "removeTime": 1739930746659
+    },
+    "e4dc32ae-197e-4ed7-931c-d4a6418534df": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\gui\\layer\\LayerUI.ts",
+      "time": 1739928685851.2283,
+      "removeTime": 1739930746659
+    },
+    "0975d04d-0e55-48f4-b5ab-df8f9504daa7": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\gui\\prompt\\CommonPrompt.ts",
+      "time": 1739929864787.6404,
+      "removeTime": 1739930746659
+    },
+    "87032fcf-dd3b-4690-9fe4-57ac910a13d3": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\gui\\prompt\\LoadingIndicator.ts",
+      "time": 1739929861835.8357,
+      "removeTime": 1739930746659
+    },
+    "869d2f16-3e09-4a7a-a2fe-a4f0afa9b92a": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\core\\gui\\prompt\\Notify.ts",
+      "time": 1739930498919.0308,
+      "removeTime": 1739930746659
+    },
+    "daf71b35-fd64-45a7-a66a-d0c56dbb018e": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\module\\common\\config",
+      "time": 1739929605773.4507,
+      "removeTime": 1740037043842
+    },
+    "1b4708e7-dd4f-4c0f-8b7b-6e2dc38cda3c": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\module\\common\\config\\Config.ts",
+      "time": 1739929825686.0818,
+      "removeTime": 1740037043843
+    },
+    "8bddca89-fff1-487e-a905-0fc87d41281e": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\module\\common\\config\\GameConfig.ts",
+      "time": 1740036765412.6082,
+      "removeTime": 1740037043843
+    },
+    "e130d9b8-b5ca-4a53-9a8c-382a8911fdd5": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\module\\common\\config\\GameQueryConfig.ts",
+      "time": 1740036763622.4211,
+      "removeTime": 1740037043843
+    },
+    "2846aaac-9e41-4f29-9962-14f22f95f9f2": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\libs",
+      "time": 1739929923575.6287,
+      "removeTime": 1739930746679
+    },
+    "91e60089-bdb9-4a30-8ae6-6f4a2ac46fd2": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\libs\\gui",
+      "time": 1739929933608.4778,
+      "removeTime": 1739930746680
+    },
+    "95cb3621-61ec-49f1-81c3-9f5737a7e5fc": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\libs\\gui\\language",
+      "time": 1739930194099.7014,
+      "removeTime": 1739930746680
+    },
+    "fab64a35-33bc-4362-a890-7c49df673bc6": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\libs\\gui\\language\\Language.ts",
+      "time": 1739930182269.6296,
+      "removeTime": 1739930746680
+    },
+    "66e9a76f-73ba-4eb3-889c-002fa95e9891": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\libs\\gui\\language\\LanguageData.ts",
+      "time": 1739930041005.8308,
+      "removeTime": 1739930746680
+    },
+    "2912b759-2db5-420b-ad56-51f0a9db5b63": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\libs\\gui\\language\\LanguageLabel.ts",
+      "time": 1739930001021.0361,
+      "removeTime": 1739930746681
+    },
+    "d418bc74-7c6e-43f2-a1ee-cd7533886ad0": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\libs\\gui\\language\\LanguagePack.ts",
+      "time": 1739930207398.34,
+      "removeTime": 1739930746681
+    },
+    "dc4406e4-361e-4025-9528-01de4e4ab2d7": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\libs\\gui\\language\\LanguageSpine.ts",
+      "time": 1739930116423.689,
+      "removeTime": 1739930746681
+    },
+    "96893596-d069-492a-a110-ec21f2687135": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\libs\\gui\\language\\LanguageSprite.ts",
+      "time": 1739930142340.8972,
+      "removeTime": 1739930746681
+    },
+    "2449098a-6857-4835-87a5-18d610a2feeb": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script\\work",
+      "time": 1739927747828.7405,
+      "removeTime": 1739930746682
+    },
+    "f6d143f8-87e8-4d0b-82d5-239e9dd5232c": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\script",
+      "time": 1739930746677.184,
+      "removeTime": 1739930752461
+    },
+    "23e8d6f8-8820-41dd-87c4-f895006661a8": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab",
+      "time": 1739930662065.2842,
+      "removeTime": 1739930760829
+    },
+    "51127053-183b-41dc-b9d5-de54f6774526": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\alert.prefab",
+      "time": 1739930831843.3875,
+      "removeTime": 1739930987709
+    },
+    "b2c7551a-2cd9-4ef0-beef-fdce5988ff03": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\confirm.prefab",
+      "time": 1739925208630.7512,
+      "removeTime": 1739930987709
+    },
+    "142393a8-2641-4775-a79c-cbfe1bd9e5ca": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\mask.prefab",
+      "time": 1739925208632.7505,
+      "removeTime": 1739930987709
+    },
+    "80f1f6cc-e3c7-4c99-8b81-1083aa66330a": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\notify.prefab",
+      "time": 1739925208634.7515,
+      "removeTime": 1739930987709
+    },
+    "9498d064-7cb5-4005-b470-3af693c28cc7": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab\\wait.prefab",
+      "time": 1739925208635.7505,
+      "removeTime": 1739930987709
+    },
+    "0489d8e2-9e0b-4c7e-b5ec-647a864e9214": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture",
+      "time": 1739930782272.2344,
+      "removeTime": 1739930987787
+    },
+    "9fa4ce44-23c1-4a20-9b6c-29623ff951af": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\auto-atlas.pac",
+      "time": 1739925208638.7495,
+      "removeTime": 1739930987787
+    },
+    "f9cfbca9-9f35-4dda-8925-64e34e6e9802": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\bg_window.png",
+      "time": 1739925208639.7515,
+      "removeTime": 1739930987787
+    },
+    "56a0bfc3-686d-4e85-bb26-5f5a6855ae06": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\btn_ok.png",
+      "time": 1739925208640.753,
+      "removeTime": 1739930987787
+    },
+    "06942a20-0474-4385-9a85-293366d2473e": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\loading.png",
+      "time": 1739925208642.7502,
+      "removeTime": 1739930987788
+    },
+    "ef58b575-d5bd-4b6b-ac05-6364e90ff8fc": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\texture\\toast.png",
+      "time": 1739925208645.7502,
+      "removeTime": 1739930987788
+    },
+    "0b70ab49-9f2b-4cbb-b4cb-849b2e477598": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim",
+      "time": 1739930782198.6228,
+      "removeTime": 1739930987738
+    },
+    "0430e564-9665-435e-9895-7b8e19fcb0b9": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim\\button_scale_end.anim",
+      "time": 1739925208622.7512,
+      "removeTime": 1739930987738
+    },
+    "99c3c7ad-3086-4333-81e6-19b82da0c89d": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim\\button_scale_start.anim",
+      "time": 1739925208623.751,
+      "removeTime": 1739930987738
+    },
+    "4cecde51-d46d-4b20-b02e-e58f063ec56f": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\anim\\notify.anim",
+      "time": 1739925208625.7505,
+      "removeTime": 1739930987738
+    },
+    "853ce1af-fb40-4f30-aebb-f12234f3d7fe": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\resources\\common\\prefab",
+      "time": 1739930782233.2324,
+      "removeTime": 1739930987708
+    },
+    "1071ba9e-c5d7-4bec-b68a-df2bd7f13206": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\work\\Main.ts",
+      "time": 1739945797969.1506,
+      "removeTime": 1739945809809
+    },
+    "61df7efb-9059-4b38-8f9a-0706719aa143": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\work\\ecs",
+      "time": 1740035296409.0527,
+      "removeTime": 1740035338929
+    },
+    "d01b4656-13f0-4bfd-ad1c-c9e49eda816c": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\module\\module",
+      "time": 1740036382391.4944,
+      "removeTime": 1740036393372
+    },
+    "623629d6-6d66-4feb-9de3-e972ffcc90ea": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\module\\common\\GameComponent.ts",
+      "time": 1740036435174.8286,
+      "removeTime": 1740036539094
+    },
+    "edeed88d-6cf1-4c66-a02a-33bdf96db284": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\work\\common\\folder",
+      "time": 1740036915041.3948,
+      "removeTime": 1740036923201
+    },
+    "ef23e8ee-b06d-424b-84ba-31a3034a5023": {
+      "path": "E:\\sxbs2\\sxbs2\\assets\\libs\\就是你都",
+      "time": 1740038920456.7634,
+      "removeTime": 1740038926568
+    }
+  }
+}
