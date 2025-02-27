@@ -1,9 +1,4 @@
-/*
- * @Author: dgflash
- * @Date: 2022-09-01 18:00:28
- * @LastEditors: dgflash
- * @LastEditTime: 2022-09-05 14:03:54
- */
+
 import { ecs } from "./ECS";
 import { ECSEntity } from "./ECSEntity";
 

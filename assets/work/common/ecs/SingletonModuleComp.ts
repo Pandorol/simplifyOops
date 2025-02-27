@@ -1,9 +1,3 @@
-/*
- * @Author: dgflash
- * @Date: 2021-11-18 14:20:46
- * @LastEditors: dgflash
- * @LastEditTime: 2022-07-25 17:06:15
- */
 
 
 // import { Account } from "../../account/Account";

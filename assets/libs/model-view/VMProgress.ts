@@ -1,9 +1,4 @@
-/*
- * @Author: dgflash
- * @Date: 2022-08-11 14:45:44
- * @LastEditors: dgflash
- * @LastEditTime: 2022-08-11 15:43:34
- */
+
 import { CCString, _decorator } from "cc";
 import { StringFormatFunction } from "./StringFormat";
 import { VMCustom } from "./VMCustom";

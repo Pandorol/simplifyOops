@@ -1,10 +1,3 @@
-/*
- * @Author: dgflash
- * @Date: 2022-07-22 17:06:22
- * @LastEditors: dgflash
- * @LastEditTime: 2022-09-22 14:41:58
- */
-
 
 import { oops } from "db://assets/core/Oops";
 import { AsyncQueue, NextFunction } from "db://assets/libs/collection/AsyncQueue";

@@ -1,9 +1,3 @@
-/*
- * @Author: dgflash
- * @Date: 2021-11-11 17:45:23
- * @LastEditors: dgflash
- * @LastEditTime: 2022-08-01 13:49:35
- */
 
 // import { Account } from "../account/Account";
 import { ecs } from "../../libs/ecs/ECS";

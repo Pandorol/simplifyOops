@@ -1,9 +1,4 @@
-/*
- * @Author: dgflash
- * @Date: 2021-07-03 16:13:17
- * @LastEditors: dgflash
- * @LastEditTime: 2022-08-29 13:37:08
- */
+
 import { _decorator, sys } from "cc";
 import { oops } from "db://assets/core/Oops";
 import { ecs } from "db://assets/libs/ecs/ECS";
