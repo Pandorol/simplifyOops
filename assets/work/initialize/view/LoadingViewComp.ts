@@ -32,13 +32,14 @@ export class LoadingViewComp extends CCVMParentComp {
             oops.gui.remove(UIID.Loading);
 
             // 打开游戏主界面（自定义逻辑）
-            oops.gui.open(UIID.Login);
+            oops.gui.open(UIID.LoadingBundles);
         }, 500);
     }
 
     start() {
 
         if (!sys.isNative) {
+            oops.log.logBusiness("不是sys.isNative，跳过热更新")
             this.enter();
         }
     }

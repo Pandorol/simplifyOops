@@ -1,7 +1,10 @@
 {
-    "name": "simplifyOops",
-    "uuid": "31a541cc-e454-4f13-9af5-5fba4cf6fcd1",
-    "creator": {
-        "version": "3.8.3"
-    }
+  "name": "sxbs2",
+  "uuid": "31a541cc-e454-4f13-9af5-5fba4cf6fcd1",
+  "creator": {
+    "version": "3.8.3"
+  },
+  "devDependencies": {
+    "miniprogram-api-typings": "^4.0.5"
+  }
 }

@@ -8,8 +8,14 @@ export enum UIID {
     Alert,
     /** 确认弹出窗口 */
     Confirm,
-    /** 登录界面 */
+    /** 加载资源界面 */
+    LoadingBundles,
+
+    /** 测试登录界面 */
     Login,
+
+    /** 测试拍照相册界面 */
+    PhotoImg,
 }
 
 /** 打开界面方式的配置数据 */
@@ -17,5 +23,7 @@ export var UIConfigData: { [key: number]: UIConfig } = {
     [UIID.Loading]: { layer: LayerType.UI, prefab: "loading/prefab/loading", bundle: "resources" },
     [UIID.Alert]: { layer: LayerType.Dialog, prefab: "common/prefab/alert", mask: true },
     [UIID.Confirm]: { layer: LayerType.Dialog, prefab: "common/prefab/confirm", mask: true },
-    [UIID.Login]: { layer: LayerType.UI, prefab: "ui/uilogin/uiloginView" },
+    [UIID.LoadingBundles]: { layer: LayerType.UI, prefab: "ui/uiloadingBundle/uiloindbundle" },
+    [UIID.Login]: { layer: LayerType.UI, prefab: "ab1ui/ab1login/ab1Login", bundle: "ab1" },
+    [UIID.PhotoImg]: { layer: LayerType.UI, prefab: "ab1ui/ab1addImgTip/ab1AddImgTip", bundle: "ab1" },
 }

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <!--  这样做可以让不具备摄像头的设备也能够安装你的应用，而不会因为默认的硬件要求而被排除。-->
+    <!-- 如果你的应用不是强制依赖麦克风，可以加上此声明 -->
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+
+    <!-- 存储读写权限（注意：从 Android 6.0 开始，这属于危险权限，需要在运行时请求） -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- Android 13及以上 -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <!-- Android 6~12 的旧权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+    <!-- 相机权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 麦克风权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+
+
+
+
+    <application android:extractNativeLibs="true" android:allowBackup="true" android:label="@string/app_name" android:usesCleartextTraffic="true" android:icon="@mipmap/ic_launcher" android:resizeableActivity="true">
+    <meta-data android:name="android.app.lib_name" android:value="cocos"/>
+    <activity android:name="com.cocos.game.AppActivity" android:screenOrientation="sensorLandscape" android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:launchMode="singleTask" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity android:name="com.cocos.lib.CocosEditBoxActivity" android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize" android:screenOrientation="behind" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+  </application>
+  <queries>
+    <intent>
+      <action android:name="android.media.action.IMAGE_CAPTURE"/>
+    </intent>
+    <intent>
+      <action android:name="android.media.action.VIDEO_CAPTURE"/>
+    </intent>
+  </queries>
+</manifest>

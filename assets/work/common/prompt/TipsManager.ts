@@ -1,4 +1,9 @@
-
+/*
+ * @Author: dgflash
+ * @Date: 2021-07-03 16:13:17
+ * @LastEditors: dgflash
+ * @LastEditTime: 2022-08-05 10:13:47
+ */
 
 import { Node, tween, Vec3 } from "cc";
 import { UICallbacks } from "db://assets/core/gui/layer/Defines";

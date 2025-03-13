@@ -1,8 +1,10 @@
+//cpall
 
 
 // import { Account } from "../../account/Account";
 
 import { ecs } from "db://assets/libs/ecs/ECS";
+import { Account } from "../../account/Account";
 import { Initialize } from "../../initialize/Initialize";
 
 /** 游戏模块 */
@@ -11,9 +13,9 @@ export class SingletonModuleComp extends ecs.Comp {
     /** 游戏初始化模块 */
     initialize: Initialize = null!;
     /** 游戏账号模块 */
-    // get account(): Account {
-    //     return this.initialize.account;
-    // }
+    get account(): Account {
+        return this.initialize.account;
+    }
 
     reset() { }
 }

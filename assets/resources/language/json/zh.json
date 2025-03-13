@@ -32,5 +32,8 @@
     "role_hp": "生命",
     "role_power": "力量",
     "role_physical": "体质",
-    "role_agile": "敏捷"
+    "role_agile": "敏捷",
+    "takephoto": "拍照",
+    "gallery": "相册",
+    "takephotoPermissionTip": "获取拍照相册存储权限用以选择图片\n\n若没有响应可能是你拒绝了权限，请到设置中同意摄像头和读取存储或照片和视频的权限"
 }

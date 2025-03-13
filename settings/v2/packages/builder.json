@@ -1,3 +1,109 @@
 {
-  "__version__": "1.3.8"
+  "__version__": "1.3.8",
+  "bundleConfig": {
+    "custom": {
+      "default": {
+        "displayName": "i18n:builder.asset_bundle.defaultConfig",
+        "configs": {
+          "native": {
+            "preferredOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            }
+          },
+          "web": {
+            "preferredOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            },
+            "fallbackOptions": {
+              "compressionType": "merge_dep"
+            }
+          },
+          "miniGame": {
+            "fallbackOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            },
+            "configMode": "fallback",
+            "overwriteSettings": {
+              "wechatgame": {
+                "isRemote": false
+              }
+            }
+          }
+        }
+      },
+      "2c85kcngpGcprEvmehlrjW": {
+        "displayName": "abab1",
+        "configs": {
+          "native": {
+            "preferredOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            }
+          },
+          "web": {
+            "preferredOptions": {
+              "isRemote": true,
+              "compressionType": "merge_dep"
+            },
+            "fallbackOptions": {
+              "compressionType": "merge_dep"
+            }
+          },
+          "miniGame": {
+            "fallbackOptions": {
+              "isRemote": true,
+              "compressionType": "merge_dep"
+            },
+            "configMode": "fallback",
+            "overwriteSettings": {
+              "xiaomi-quick-game": {
+                "isRemote": false
+              },
+              "wechatgame": {
+                "isRemote": true
+              }
+            }
+          }
+        }
+      },
+      "12cQauKvtKF6qU1KNlid8J": {
+        "displayName": "abresources",
+        "configs": {
+          "native": {
+            "preferredOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            }
+          },
+          "web": {
+            "preferredOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            },
+            "fallbackOptions": {
+              "compressionType": "merge_dep"
+            }
+          },
+          "miniGame": {
+            "fallbackOptions": {
+              "isRemote": true,
+              "compressionType": "merge_dep"
+            },
+            "configMode": "fallback",
+            "overwriteSettings": {
+              "xiaomi-quick-game": {
+                "isRemote": false
+              },
+              "wechatgame": {
+                "isRemote": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

@@ -40,7 +40,7 @@ export class Root extends Component {
         if (!isInited) {
             isInited = true;      // 注：这里是规避cc3.8在编辑器模式下运行时，关闭游戏会两次初始化报错
 
-            console.log(`Oops Framework v${version}`);
+            console.log(`v${version}`);
             this.enabled = false;
             this.iniStart();
             this.loadConfig().then();
@@ -49,11 +49,13 @@ export class Root extends Component {
 
     private async loadConfig() {
         // 创建持久根节点
-        this.persist = new Node("OopsFrameworkPersistNode");
+        this.persist = new Node("PersistNode");
         director.addPersistRootNode(this.persist);
 
         // 资源管理模块
         oops.res = resLoader;
+
+
 
         const config_name = "config";
         const config = await oops.res.loadAsync(config_name, JsonAsset);
@@ -159,7 +161,7 @@ export class Root extends Component {
         // oops.audio.resumeAll();         // 恢复所有暂停的音乐播放
         director.resume();              // 恢复暂停场景的游戏逻辑，如果当前场景没有暂停将没任何事情发生
         game.resume();                  // 恢复游戏主循环。包含：游戏逻辑，渲染，事件处理，背景音乐和所有音效
-        // oops.message.dispatchEvent(EventMessage.GAME_SHOW);
+        oops.message.dispatchEvent(EventMessage.GAME_SHOW);
     }
 
     private onHide() {
@@ -167,6 +169,6 @@ export class Root extends Component {
         // oops.audio.pauseAll();         // 暂停所有音乐播放
         director.pause();              // 暂停正在运行的场景，该暂停只会停止游戏逻辑执行，但是不会停止渲染和 UI 响应。 如果想要更彻底得暂停游戏，包含渲染，音频和事件
         game.pause();                  // 暂停游戏主循环。包含：游戏逻辑、渲染、输入事件派发（Web 和小游戏平台除外）
-        // oops.message.dispatchEvent(EventMessage.GAME_HIDE);
+        oops.message.dispatchEvent(EventMessage.GAME_HIDE);
     }
 }

@@ -2,8 +2,8 @@
     "config": {
         "version": "1.0.0",
         "package": "com.sxbs.book2",
-        "localDataKey": "oops",
-        "localDataIv": "framework",
+        "localDataKey": "aaa",
+        "localDataIv": "bbb",
         "httpServer": "http://192.168.3.22/main/",
         "httpTimeout": 10000,
         "frameRate": "60",
@@ -27,11 +27,12 @@
         }
     },
     "bundle": {
-        "enable": false,
-        "server": "http://localhost",
+        "enable": true,
+        "server": "http://192.168.3.22/assetbundle",
         "default": "resources",
         "packages": {
-            "bundle": ""
+            "resources": "",
+            "ab1": ""
         }
     }
 }

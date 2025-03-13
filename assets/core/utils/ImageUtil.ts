@@ -95,4 +95,35 @@ cc.color(50, 100, 123, 255);
         }
         return new Blob([uint8Array], { type: type });
     }
+    // 精灵节点，路径，bundle名
+    // static loadSprite(sprite: Sprite, resUrl: string, bundleName?: string) {
+    //     if (!sprite) {
+    //         console.error("sprite null!!!");
+    //         return;
+    //     }
+
+    //     // 获取bundle名称，如果为空，则为默认值
+    //     if (bundleName == null) {
+    //         bundleName = oops.res.defaultBundleName;
+    //     }
+
+    //     sprite.node.active = false;
+    //     let spriteFrame = oops.res.get(resUrl, SpriteFrame, bundleName);
+    //     if (spriteFrame != null) {
+    //         sprite.spriteFrame = spriteFrame;
+    //         sprite.node.active = true;
+    //     }
+    //     else {
+    //         oops.res.load(bundleName, resUrl, SpriteFrame, (err, spriteFrame) => {
+    //             if (err) {
+    //                 return console.error(err.message);
+    //             }
+
+    //             if (sprite) {
+    //                 sprite.spriteFrame = spriteFrame;
+    //                 sprite.node.active = true;
+    //             }
+    //         });
+    //     }
+    // }
 }
