@@ -43,7 +43,7 @@ export class ab1uivideoView extends GameComponent {
                 // 创建视频组件
                 //@ts-ignore
                 this.mvideo = wx.createVideo({
-                    src: 'https://pc.sxwychina.com/microVideo/906716509433921536/938577884867100672.mp4',
+                    src: '',
                     autoplay: true,    // 自动播放
                     loop: false,       // 不循环
                     controls: true,    // 显示控制条
