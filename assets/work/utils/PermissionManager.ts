@@ -130,7 +130,32 @@ export class PermissionManager {
         }
 
         else if ((sys.platform === sys.Platform.WECHAT_GAME) || (sys.platform === sys.Platform.WECHAT_MINI_PROGRAM)) {
+            wx.chooseMedia({
+                count: 1, // 可选择的媒体文件数量
+                mediaType: ['image'], // 仅选择图片
+                sourceType: ['camera'], // 可从相册或相机中选择
+                sizeType: ['compressed'], // 可选择原图或压缩图'original',
+                success(res) {
 
+                    let fileInfo = res.tempFiles[0];
+                    let mediaType = res.type; // 确保媒体类型 // 'image' 或 'video'
+                    let tempFilePath = res.tempFiles[0].tempFilePath;
+
+                    if (mediaType === 'image') {
+                        Reflections.onSelectImgBack(tempFilePath)
+                    }
+                    else if (mediaType === 'video') {
+                        let videoSize = fileInfo.size;
+                        let videoDuration = fileInfo.duration;
+                        let videostr = tempFilePath + "," + videoSize + "," + videoDuration + "," + "null"//视频大小+","+视频时长+","+"null"
+                        Reflections.onVideoImgBack(videostr)
+                    }
+                },
+                fail(err) {
+                    // 处理失败情况
+                    oops.gui.toast(err.errMsg)
+                }
+            });
         }
     }
     /**

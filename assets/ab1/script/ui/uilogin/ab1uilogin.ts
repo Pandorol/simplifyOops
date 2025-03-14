@@ -19,6 +19,9 @@ export class ab1uilogin extends VMParent {
         oops.gui.open(UIID.PhotoImg, { toptip: oops.language.getLangByID("takephotoPermissionTip") })
 
     }
+    TestButtonvideoview(event: EventTouch) {
+        oops.gui.open(UIID.VideoView)
+    }
 }
 
 
