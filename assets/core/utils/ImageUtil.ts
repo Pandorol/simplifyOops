@@ -1,5 +1,6 @@
 //cpall
-import { Color, Texture2D } from "cc";
+import { assetManager, Color, ImageAsset, Sprite, SpriteFrame, Texture2D } from "cc";
+import { oops } from "../Oops";
 
 /**
  * 图像工具
@@ -95,35 +96,57 @@ cc.color(50, 100, 123, 255);
         }
         return new Blob([uint8Array], { type: type });
     }
+    static GMSpriteSframe = {}
     // 精灵节点，路径，bundle名
-    // static loadSprite(sprite: Sprite, resUrl: string, bundleName?: string) {
-    //     if (!sprite) {
-    //         console.error("sprite null!!!");
-    //         return;
-    //     }
+    static loadSprite(sprite: Sprite, resUrl: string, bundleName?: string) {
+        if (!sprite) {
+            console.error("sprite null!!!");
+            return;
+        }
 
-    //     // 获取bundle名称，如果为空，则为默认值
-    //     if (bundleName == null) {
-    //         bundleName = oops.res.defaultBundleName;
-    //     }
+        // 获取bundle名称，如果为空，则为默认值
+        if (bundleName == null) {
+            bundleName = oops.res.defaultBundleName;
+        }
 
-    //     sprite.node.active = false;
-    //     let spriteFrame = oops.res.get(resUrl, SpriteFrame, bundleName);
-    //     if (spriteFrame != null) {
-    //         sprite.spriteFrame = spriteFrame;
-    //         sprite.node.active = true;
-    //     }
-    //     else {
-    //         oops.res.load(bundleName, resUrl, SpriteFrame, (err, spriteFrame) => {
-    //             if (err) {
-    //                 return console.error(err.message);
-    //             }
+        sprite.node.active = false;
+        let spriteFrame = oops.res.get(resUrl, SpriteFrame, bundleName);
+        if (spriteFrame != null) {
+            sprite.spriteFrame = spriteFrame;
+            sprite.node.active = true;
+        }
+        else {
+            oops.res.load(bundleName, resUrl, SpriteFrame, (err, spriteFrame) => {
+                if (err) {
+                    return console.error(err.message);
+                }
 
-    //             if (sprite) {
-    //                 sprite.spriteFrame = spriteFrame;
-    //                 sprite.node.active = true;
-    //             }
-    //         });
-    //     }
-    // }
+                if (sprite) {
+                    sprite.spriteFrame = spriteFrame;
+                    sprite.node.active = true;
+                }
+            });
+        }
+    }
+    static loadSpriteRemote(sprite: Sprite, resUrl: string) {
+        if (!sprite) {
+            console.error("sprite null!!!");
+            return;
+        }
+        if (this.GMSpriteSframe[resUrl]) {
+            sprite.spriteFrame = this.GMSpriteSframe[resUrl];
+            return;
+        }
+        assetManager.loadRemote(resUrl, (err, imageAsset: ImageAsset) => {
+            if (err || !imageAsset) { console.log(err) }
+            let spriteFrame = new SpriteFrame();
+            const texture = new Texture2D();
+            texture.image = imageAsset;
+            spriteFrame.texture = texture
+            this.GMSpriteSframe[resUrl] = spriteFrame
+            if (sprite && sprite.node) {
+                sprite.spriteFrame = this.GMSpriteSframe[resUrl];
+            }
+        })
+    }
 }
