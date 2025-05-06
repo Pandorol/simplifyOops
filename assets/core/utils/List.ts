@@ -170,6 +170,12 @@ export default class List extends Component {
     })
     public repeatEventSingle: boolean = false;
 
+    //触底事件（渲染器）
+    @property({
+        type: EventHandler,
+        tooltip: DEV && '渲染事件（渲染器）',
+    })
+    public scrollEndEvent: EventHandler = new EventHandler();
     //当前选择id
     private _selectedId: number = -1;
     private _lastSelectedId: number;
@@ -1325,17 +1331,17 @@ export default class List extends Component {
         if (t._sizeType) { // 纵向滚动
             if (scrollOffset.y <= 0) {
                 //console.log('已经滚动到顶部');
-                if (this.onScrollToped) {
-                    this.onScrollToped()
-                }
+                // if (this.onScrollToped) {
+                //     this.onScrollToped()
+                // }
                 // 在这里触发滚动到顶部的事件或逻辑
             }
         } else { // 横向滚动
             if (scrollOffset.x <= 0) {
                 //console.log('已经滚动到顶部');
-                if (this.onScrollToped) {
-                    this.onScrollToped()
-                }
+                // if (this.onScrollToped) {
+                //     this.onScrollToped()
+                // }
                 // 在这里触发滚动到顶部的事件或逻辑
             }
         }
@@ -1344,16 +1350,22 @@ export default class List extends Component {
         if (t._sizeType) { // 纵向滚动
             if (scrollOffset.y >= maxScrollOffset.y) {
                 //console.log('已经滚动到底部');
-                if (this.onScrollEnded) {
-                    this.onScrollEnded()
+                // if (this.onScrollEnded) {
+                //     this.onScrollEnded()
+                // }
+                if (this.scrollEndEvent) {
+                    EventHandler.emitEvents([this.scrollEndEvent]);
                 }
                 // 在这里触发滚动到底部的事件或逻辑
             }
         } else { // 横向滚动
             if (scrollOffset.x >= maxScrollOffset.x) {
                 //console.log('已经滚动到底部');
-                if (this.onScrollEnded) {
-                    this.onScrollEnded()
+                // if (this.onScrollEnded) {
+                //     this.onScrollEnded()
+                // }
+                if (this.scrollEndEvent) {
+                    EventHandler.emitEvents([this.scrollEndEvent]);
                 }
                 // 在这里触发滚动到底部的事件或逻辑
             }
