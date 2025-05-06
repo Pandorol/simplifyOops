@@ -1,4 +1,4 @@
-import { Button, Canvas, Color, EditBox, Graphics, Label, Layout, Mask, Node, PageView, ProgressBar, RichText, ScrollView, Size, Slider, Sprite, Toggle, UIOpacity, UIRenderer, UITransform, Widget, v3 } from "cc";
+import { Button, Canvas, Color, EditBox, EventTouch, Graphics, Label, Layout, Mask, Node, PageView, ProgressBar, RichText, ScrollView, Size, Slider, Sprite, Toggle, UIOpacity, UIRenderer, UITransform, Widget, v3 } from "cc";
 import { EDITOR } from "cc/env";
 
 // ========= 扩展 cc 提示声明 =========
@@ -56,6 +56,8 @@ declare module "cc" {
         angle_y: number;
         /** 获取、设置节点的 Z 欧拉角 */
         angle_z: number;
+
+        onClick(func: (event: EventTouch, args?: any) => void, target?: any, args?: any, isNotScale?: boolean): void;
     }
 }
 
@@ -322,5 +324,32 @@ if (!EDITOR) {
                 self.scale = v3(self.scale.x, self.scale.y, value);
             }
         });
+        Node.prototype.onClick = function (func: Function, target?: any, args?: any, isNotScale?: boolean) {
+            let button = this.getComponent(Button);
+            if (!button) {
+                button = this.addComponent(Button);
+                button.transition = Button.Transition.SCALE;
+            }
+            if (isNotScale) {
+                button.transition = Button.Transition.NONE;
+            }
+
+            const CD_TIME = 300;
+            let LAST_CLICK_TIME = 0;
+
+            const closure = (event: EventTouch) => {
+                const now = Date.now();
+                if (now - LAST_CLICK_TIME < CD_TIME) {
+                    console.log("---屏蔽过快点击---");
+                    return;
+                }
+                LAST_CLICK_TIME = now;
+                func.call(target, event, args);
+            };
+
+            // 注意使用 button.node.off/on 替代 node 本身的 click 注册
+            this.off(Button.EventType.CLICK);
+            this.on(Button.EventType.CLICK, closure, target);
+        };
     }
 }
