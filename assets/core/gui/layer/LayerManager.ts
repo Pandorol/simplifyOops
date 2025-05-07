@@ -233,7 +233,34 @@ export class LayerManager {
                 break;
         }
     }
+    /**
+         * 同步重新打开一个窗口，参照open
+         * @param uiId          窗口唯一编号
+         * @param uiArgs        窗口参数
+         * @param callbacks     回调对象
+         */
+    reopen(uiId: number, uiArgs: any = null, callbacks?: UICallbacks): void {
+        const config = this.configs[uiId];
+        if (config == null) {
+            warn(`打开编号为【${uiId}】的界面失败，配置信息不存在`);
+            return;
+        }
+        if (this.has(uiId)) {
+            warn(`RE打开编号为【${uiId}】的界面`);
+            let dc = this.get(uiId).getComponent(DelegateComponent)
+            if (uiArgs) {
+                dc.vp.params = uiArgs
+            }
+            if (callbacks) {
+                dc.vp.callbacks = callbacks
+            }
+            dc.add()
+            return
+        } else {
+            this.open(uiId, uiArgs, callbacks)
+        }
 
+    }
     /**
      * 异步打开一个窗口
      * @param uiId          窗口唯一编号
