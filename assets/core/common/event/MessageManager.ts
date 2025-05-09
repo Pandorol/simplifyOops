@@ -173,17 +173,28 @@ export class MessageManager {
         }
 
         let length = eds.length;
-        for (let i = 0; i < length; i++) {
+        for (let i = length - 1; i >= 0; i--) {
             let bin: EventData = eds[i];
             if (bin.listener == listener && bin.object == object) {
                 eds.splice(i, 1);
-                break;
             }
         }
 
         if (eds.length == 0) {
             this.events.delete(event);
         }
+    }
+
+    offAll(event: string) {
+        let eds = this.events.get(event);
+
+        if (!eds) {
+            log(`名为【${event}】的事件不存在`);
+            return;
+        }
+
+        this.events.delete(event);
+
     }
 
     /** 
