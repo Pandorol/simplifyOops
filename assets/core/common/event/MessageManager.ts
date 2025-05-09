@@ -186,15 +186,7 @@ export class MessageManager {
     }
 
     offAll(event: string) {
-        let eds = this.events.get(event);
-
-        if (!eds) {
-            log(`名为【${event}】的事件不存在`);
-            return;
-        }
-
         this.events.delete(event);
-
     }
 
     /** 
